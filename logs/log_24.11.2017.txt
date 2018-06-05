@@ -1,0 +1,279 @@
+24-11-2017 00:03:53#####____FACEBOOK USER getPagine.php___fbUser:#####
+24-11-2017 00:03:53#####____FACEBOOK USER getPagine.php___#####[{"id":"140678523224092","name":"Squadra di Caccia Madonnina e Cacciatore"},{"id":"1019169091455466","name":"MaremmaCinghiale"},{"id":"106127556171478","name":"Pastaparola"},{"id":"118083545528752","name":"Il re delle Quaglie"},{"id":"155465901226245","name":"B&B a casa mia"},{"id":"187816054592366","name":"APS Racing"},{"id":"260308327513516","name":"Private Jet International"}]
+24-11-2017 00:03:53#####____FACEBOOK USER getPagine.php___#####Array
+24-11-2017 00:08:37
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 00:08:37#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=4135a1df40cd925826c66fc7f79ae68b&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 00:08:37#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='180'
+24-11-2017 00:08:46
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 00:08:46#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=a77f2ca83b27cf75e0b088ee0e38b661&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 00:08:55#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+24-11-2017 00:08:56#####____FACEBOOK USER ___#####{"name":"Stefano Durante","id":"10205234522253187","email":"stedurred@gmail.com","first_name":"Stefano","last_name":"Durante","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/20841881_10209003985687417_1597909213213191023_n.jpg?oh=48068c65b0fa3668950325f71809881c&oe=5A94E820","width":50},"cover":{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}}
+24-11-2017 00:08:56#####____FACEBOOK USER COVER___#####{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}
+24-11-2017 00:08:56#####____FACEBOOK USER INSERISCO IN SESSION[] I DATI UTENTE#####
+24-11-2017 00:09:02#####____FACEBOOK USER REQUEST_INIZIO___#####
+24-11-2017 00:09:02#####____FACEBOOK USER PAGES___#####[{"id":"140678523224092","name":"Squadra+di+Caccia+Madonnina+e+Cacciatore"},{"id":"1019169091455466","name":"MaremmaCinghiale"},{"id":"106127556171478","name":"Pastaparola"},{"id":"118083545528752","name":"Il+re+delle+Quaglie"},{"id":"155465901226245","name":"B%26B+a+casa+mia"},{"id":"187816054592366","name":"APS+Racing"},{"id":"260308327513516","name":"Private+Jet+International"}]
+24-11-2017 00:09:02#####____FACEBOOK USER REQUEST_FINE___#####
+24-11-2017 00:09:02#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"140678523224092","name":"Squadra+di+Caccia+Madonnina+e+Cacciatore"},{"id":"1019169091455466","name":"MaremmaCinghiale"},{"id":"106127556171478","name":"Pastaparola"},{"id":"118083545528752","name":"Il+re+delle+Quaglie"},{"id":"155465901226245","name":"B%26B+a+casa+mia"},{"id":"187816054592366","name":"APS+Racing"},{"id":"260308327513516","name":"Private+Jet+International"}]
+24-11-2017 00:09:02#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook
+24-11-2017 00:09:02#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook sqlControlloUtente:
+SELECT  users.*                                    FROM users                                                                       WHERE users.email='stedurred@gmail.com' or users.fb_user_email='stedurred@gmail.com'
+24-11-2017 00:09:02#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook : Utente Facebook esistente Inserisco in SESSION
+24-11-2017 00:09:02#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='180'
+24-11-2017 00:09:17#####____FACEBOOK USER admin_user.php?modifica___#####Location: user_profile.php?&fb_user_name=Stefano Durante&fb_user_first_name=Stefano&fb_user_last_name=Durante&fb_user_id=10205234522253187&fb_user_email=stedurred@gmail.com&fb_user_picture=https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/20841881_10209003985687417_1597909213213191023_n.jpg?oh=48068c65b0fa3668950325f71809881c&fb_user_picture_url=&fb_user_pages=%5B%7B%22id%22%3A%22140678523224092%22%2C%22name%22%3A%22Squadra+di+Caccia+Madonnina+e+Cacciatore%22%7D%2C%7B%22id%22%3A%221019169091455466%22%2C%22name%22%3A%22MaremmaCinghiale%22%7D%2C%7B%22id%22%3A%22106127556171478%22%2C%22name%22%3A%22Pastaparola%22%7D%2C%7B%22id%22%3A%22118083545528752%22%2C%22name%22%3A%22Il+re+delle+Quaglie%22%7D%2C%7B%22id%22%3A%22155465901226245%22%2C%22name%22%3A%22B%26B+a+casa+mia%22%7D%2C%7B%22id%22%3A%22187816054592366%22%2C%22name%22%3A%22APS+Racing%22%7D%2C%7B%22id%22%3A%22260308327513516%22%2C%22name%22%3A%22Private+Jet+International%22%7D%5D
+24-11-2017 00:09:17#####____FACEBOOK USER getPagine.php___fbUser:#####
+24-11-2017 00:09:17#####____FACEBOOK USER getPagine.php___#####[{"id":"140678523224092","name":"Squadra di Caccia Madonnina e Cacciatore"},{"id":"1019169091455466","name":"MaremmaCinghiale"},{"id":"106127556171478","name":"Pastaparola"},{"id":"118083545528752","name":"Il re delle Quaglie"},{"id":"155465901226245","name":"B&B a casa mia"},{"id":"187816054592366","name":"APS Racing"},{"id":"260308327513516","name":"Private Jet International"}]
+24-11-2017 00:09:17#####____FACEBOOK USER getPagine.php___#####Array
+24-11-2017 00:15:08
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 00:15:08#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=bd61ac702784a3b04e5b9c8632a3ff2a&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 00:15:09#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='180'
+24-11-2017 00:15:15
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 00:15:15#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=6079ddda8e863ceac7f72b3cd589c496&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 00:15:22#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+24-11-2017 00:15:22#####____FACEBOOK USER ___#####{"name":"Stefano Durante","id":"10205234522253187","email":"stedurred@gmail.com","first_name":"Stefano","last_name":"Durante","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/20841881_10209003985687417_1597909213213191023_n.jpg?oh=48068c65b0fa3668950325f71809881c&oe=5A94E820","width":50},"cover":{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}}
+24-11-2017 00:15:22#####____FACEBOOK USER COVER___#####{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}
+24-11-2017 00:15:22#####____FACEBOOK USER INSERISCO IN SESSION[] I DATI UTENTE#####
+24-11-2017 00:15:29#####____FACEBOOK USER REQUEST_INIZIO___#####
+24-11-2017 00:15:29#####____FACEBOOK USER PAGES___#####[{"id":"140678523224092","name":"Squadra+di+Caccia+Madonnina+e+Cacciatore","category":null,"access_token":null,"perms":null},{"id":"1019169091455466","name":"MaremmaCinghiale","category":null,"access_token":null,"perms":null},{"id":"106127556171478","name":"Pastaparola","category":null,"access_token":null,"perms":null},{"id":"118083545528752","name":"Il+re+delle+Quaglie","category":null,"access_token":null,"perms":null},{"id":"155465901226245","name":"B%26B+a+casa+mia","category":null,"access_token":null,"perms":null},{"id":"187816054592366","name":"APS+Racing","category":null,"access_token":null,"perms":null},{"id":"260308327513516","name":"Private+Jet+International","category":null,"access_token":null,"perms":null}]
+24-11-2017 00:15:29#####____FACEBOOK USER REQUEST_FINE___#####
+24-11-2017 00:15:29#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"140678523224092","name":"Squadra+di+Caccia+Madonnina+e+Cacciatore","category":null,"access_token":null,"perms":null},{"id":"1019169091455466","name":"MaremmaCinghiale","category":null,"access_token":null,"perms":null},{"id":"106127556171478","name":"Pastaparola","category":null,"access_token":null,"perms":null},{"id":"118083545528752","name":"Il+re+delle+Quaglie","category":null,"access_token":null,"perms":null},{"id":"155465901226245","name":"B%26B+a+casa+mia","category":null,"access_token":null,"perms":null},{"id":"187816054592366","name":"APS+Racing","category":null,"access_token":null,"perms":null},{"id":"260308327513516","name":"Private+Jet+International","category":null,"access_token":null,"perms":null}]
+24-11-2017 00:15:29#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook
+24-11-2017 00:15:29#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook sqlControlloUtente:
+SELECT  users.*                                    FROM users                                                                       WHERE users.email='stedurred@gmail.com' or users.fb_user_email='stedurred@gmail.com'
+24-11-2017 00:15:29#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook : Utente Facebook esistente Inserisco in SESSION
+24-11-2017 00:15:29#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='180'
+24-11-2017 00:23:43
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 00:23:43#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=e9f92670ad7d0200af750c86561f7893&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 00:23:50#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+24-11-2017 00:23:51#####____FACEBOOK USER ___#####{"name":"Stefano Durante","id":"10205234522253187","email":"stedurred@gmail.com","first_name":"Stefano","last_name":"Durante","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/20841881_10209003985687417_1597909213213191023_n.jpg?oh=48068c65b0fa3668950325f71809881c&oe=5A94E820","width":50},"cover":{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}}
+24-11-2017 00:23:51#####____FACEBOOK USER COVER___#####{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}
+24-11-2017 00:23:51#####____FACEBOOK USER INSERISCO IN SESSION[] I DATI UTENTE#####
+24-11-2017 00:23:57#####____FACEBOOK USER REQUEST_INIZIO___#####
+24-11-2017 00:23:57#####____FACEBOOK USER PAGES___#####[{"id":"140678523224092","name":"Squadra+di+Caccia+Madonnina+e+Cacciatore","category":null,"access_token":null,"website":null,"perms":null},{"id":"1019169091455466","name":"MaremmaCinghiale","category":null,"access_token":null,"website":null,"perms":null},{"id":"106127556171478","name":"Pastaparola","category":null,"access_token":null,"website":null,"perms":null},{"id":"118083545528752","name":"Il+re+delle+Quaglie","category":null,"access_token":null,"website":null,"perms":null},{"id":"155465901226245","name":"B%26B+a+casa+mia","category":null,"access_token":null,"website":null,"perms":null},{"id":"187816054592366","name":"APS+Racing","category":null,"access_token":null,"website":null,"perms":null},{"id":"260308327513516","name":"Private+Jet+International","category":null,"access_token":null,"website":null,"perms":null}]
+24-11-2017 00:23:57#####____FACEBOOK USER REQUEST_FINE___#####
+24-11-2017 00:23:57#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"140678523224092","name":"Squadra+di+Caccia+Madonnina+e+Cacciatore","category":null,"access_token":null,"website":null,"perms":null},{"id":"1019169091455466","name":"MaremmaCinghiale","category":null,"access_token":null,"website":null,"perms":null},{"id":"106127556171478","name":"Pastaparola","category":null,"access_token":null,"website":null,"perms":null},{"id":"118083545528752","name":"Il+re+delle+Quaglie","category":null,"access_token":null,"website":null,"perms":null},{"id":"155465901226245","name":"B%26B+a+casa+mia","category":null,"access_token":null,"website":null,"perms":null},{"id":"187816054592366","name":"APS+Racing","category":null,"access_token":null,"website":null,"perms":null},{"id":"260308327513516","name":"Private+Jet+International","category":null,"access_token":null,"website":null,"perms":null}]
+24-11-2017 00:23:57#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook
+24-11-2017 00:23:57#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook sqlControlloUtente:
+SELECT  users.*                                    FROM users                                                                       WHERE users.email='stedurred@gmail.com' or users.fb_user_email='stedurred@gmail.com'
+24-11-2017 00:23:57#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook : Utente Facebook esistente Inserisco in SESSION
+24-11-2017 00:23:57#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='180'
+24-11-2017 00:51:55
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 00:51:55#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=deeee5ccc6186d7dffece7e1b64ca988&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 00:52:00#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+24-11-2017 00:52:00#####____FACEBOOK USER ___#####{"name":"Stefano Durante","id":"10205234522253187","email":"stedurred@gmail.com","first_name":"Stefano","last_name":"Durante","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/20841881_10209003985687417_1597909213213191023_n.jpg?oh=48068c65b0fa3668950325f71809881c&oe=5A94E820","width":50},"cover":{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}}
+24-11-2017 00:52:00#####____FACEBOOK USER COVER___#####{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}
+24-11-2017 00:52:00#####____FACEBOOK USER INSERISCO IN SESSION[] I DATI UTENTE#####
+24-11-2017 00:52:07#####____FACEBOOK USER REQUEST_INIZIO___#####
+24-11-2017 00:52:07#####____FACEBOOK USER PAGES___#####[{"id":"140678523224092","name":""},{"id":"1019169091455466","name":""},{"id":"106127556171478","name":""},{"id":"118083545528752","name":""},{"id":"155465901226245","name":""},{"id":"187816054592366","name":""},{"id":"260308327513516","name":""}]
+24-11-2017 00:52:07#####____FACEBOOK USER REQUEST_FINE___#####
+24-11-2017 00:52:07#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"140678523224092","name":""},{"id":"1019169091455466","name":""},{"id":"106127556171478","name":""},{"id":"118083545528752","name":""},{"id":"155465901226245","name":""},{"id":"187816054592366","name":""},{"id":"260308327513516","name":""}]
+24-11-2017 00:52:07#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook
+24-11-2017 00:52:07#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook sqlControlloUtente:
+SELECT  users.*                                    FROM users                                                                       WHERE users.email='stedurred@gmail.com' or users.fb_user_email='stedurred@gmail.com'
+24-11-2017 00:52:07#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook : Utente Facebook esistente Inserisco in SESSION
+24-11-2017 00:52:07#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='180'
+24-11-2017 01:17:00
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 01:17:01#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=e8d43a82e04739389c5b4c8fcf4d4d43&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 01:17:52#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+24-11-2017 01:17:52#####____FACEBOOK USER ___#####{"name":"Stefano Durante","id":"10205234522253187","email":"stedurred@gmail.com","first_name":"Stefano","last_name":"Durante","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/20841881_10209003985687417_1597909213213191023_n.jpg?oh=48068c65b0fa3668950325f71809881c&oe=5A94E820","width":50},"cover":{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}}
+24-11-2017 01:17:52#####____FACEBOOK USER COVER___#####{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}
+24-11-2017 01:17:52#####____FACEBOOK USER INSERISCO IN SESSION[] I DATI UTENTE#####
+24-11-2017 01:17:58#####____FACEBOOK USER REQUEST_INIZIO___#####
+24-11-2017 01:17:58#####____FACEBOOK USER PAGES___#####[{"id":"140678523224092","name":""},{"id":"1019169091455466","name":""},{"id":"106127556171478","name":""},{"id":"118083545528752","name":""},{"id":"155465901226245","name":""},{"id":"187816054592366","name":""},{"id":"260308327513516","name":""}]
+24-11-2017 01:17:58#####____FACEBOOK USER REQUEST_FINE___#####
+24-11-2017 01:17:58#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"140678523224092","name":""},{"id":"1019169091455466","name":""},{"id":"106127556171478","name":""},{"id":"118083545528752","name":""},{"id":"155465901226245","name":""},{"id":"187816054592366","name":""},{"id":"260308327513516","name":""}]
+24-11-2017 01:17:58#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook
+24-11-2017 01:17:58#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook sqlControlloUtente:
+SELECT  users.*                                    FROM users                                                                       WHERE users.email='stedurred@gmail.com' or users.fb_user_email='stedurred@gmail.com'
+24-11-2017 01:17:58#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook : Utente Facebook esistente Inserisco in SESSION
+24-11-2017 01:17:58#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='180'
+24-11-2017 01:18:08
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 01:18:08#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=9734129508f4913cfee714af2c444cd9&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 01:18:12#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+24-11-2017 01:18:13#####____FACEBOOK USER ___#####{"name":"Stefano Durante","id":"10205234522253187","email":"stedurred@gmail.com","first_name":"Stefano","last_name":"Durante","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/20841881_10209003985687417_1597909213213191023_n.jpg?oh=48068c65b0fa3668950325f71809881c&oe=5A94E820","width":50},"cover":{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}}
+24-11-2017 01:18:13#####____FACEBOOK USER COVER___#####{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}
+24-11-2017 01:18:13#####____FACEBOOK USER INSERISCO IN SESSION[] I DATI UTENTE#####
+24-11-2017 01:18:19#####____FACEBOOK USER REQUEST_INIZIO___#####
+24-11-2017 01:18:19#####____FACEBOOK USER PAGES___#####[{"id":"140678523224092","name":""},{"id":"1019169091455466","name":""},{"id":"106127556171478","name":""},{"id":"118083545528752","name":""},{"id":"155465901226245","name":""},{"id":"187816054592366","name":""},{"id":"260308327513516","name":""}]
+24-11-2017 01:18:19#####____FACEBOOK USER REQUEST_FINE___#####
+24-11-2017 01:18:19#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"140678523224092","name":""},{"id":"1019169091455466","name":""},{"id":"106127556171478","name":""},{"id":"118083545528752","name":""},{"id":"155465901226245","name":""},{"id":"187816054592366","name":""},{"id":"260308327513516","name":""}]
+24-11-2017 01:18:19#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook
+24-11-2017 01:18:19#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook sqlControlloUtente:
+SELECT  users.*                                    FROM users                                                                       WHERE users.email='stedurred@gmail.com' or users.fb_user_email='stedurred@gmail.com'
+24-11-2017 01:18:19#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook : Utente Facebook esistente Inserisco in SESSION
+24-11-2017 01:18:19#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='180'
+24-11-2017 01:20:00
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 01:20:00#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=1d1cbca26b708a30610a8ccb189a224a&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 01:21:07#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+24-11-2017 01:21:07#####____FACEBOOK USER ___#####{"name":"Stefano Durante","id":"10205234522253187","email":"stedurred@gmail.com","first_name":"Stefano","last_name":"Durante","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/20841881_10209003985687417_1597909213213191023_n.jpg?oh=48068c65b0fa3668950325f71809881c&oe=5A94E820","width":50},"cover":{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}}
+24-11-2017 01:21:07#####____FACEBOOK USER COVER___#####{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}
+24-11-2017 01:21:07#####____FACEBOOK USER INSERISCO IN SESSION[] I DATI UTENTE#####
+24-11-2017 01:21:13#####____FACEBOOK USER REQUEST_INIZIO___#####
+24-11-2017 01:21:13#####____FACEBOOK USER PAGES___#####[{"id":"140678523224092","name":""},{"id":"1019169091455466","name":""},{"id":"106127556171478","name":""},{"id":"118083545528752","name":""},{"id":"155465901226245","name":""},{"id":"187816054592366","name":""},{"id":"260308327513516","name":""}]
+24-11-2017 01:21:13#####____FACEBOOK USER REQUEST_FINE___#####
+24-11-2017 01:21:13#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"140678523224092","name":""},{"id":"1019169091455466","name":""},{"id":"106127556171478","name":""},{"id":"118083545528752","name":""},{"id":"155465901226245","name":""},{"id":"187816054592366","name":""},{"id":"260308327513516","name":""}]
+24-11-2017 01:21:13#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook
+24-11-2017 01:21:13#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook sqlControlloUtente:
+SELECT  users.*                                    FROM users                                                                       WHERE users.email='stedurred@gmail.com' or users.fb_user_email='stedurred@gmail.com'
+24-11-2017 01:21:13#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook : Utente Facebook esistente Inserisco in SESSION
+24-11-2017 01:21:13#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='180'
+24-11-2017 08:11:42
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 08:11:42#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=3b3c244a44b64d2ab4d1bd411aecda0b&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 15:55:30
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 15:55:30#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=8002c4a7ba72ec272aa4d5ff7d10e8cf&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 15:56:28#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+24-11-2017 15:56:28#####____FACEBOOK USER ___#####{"name":"Stefano Durante","id":"10205234522253187","email":"stedurred@gmail.com","first_name":"Stefano","last_name":"Durante","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/20841881_10209003985687417_1597909213213191023_n.jpg?oh=48068c65b0fa3668950325f71809881c&oe=5A94E820","width":50},"cover":{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}}
+24-11-2017 15:56:28#####____FACEBOOK USER COVER___#####{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}
+24-11-2017 15:56:28#####____FACEBOOK USER INSERISCO IN SESSION[] I DATI UTENTE#####
+24-11-2017 15:56:32#####____FACEBOOK USER REQUEST_INIZIO___#####
+24-11-2017 15:56:32#####____FACEBOOK USER PAGES___#####[{"id":"140678523224092","name":""},{"id":"1019169091455466","name":""},{"id":"106127556171478","name":""},{"id":"118083545528752","name":""},{"id":"155465901226245","name":""},{"id":"187816054592366","name":""},{"id":"260308327513516","name":""}]
+24-11-2017 15:56:32#####____FACEBOOK USER REQUEST_FINE___#####
+24-11-2017 15:56:32#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"140678523224092","name":""},{"id":"1019169091455466","name":""},{"id":"106127556171478","name":""},{"id":"118083545528752","name":""},{"id":"155465901226245","name":""},{"id":"187816054592366","name":""},{"id":"260308327513516","name":""}]
+24-11-2017 15:56:32#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook
+24-11-2017 15:56:32#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook sqlControlloUtente:
+SELECT  users.*                                    FROM users                                                                       WHERE users.email='stedurred@gmail.com' or users.fb_user_email='stedurred@gmail.com'
+24-11-2017 15:56:32#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook : Utente Facebook esistente Inserisco in SESSION
+24-11-2017 15:56:32#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='180'
+24-11-2017 15:57:10#####____FACEBOOK USER admin_user.php?modifica___#####Location: user_profile.php?&fb_user_name=Stefano Durante&fb_user_first_name=Stefano&fb_user_last_name=Durante&fb_user_id=10205234522253187&fb_user_email=stedurred@gmail.com&fb_user_picture=https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/20841881_10209003985687417_1597909213213191023_n.jpg?oh=48068c65b0fa3668950325f71809881c&fb_user_picture_url=&fb_user_pages=%5B%7B%22id%22%3A%22140678523224092%22%2C%22name%22%3A%22%22%7D%2C%7B%22id%22%3A%221019169091455466%22%2C%22name%22%3A%22%22%7D%2C%7B%22id%22%3A%22106127556171478%22%2C%22name%22%3A%22%22%7D%2C%7B%22id%22%3A%22118083545528752%22%2C%22name%22%3A%22%22%7D%2C%7B%22id%22%3A%22155465901226245%22%2C%22name%22%3A%22%22%7D%2C%7B%22id%22%3A%22187816054592366%22%2C%22name%22%3A%22%22%7D%2C%7B%22id%22%3A%22260308327513516%22%2C%22name%22%3A%22%22%7D%5D
+24-11-2017 15:57:15#####____FACEBOOK USER getPagine.php___fbUser:#####
+24-11-2017 15:57:15#####____FACEBOOK USER getPagine.php___#####[{"id":"140678523224092","name":""},{"id":"1019169091455466","name":""},{"id":"106127556171478","name":""},{"id":"118083545528752","name":""},{"id":"155465901226245","name":""},{"id":"187816054592366","name":""},{"id":"260308327513516","name":""}]
+24-11-2017 15:57:15#####____FACEBOOK USER getPagine.php___#####Array
+24-11-2017 15:57:55
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 15:57:55#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=58b9a906dd3d8497666c0ddf0e433994&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 15:57:57#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='180'
+24-11-2017 15:58:59
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 15:58:59#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=b0da50d1bfec74b1872485cf32cc30ee&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 15:59:58#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+24-11-2017 15:59:59#####____FACEBOOK USER ___#####{"name":"Stefano Durante","id":"10205234522253187","email":"stedurred@gmail.com","first_name":"Stefano","last_name":"Durante","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/20841881_10209003985687417_1597909213213191023_n.jpg?oh=48068c65b0fa3668950325f71809881c&oe=5A94E820","width":50},"cover":{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}}
+24-11-2017 15:59:59#####____FACEBOOK USER COVER___#####{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}
+24-11-2017 15:59:59#####____FACEBOOK USER INSERISCO IN SESSION[] I DATI UTENTE#####
+24-11-2017 16:00:06#####____FACEBOOK USER REQUEST_INIZIO___#####
+24-11-2017 16:00:06#####____FACEBOOK USER PAGES___#####[{"id":"140678523224092","name":""},{"id":"1019169091455466","name":""},{"id":"106127556171478","name":""},{"id":"118083545528752","name":""},{"id":"155465901226245","name":""},{"id":"187816054592366","name":""},{"id":"260308327513516","name":""}]
+24-11-2017 16:00:06#####____FACEBOOK USER REQUEST_FINE___#####
+24-11-2017 16:00:06#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"140678523224092","name":""},{"id":"1019169091455466","name":""},{"id":"106127556171478","name":""},{"id":"118083545528752","name":""},{"id":"155465901226245","name":""},{"id":"187816054592366","name":""},{"id":"260308327513516","name":""}]
+24-11-2017 16:00:06#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook
+24-11-2017 16:00:06#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook sqlControlloUtente:
+SELECT  users.*                                    FROM users                                                                       WHERE users.email='stedurred@gmail.com' or users.fb_user_email='stedurred@gmail.com'
+24-11-2017 16:00:06#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook : Utente Facebook esistente Inserisco in SESSION
+24-11-2017 16:00:06#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='180'
+24-11-2017 16:10:10
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 16:10:10#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=0423f8ab0be36369190da70c64ca5c4d&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 16:10:12#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='180'
+24-11-2017 16:13:32
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 16:13:32#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=0423f8ab0be36369190da70c64ca5c4d&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 16:13:33#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='180'
+24-11-2017 16:14:08
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+24-11-2017 16:14:08#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=79e1b262a84ed54a774dc97f977e8508&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+24-11-2017 16:15:27#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+24-11-2017 16:15:27#####____FACEBOOK USER ___#####{"name":"Stefano Durante","id":"10205234522253187","email":"stedurred@gmail.com","first_name":"Stefano","last_name":"Durante","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/20841881_10209003985687417_1597909213213191023_n.jpg?oh=48068c65b0fa3668950325f71809881c&oe=5A94E820","width":50},"cover":{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}}
+24-11-2017 16:15:27#####____FACEBOOK USER COVER___#####{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}
+24-11-2017 16:15:27#####____FACEBOOK USER INSERISCO IN SESSION[] I DATI UTENTE#####

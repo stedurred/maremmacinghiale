@@ -1,0 +1,384 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    padding: 0px;
+    border: none;
+}
+
+a{
+    color: #c14409;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #c14409;
+}
+
+h1{
+	font: 18px Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-weight: normal;
+	text-align: center;
+	padding: 0px 25px 10px 25px;
+}
+
+body {	
+	
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    background: #000000 url(../images/bg.jpg) repeat-y top center fixed !important;/* no-repeat top center fixed */
+}
+
+.clear{
+	clear: both;	
+}
+
+#wrap{
+	width: 1050px;
+	margin: 0 auto;
+   	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#menu{
+	width: 1050px;
+	height: 66px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	background: url(../images/menu_bg.png) no-repeat;
+
+}
+
+#menu ul{
+	padding-left: 0px;
+    list-style: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0 auto;
+	width: 771px;
+}
+
+#menu ul li{
+	display: inline;
+
+}
+
+#menu ul li a{
+	font: 24px Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+	text-align: center;
+    display: block;
+    float: left;
+    width: 154px;
+    height: 42px;
+	padding-top: 24px;
+}
+
+#menu ul li a:hover,  #menu ul li .active{
+	background: url(../images/active.png) center;
+}
+
+#top_padding {
+	width: 954px;
+	height: 80px;
+	padding-left: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	line-height: 26px;
+	color: #c14409;}
+
+#top_padding_login{
+	width: 254px;
+   float:right;
+}
+
+#top_padding a{
+	 font-size: 40px;
+}
+
+#top_padding H3 a{
+	
+	
+	font-size: 24px;
+}
+
+/*
+	content
+*/
+
+#content_top{
+	background: url(../images/content_top.png) top left;
+	height: 25px;
+}
+
+#content_bottom{
+	background: url(../images/content_bottom.png) top left;
+	height: 24px;
+}
+
+#content_bg_repeat{
+	background: url(../images/content_bg_repeat.png) left repeat-y;
+	padding: 0px 14px 0px 15px;
+}
+
+
+#content {padding-bottom:18px;width:100%;overflow:hidden}
+.col1, .col2, .col3, .cols {float:left}
+.col1 {padding-left:20px;width:289px}
+.col1 img{resize: both;width:125px;height:125px;}
+.col2 {padding-left:20px;width:643px}
+.col3 {padding-left:20px;width:932px;}
+.wrapper {width:100%;overflow:hidden}
+.pad_bot1 {padding-bottom:6px}
+.pad_bot2 {padding-bottom:18px}
+.pad_bot3 {padding-bottom:12px}
+.left {float:left}
+.right {float:right}
+.marg_right1 {margin-right:19px}
+.color1 {color:#c14409; font-weight: bold;}
+/*.color1 {color:#5B2106; font-weight: bold;}*/
+.button {border:none;display:inline-block;background:url(../images/button.png) 0 0 no-repeat;width:129px;height: 27px;font-weight:bold;text-align:center;text-decoration:none;line-height:26px; color: #c14409}
+
+h2
+{
+margin-bottom: 20px;
+font-size: 26px;
+color: #c14409
+}
+
+#content h1
+{
+margin-bottom: 10px;
+font-size: 18px;
+color: #ffffff
+}
+
+div.upload {
+    width: 157px;
+    height: 57px;
+    background: url(https://lh6.googleusercontent.com/-dqTIJRTqEAQ/UJaofTQm3hI/AAAAAAAABHo/w7ruR1SOIsA/s157/upload.png);
+    overflow: hidden;
+}
+
+/*
+	footer top
+*/
+
+#footer_top{
+	width: 841px;
+	margin: 0 auto;
+	background: url(../images/footer_top_border.png) no-repeat bottom;
+	padding-top: 23px;
+}
+
+#footer_top h2{
+	font: 18px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-weight: normal;
+	padding-bottom: 5px;
+	padding-left: 25px;
+}
+
+#footer_top a{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#footer_top a:hover{
+	color: #ff0000;
+}
+
+#footer_top p{
+	color: #ffffff;
+}
+
+#footer_column1, #footer_column2, #footer_column3{
+	width: 226px;
+	float: left;
+}
+
+.footer_text{
+	background: url(../images/footer_top_border.png) no-repeat top left;
+	width: 226px;
+	padding: 10px 0px 10px 0px;
+}
+
+#footer_column2{
+	padding: 0px 87px 0px 75px;
+}
+#footer_column3{
+	padding: 0px 147px 0px 145px;
+}
+.foot_pad{
+    padding-left: 45px;
+	padding-top: 10px;
+}
+
+.link1{
+    background: url(../images/link1.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+.link2{
+    background: url(../images/link2.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+.link3{
+    background: url(../images/link3.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+.link4{
+    background: url(../images/link4.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+.ls{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.ls li{
+    background: url(../images/ls.gif) no-repeat 0px 6px;
+    margin-bottom: 8px;
+    padding-left: 15px;
+}
+
+/*
+	footer bottom
+*/
+
+#footer_bot{
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	font-size: 10px;
+}
+
+#footer_bot a, #footer_bot p{
+	color: #ffffff;
+	font-weight: normal;
+}
+
+
+/* calendar */
+table.calendar		{ border-left:1px solid #999; }
+tr.calendar-row	{  }
+td.calendar-day	{ min-height:80px; font-size:11px; position:relative; } * html div.calendar-day { height:80px; }
+td.calendar-day:hover	{ background:#c14409; }
+td.calendar-day-np	{ background:#eee; min-height:80px; } * html div.calendar-day-np { height:80px; }
+td.calendar-day-head { background:#c14409; font-weight:bold; text-align:center; width:120px; padding:5px; border-bottom:1px solid #999; border-top:1px solid #999; border-right:1px solid #999; }
+div.day-number		{ background:#c14409; padding:5px; color:#fff; font-weight:bold; float:right; margin:-5px -5px 0 0; width:20px; text-align:center; }
+div.day-name		{ background:#c14409; padding:5px; color:#fff; font-weight:bold; float:left; margin:-5px -5px 0 0; width:50px; text-align:center; }
+
+/* shared */
+td.calendar-day, td.calendar-day-np { width:120px; padding:5px; border-bottom:1px solid #999; border-right:1px solid #999; }
+
+
+
+
+
+
+
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+#slider-wrapper {
+    background:url(../images/loading.gif) no-repeat;
+    width: auto;
+    height: 289px;
+    margin:0 auto;
+	padding-bottom: 30px;
+	
+}
+
+#slider {
+	position:relative;
+	width: auto;
+    height:289px;
+	background:url(../images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:260px;
+	bottom:-42px;
+	display: none;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(../images/loading.gif) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+

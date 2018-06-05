@@ -1,0 +1,224 @@
+Server: www.maremmacinghiale.it - January 2, 2017, 10:57 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - January 2, 2017, 10:58 pm INIZIO PAGAMENTO
+POST DATA: txn_id =92X51423C84333224
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - January 2, 2017, 10:58 pm
+POST DATA: txn_id =92X51423C84333224
+POST DATA: txn_type =web_accept
+
+POST DATA: txn_id =92X51423C84333224
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - January 2, 2017, 10:58 pm
+POST DATA: txn_id =92X51423C84333224
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - January 2, 2017, 10:58 pm
+POST /cgi-bin/webscr HTTP/1.1
+
+Host: ipnpb.paypal.com:443
+
+Content-Type: application/x-www-form-urlencoded
+
+Content-Length: 815
+
+Connection: close
+
+
+
+
+www.maremmacinghiale.it - January 2, 2017, 10:58 pm
+www.maremmacinghiale.it - January 2, 2017, 10:58 pm
+www.maremmacinghiale.it - January 2, 2017, 10:58 pm
+www.maremmacinghiale.it - January 2, 2017, 10:58 pm
+www.maremmacinghiale.it - January 2, 2017, 10:58 pm
+www.maremmacinghiale.it - January 2, 2017, 10:58 pmipnpb.paypal.com
+www.maremmacinghiale.it - January 2, 2017, 10:58 pm
+www.maremmacinghiale.it - January 2, 2017, 10:58 pm
+www.maremmacinghiale.it - January 2, 2017, 10:58 pmcmd=_notify-validate&transaction_subject=&payment_date=14%3A58%3A31+Jan+02%2C+2017+PST&txn_type=web_accept&last_name=Durante&residence_country=IT&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+di+Stefano&payment_gross=&mc_currency=EUR&business=pagamenti%40maremmacinghiale.it&payment_type=instant&protection_eligibility=Ineligible&verify_sign=AnVZdAXaP2jTH5o0dsUv9XpQEl-UAdalToAQ3SEJJjt2YwaQqTTSIoUQ&payer_status=verified&payer_email=stedurred%40hotmail.com&txn_id=92X51423C84333224&quantity=1&receiver_email=pagamenti%40maremmacinghiale.it&first_name=Stefano&payer_id=UJV4FDR2TZSCQ&receiver_id=WXK63TNUFFW8Q&item_number=68&payer_business_name=Maremmacinghiale.it&payment_status=Completed&payment_fee=&mc_fee=0.10&mc_gross=0.10&custom=&charset=windows-1252&notify_version=3.8&ipn_track_id=5024b07e32a3a
+www.maremmacinghiale.it - January 2, 2017, 10:58 pmHTTP ERROR:0
+www.maremmacinghiale.it - January 2, 2017, 10:58 pmHTTP ERROR:php_network_getaddresses: getaddrinfo failed: Name or service not known
+Server: www.maremmacinghiale.it - January 2, 2017, 11:02 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - January 2, 2017, 11:03 pm INIZIO PAGAMENTO
+POST DATA: txn_id =9C471711AX8840520
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - January 2, 2017, 11:03 pmPOST DATA: txn_id =9C471711AX8840520
+POST DATA: txn_type =web_accept
+
+POST DATA: txn_id =9C471711AX8840520
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - January 2, 2017, 11:03 pmPOST DATA: txn_id =9C471711AX8840520
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - January 2, 2017, 11:03 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.paypal.com:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 815
+Connection: close
+
+
+www.maremmacinghiale.it - January 2, 2017, 11:03 pm
+www.maremmacinghiale.it - January 2, 2017, 11:03 pm
+www.maremmacinghiale.it - January 2, 2017, 11:03 pm
+www.maremmacinghiale.it - January 2, 2017, 11:03 pm
+www.maremmacinghiale.it - January 2, 2017, 11:03 pm
+www.maremmacinghiale.it - January 2, 2017, 11:03 pmipnpb.paypal.com
+www.maremmacinghiale.it - January 2, 2017, 11:03 pm
+www.maremmacinghiale.it - January 2, 2017, 11:03 pm
+www.maremmacinghiale.it - January 2, 2017, 11:03 pmcmd=_notify-validate&transaction_subject=&payment_date=15%3A03%3A30+Jan+02%2C+2017+PST&txn_type=web_accept&last_name=Durante&residence_country=IT&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+di+Stefano&payment_gross=&mc_currency=EUR&business=pagamenti%40maremmacinghiale.it&payment_type=instant&protection_eligibility=Ineligible&verify_sign=AjAw4qHfi9ZnfpSZl3PUxUQvlR68Ak4X0ZOL5alTs24saxpQtDAhPpDb&payer_status=verified&payer_email=stedurred%40hotmail.com&txn_id=9C471711AX8840520&quantity=1&receiver_email=pagamenti%40maremmacinghiale.it&first_name=Stefano&payer_id=UJV4FDR2TZSCQ&receiver_id=WXK63TNUFFW8Q&item_number=69&payer_business_name=Maremmacinghiale.it&payment_status=Completed&payment_fee=&mc_fee=0.02&mc_gross=0.02&custom=&charset=windows-1252&notify_version=3.8&ipn_track_id=33dc4852881bd
+www.maremmacinghiale.it - January 2, 2017, 11:03 pmHTTP ERROR:0
+www.maremmacinghiale.it - January 2, 2017, 11:03 pmHTTP ERROR:php_network_getaddresses: getaddrinfo failed: Name or service not known
+Server: www.maremmacinghiale.it - January 2, 2017, 11:19 pm INIZIO PRENOTAZIONE
+Server: www.maremmacinghiale.it - January 2, 2017, 11:22 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - January 2, 2017, 11:23 pm INIZIO PAGAMENTO
+POST DATA: txn_id =5C5462213C450304R
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - January 2, 2017, 11:23 pmPOST DATA: txn_id =5C5462213C450304R
+POST DATA: txn_type =web_accept
+
+POST DATA: txn_id =5C5462213C450304R
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - January 2, 2017, 11:23 pmPOST DATA: txn_id =5C5462213C450304R
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - January 2, 2017, 11:23 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: https://www.paypal.com/cgi-bin/webscr:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 815
+Connection: close
+
+
+www.maremmacinghiale.it - January 2, 2017, 11:23 pmhttps
+www.maremmacinghiale.it - January 2, 2017, 11:23 pmwww.paypal.com
+www.maremmacinghiale.it - January 2, 2017, 11:23 pm
+www.maremmacinghiale.it - January 2, 2017, 11:23 pm
+www.maremmacinghiale.it - January 2, 2017, 11:23 pm
+www.maremmacinghiale.it - January 2, 2017, 11:23 pm/cgi-bin/webscr
+www.maremmacinghiale.it - January 2, 2017, 11:23 pm
+www.maremmacinghiale.it - January 2, 2017, 11:23 pm
+www.maremmacinghiale.it - January 2, 2017, 11:23 pmcmd=_notify-validate&transaction_subject=&payment_date=15%3A23%3A46+Jan+02%2C+2017+PST&txn_type=web_accept&last_name=Durante&residence_country=IT&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+di+Stefano&payment_gross=&mc_currency=EUR&business=pagamenti%40maremmacinghiale.it&payment_type=instant&protection_eligibility=Ineligible&verify_sign=AREk5eRRQyB.Gz0vTvIVchZkkKiAArLgLeK7YQcMuYNQwLUovTJm23f5&payer_status=verified&payer_email=stedurred%40hotmail.com&txn_id=5C5462213C450304R&quantity=1&receiver_email=pagamenti%40maremmacinghiale.it&first_name=Stefano&payer_id=UJV4FDR2TZSCQ&receiver_id=WXK63TNUFFW8Q&item_number=68&payer_business_name=Maremmacinghiale.it&payment_status=Completed&payment_fee=&mc_fee=0.10&mc_gross=0.10&custom=&charset=windows-1252&notify_version=3.8&ipn_track_id=577d3785244ca
+www.maremmacinghiale.it - January 2, 2017, 11:23 pmHTTP ERROR:14203648
+www.maremmacinghiale.it - January 2, 2017, 11:23 pmHTTP ERROR:Unable to find the socket transport "https" - did you forget to enable it when you configured PHP?
+Server: www.maremmacinghiale.it - January 2, 2017, 11:26 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - January 2, 2017, 11:27 pm INIZIO PAGAMENTO
+POST DATA: txn_id =26G80404GM929583G
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - January 2, 2017, 11:27 pmPOST DATA: txn_id =26G80404GM929583G
+POST DATA: txn_type =web_accept
+
+POST DATA: txn_id =26G80404GM929583G
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - January 2, 2017, 11:27 pmPOST DATA: txn_id =26G80404GM929583G
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - January 2, 2017, 11:27 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: https://www.paypal.com/cgi-bin/webscr:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 815
+Connection: close
+
+
+www.maremmacinghiale.it - January 2, 2017, 11:27 pmhttps
+www.maremmacinghiale.it - January 2, 2017, 11:27 pmwww.paypal.com
+www.maremmacinghiale.it - January 2, 2017, 11:27 pm
+www.maremmacinghiale.it - January 2, 2017, 11:27 pm
+www.maremmacinghiale.it - January 2, 2017, 11:27 pm
+www.maremmacinghiale.it - January 2, 2017, 11:27 pm/cgi-bin/webscr
+www.maremmacinghiale.it - January 2, 2017, 11:27 pm
+www.maremmacinghiale.it - January 2, 2017, 11:27 pm
+www.maremmacinghiale.it - January 2, 2017, 11:27 pmcmd=_notify-validate&transaction_subject=&payment_date=15%3A27%3A38+Jan+02%2C+2017+PST&txn_type=web_accept&last_name=Durante&residence_country=IT&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+di+Stefano&payment_gross=&mc_currency=EUR&business=pagamenti%40maremmacinghiale.it&payment_type=instant&protection_eligibility=Ineligible&verify_sign=A21kmBLyRcQpDSjYvmswlm3ckjahARcfq6OpKRrKNaCOnoov74mVJFGM&payer_status=verified&payer_email=stedurred%40hotmail.com&txn_id=26G80404GM929583G&quantity=1&receiver_email=pagamenti%40maremmacinghiale.it&first_name=Stefano&payer_id=UJV4FDR2TZSCQ&receiver_id=WXK63TNUFFW8Q&item_number=68&payer_business_name=Maremmacinghiale.it&payment_status=Completed&payment_fee=&mc_fee=0.10&mc_gross=0.10&custom=&charset=windows-1252&notify_version=3.8&ipn_track_id=e94c137dc4c40
+www.maremmacinghiale.it - January 2, 2017, 11:27 pmHTTPS
+WHILEHTTP/1.1 302 Moved Temporarily
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+HTTP_X_PP_AZ_LOCATOR: slcb.slc
+Content-Encoding: gzip
+Paypal-Debug-Id: 9faf6c368aa3c
+Location: https://www.paypal.com/cgi-bin/webscr
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html
+DC: phx-origin-www-2.paypal.com
+Date: Mon, 02 Jan 2017 23:27:53 GMT
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=rj7dZ7zktD4ggqcZUjexTwsY_ZAx0v6mCRtxv9oYjfzJlw7SZC82S2LGRH6EwLwFQd1gXwnIe6w6kuBkO2sYRUFJTSo_YuLl6Z4Y2n-Any_bskzO7Lcat0HH0FBrj5LqE1mBEmS7GaQO58nn0HRgEzJQCOh0_isxMGArhKgb1TeHd9zR_NJPDRVE_jyzd9PcaP5uPEA5Rg-VsCVz6_RaRQsSEuXSW0H4g4rzCxwZ5L6xAURbIJXeygGGWFK; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 31-Dec-2026 23:27:53 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE3.WEB.1%26silo_version%3D880%26app%3DappdispWHILEatcher%26TIME%3D4175522392%26HTTP_X_PP_AZ_LOCATOR%3Dslcb.slc; Expires=Mon, 02 Jan 2017 23:57:53 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=phx-origin-www-2.paypal.com; expires=Mon, 02-Jan-2017 23:57:53 GMT; path=/; secure
+Set-Cookie: akavpau_ppsd=1483400273~id=1269cbca311bc8213917d4d609b3b608; path=/
+Strict-Transport-Security: max-age=63072000
+
+‹         ÿÿ         FINE
+Server: www.maremmacinghiale.it - January 2, 2017, 11:35 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - January 2, 2017, 11:36 pm INIZIO PAGAMENTO
+POST DATA: txn_id =9K4035098B514534T
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - January 2, 2017, 11:36 pmPOST DATA: txn_id =9K4035098B514534T
+POST DATA: txn_type =web_accept
+
+POST DATA: txn_id =9K4035098B514534T
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - January 2, 2017, 11:36 pmPOST DATA: txn_id =9K4035098B514534T
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - January 2, 2017, 11:36 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: https://www.paypal.com/cgi-bin/webscr:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 815
+Connection: close
+
+
+www.maremmacinghiale.it - January 2, 2017, 11:36 pmhttps
+www.maremmacinghiale.it - January 2, 2017, 11:36 pmwww.paypal.com
+www.maremmacinghiale.it - January 2, 2017, 11:36 pm
+www.maremmacinghiale.it - January 2, 2017, 11:36 pm
+www.maremmacinghiale.it - January 2, 2017, 11:36 pm
+www.maremmacinghiale.it - January 2, 2017, 11:36 pm/cgi-bin/webscr
+www.maremmacinghiale.it - January 2, 2017, 11:36 pm
+www.maremmacinghiale.it - January 2, 2017, 11:36 pm
+www.maremmacinghiale.it - January 2, 2017, 11:36 pmcmd=_notify-validate&transaction_subject=&payment_date=15%3A36%3A42+Jan+02%2C+2017+PST&txn_type=web_accept&last_name=Durante&residence_country=IT&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+di+Stefano&payment_gross=&mc_currency=EUR&business=pagamenti%40maremmacinghiale.it&payment_type=instant&protection_eligibility=Ineligible&verify_sign=Aq4RfbabTX1DF0S0VJbyuDU64NDhAFDcUPUmtwYK5kpnCK5MSwut0YzY&payer_status=verified&payer_email=stedurred%40hotmail.com&txn_id=9K4035098B514534T&quantity=1&receiver_email=pagamenti%40maremmacinghiale.it&first_name=Stefano&payer_id=UJV4FDR2TZSCQ&receiver_id=WXK63TNUFFW8Q&item_number=68&payer_business_name=Maremmacinghiale.it&payment_status=Completed&payment_fee=&mc_fee=0.10&mc_gross=0.10&custom=&charset=windows-1252&notify_version=3.8&ipn_track_id=9bade21571b53
+www.maremmacinghiale.it - January 2, 2017, 11:36 pmHTTPS
+WHILEHTTP/1.1 302 Moved Temporarily
+
+WHILEServer: Apache
+
+WHILEX-Frame-Options: SAMEORIGIN
+
+WHILEContent-Encoding: gzip
+
+WHILEPaypal-Debug-Id: 32632d0f97c5
+
+WHILELocation: https://www.paypal.com/cgi-bin/webscr
+
+WHILECache-Control: max-age=0, no-cache, no-store, must-revalidate
+
+WHILEPragma: no-cache
+
+WHILEContent-Type: text/html
+
+WHILEDC: phx-origin-www-2.paypal.com
+
+WHILEDate: Mon, 02 Jan 2017 23:36:55 GMT
+
+WHILEConnection: close
+
+WHILESet-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=6xUbU0JdnFuBEAn_rVW7BOGAvMpV46OzJB1IEmkD9AaDZRDo35NuuHsBKbl_WbUgXjvH_5EYhRNJeXvjZh6Ojl2oHZKsZFt21O9MKr3Pnd1_osJUjkpF_zjFf6GnxjrhDLHlxQM0I8HIGgYEm5fLcopInliUtwXvtzmT9siz9jLM1d-23pKo6mWBjSsBKNPmFvEfx6TXEMFXgYkgM5z2JGV-e-QcY-V4TaWCpC7CjZt9KkROM3iuPNeeqES; domain=.paypal.com; path=/; Secure; HttpOnly
+
+WHILESet-Cookie: cookie_check=yes; expires=Thu, 31-Dec-2026 23:36:55 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+
+WHILESet-Cookie: X-PP-SILOVER=name%3DLIVE3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D400845400%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Tue, 03 Jan 2017 00:06:55 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+
+WHILESet-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+
+WHILESet-Cookie: AKDC=phx-origin-www-2.paypal.com; expires=Tue, 03-Jan-2017 00:06:55 GMT; path=/; secure
+
+WHILESet-Cookie: akavpau_ppsd=1483400815~id=9089d38c6d5bdbd1d733e053f66b6ba4; path=/
+
+WHILEStrict-Transport-Security: max-age=63072000
+
+WHILE
+
+WHILE‹         ÿÿ         
+FINE

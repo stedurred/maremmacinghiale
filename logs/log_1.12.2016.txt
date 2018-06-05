@@ -1,0 +1,45 @@
+Server: www.maremmacinghiale.it - December 1, 2016, 9:27 am INIZIO PRENOTAZIONE
+Server: www.maremmacinghiale.it - December 1, 2016, 9:29 am INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 1, 2016, 9:29 am INIZIO PAGAMENTO
+www.maremmacinghiale.it - December 1, 2016, 9:29 amfunzioniPaypal.php
+www.maremmacinghiale.it - December 1, 2016, 9:29 amfunzioniPaypal.php ->FINE
+POST DATA: txn_id =66451552DT328110U
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 1, 2016, 9:29 amPOST DATA: txn_id =66451552DT328110U
+POST DATA: txn_type =web_accept
+
+cmd=_notify-validate:
+www.maremmacinghiale.it - December 1, 2016, 9:29 amcmd=_notify-validate:
+
+www.maremmacinghiale.it - December 1, 2016, 9:29 amPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - December 1, 2016, 9:29 am67
+www.maremmacinghiale.it - December 1, 2016, 9:29 amCompleted
+www.maremmacinghiale.it - December 1, 2016, 9:29 am5.00
+www.maremmacinghiale.it - December 1, 2016, 9:29 amEUR
+www.maremmacinghiale.it - December 1, 2016, 9:29 am66451552DT328110U
+www.maremmacinghiale.it - December 1, 2016, 9:29 ampagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - December 1, 2016, 9:29 ampagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - December 1, 2016, 9:29 am
+www.maremmacinghiale.it - December 1, 2016, 9:29 amPOST /cgi-bin/webscr HTTP/1.0
+Host: www.sandbox.paypal.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1202
+
+cmd=_notify-validate&amp;amp;amp;transaction_subject=&amp;amp;amp;payment_date=00%3A29%3A42+Dec+01%2C+2016+PST&amp;amp;amp;txn_type=web_accept&amp;amp;amp;last_name=buyer&amp;amp;amp;residence_country=IT&amp;amp;amp;item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+verre+bianco&amp;amp;amp;payment_gross=&amp;amp;amp;mc_currency=EUR&amp;amp;amp;business=pagamenti-facilitator%40maremmacinghiale.it&amp;amp;amp;payment_type=instant&amp;amp;amp;protection_eligibility=Ineligible&amp;amp;amp;verify_sign=A8guVbPpJyKgG6OZ0CqmZmiSL8.uAeF9ItW-h9z17Qk4xohbcl62r5FJ&amp;amp;amp;payer_status=verified&amp;amp;amp;test_ipn=1&amp;amp;amp;tax=3.00&amp;amp;amp;payer_email=pagamenti-buyer%40maremmacinghiale.it&amp;amp;amp;txn_id=66451552DT328110U&amp;amp;amp;quantity=1&amp;amp;amp;receiver_email=pagamenti-facilitator%40maremmacinghiale.it&amp;amp;amp;first_name=test&amp;amp;amp;payer_id=JWZS9YK4G4DR8&amp;amp;amp;receiver_id=78SBCHTJZ6U3W&amp;amp;amp;item_number=67&amp;amp;amp;payment_status=Completed&amp;amp;amp;payment_fee=&amp;amp;amp;mc_fee=0.52&amp;amp;amp;mc_gross=5.00&amp;amp;amp;custom=&amp;amp;amp;charset=windows-1252&amp;amp;amp;notify_version=3.8&amp;amp;amp;ipn_track_id=15b3187c1aabf
+www.maremmacinghiale.it - December 1, 2016, 9:29 am1
+CUrl:1
+www.maremmacinghiale.it - December 1, 2016, 9:29 amCUrl:1
+
+www.maremmacinghiale.it - December 1, 2016, 9:29 amINVALID: INVALID
+www.maremmacinghiale.it - December 1, 2016, 9:29 amPOST /cgi-bin/webscr HTTP/1.0
+Host: www.sandbox.paypal.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1202
+
+cmd=_notify-validate&amp;amp;amp;transaction_subject=&amp;amp;amp;payment_date=00%3A29%3A42+Dec+01%2C+2016+PST&amp;amp;amp;txn_type=web_accept&amp;amp;amp;last_name=buyer&amp;amp;amp;residence_country=IT&amp;amp;amp;item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+verre+bianco&amp;amp;amp;payment_gross=&amp;amp;amp;mc_currency=EUR&amp;amp;amp;business=pagamenti-facilitator%40maremmacinghiale.it&amp;amp;amp;payment_type=instant&amp;amp;amp;protection_eligibility=Ineligible&amp;amp;amp;verify_sign=A8guVbPpJyKgG6OZ0CqmZmiSL8.uAeF9ItW-h9z17Qk4xohbcl62r5FJ&amp;amp;amp;payer_status=verified&amp;amp;amp;test_ipn=1&amp;amp;amp;tax=3.00&amp;amp;amp;payer_email=pagamenti-buyer%40maremmacinghiale.it&amp;amp;amp;txn_id=66451552DT328110U&amp;amp;amp;quantity=1&amp;amp;amp;receiver_email=pagamenti-facilitator%40maremmacinghiale.it&amp;amp;amp;first_name=test&amp;amp;amp;payer_id=JWZS9YK4G4DR8&amp;amp;amp;receiver_id=78SBCHTJZ6U3W&amp;amp;amp;item_number=67&amp;amp;amp;payment_status=Completed&amp;amp;amp;payment_fee=&amp;amp;amp;mc_fee=0.52&amp;amp;amp;mc_gross=5.00&amp;amp;amp;custom=&amp;amp;amp;charset=windows-1252&amp;amp;amp;notify_version=3.8&amp;amp;amp;ipn_track_id=15b3187c1aabf
+HTTP/1.0 400 Bad Request
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+fclose (fp);

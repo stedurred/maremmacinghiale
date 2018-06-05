@@ -1,0 +1,328 @@
+Server: www.maremmacinghiale.it - November 29, 2016, 10:01 am INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 10:02 am INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 am
+www.maremmacinghiale.it - November 29, 2016, 10:02 amResource id #39
+HTTP/1.0 400 Bad Request
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+fclose (fp);
+Server: www.maremmacinghiale.it - November 29, 2016, 10:05 am INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 10:06 am INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 am
+www.maremmacinghiale.it - November 29, 2016, 10:06 amhttp://www.maremmacinghiale.it/inserisci_pagamento.php
+www.maremmacinghiale.it - November 29, 2016, 10:06 amResource id #39
+HTTP/1.0 400 Bad Request
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+fclose (fp);
+Server: www.maremmacinghiale.it - November 29, 2016, 10:09 am INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 10:10 am INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 am
+www.maremmacinghiale.it - November 29, 2016, 10:10 amResource id #39
+HTTP/1.0 400 Bad Request
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+fclose (fp);
+Server: www.maremmacinghiale.it - November 29, 2016, 10:25 am INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 10:29 am INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 10:29 amfunzioniPaypal.php
+www.maremmacinghiale.it - November 29, 2016, 10:29 amResource id #39
+HTTP/1.0 400 Bad Request
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+fclose (fp);
+Server: www.maremmacinghiale.it - November 29, 2016, 3:36 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 3:51 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 3:51 pmfunzioniPaypal.php
+www.maremmacinghiale.it - November 29, 2016, 3:51 pmfunzioniPaypal.php ->FINE
+www.maremmacinghiale.it - November 29, 2016, 3:51 pmResource id #40
+HTTP/1.0 400 Bad Request
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+fclose (fp);
+Server: www.maremmacinghiale.it - November 29, 2016, 4:03 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 4:03 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 4:03 pmfunzioniPaypal.php
+www.maremmacinghiale.it - November 29, 2016, 4:03 pmfunzioniPaypal.php ->FINE
+POST DATA: txn_id =66W7694844321472T
+www.maremmacinghiale.it - November 29, 2016, 4:03 pmPOST DATA: txn_id =66W7694844321472T
+
+www.maremmacinghiale.it - November 29, 2016, 4:03 pmHTTP ERROR
+Server: www.maremmacinghiale.it - November 29, 2016, 4:10 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 4:12 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 4:12 pmfunzioniPaypal.php
+www.maremmacinghiale.it - November 29, 2016, 4:12 pmfunzioniPaypal.php ->FINE
+POST DATA: txn_id =4DG52684WF491510M
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - November 29, 2016, 4:12 pmPOST DATA: txn_id =4DG52684WF491510M
+POST DATA: txn_type =web_accept
+
+cmd=_notify-validate:
+www.maremmacinghiale.it - November 29, 2016, 4:12 pmcmd=_notify-validate:
+
+www.maremmacinghiale.it - November 29, 2016, 4:12 pmHTTP ERROR
+Server: www.maremmacinghiale.it - November 29, 2016, 4:27 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 4:27 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 4:27 pmfunzioniPaypal.php
+www.maremmacinghiale.it - November 29, 2016, 4:27 pmfunzioniPaypal.php ->FINE
+POST DATA: txn_id =1P8438053V484304G
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - November 29, 2016, 4:27 pmPOST DATA: txn_id =1P8438053V484304G
+POST DATA: txn_type =web_accept
+
+cmd=_notify-validate:
+www.maremmacinghiale.it - November 29, 2016, 4:27 pmcmd=_notify-validate:
+
+www.maremmacinghiale.it - November 29, 2016, 4:27 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - November 29, 2016, 4:27 pm67
+www.maremmacinghiale.it - November 29, 2016, 4:27 pmCompleted
+www.maremmacinghiale.it - November 29, 2016, 4:27 pm5.00
+www.maremmacinghiale.it - November 29, 2016, 4:27 pmEUR
+www.maremmacinghiale.it - November 29, 2016, 4:27 pm1P8438053V484304G
+www.maremmacinghiale.it - November 29, 2016, 4:27 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 4:27 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 4:27 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 4:27 pm
+www.maremmacinghiale.it - November 29, 2016, 4:27 pmHTTP ERROR
+Server: www.maremmacinghiale.it - November 29, 2016, 4:41 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 4:43 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 4:43 pmfunzioniPaypal.php
+www.maremmacinghiale.it - November 29, 2016, 4:43 pmfunzioniPaypal.php ->FINE
+POST DATA: txn_id =29L594651W050124L
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - November 29, 2016, 4:43 pmPOST DATA: txn_id =29L594651W050124L
+POST DATA: txn_type =web_accept
+
+cmd=_notify-validate:
+www.maremmacinghiale.it - November 29, 2016, 4:43 pmcmd=_notify-validate:
+
+www.maremmacinghiale.it - November 29, 2016, 4:43 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - November 29, 2016, 4:43 pm67
+www.maremmacinghiale.it - November 29, 2016, 4:43 pmCompleted
+www.maremmacinghiale.it - November 29, 2016, 4:43 pm5.00
+www.maremmacinghiale.it - November 29, 2016, 4:43 pmEUR
+www.maremmacinghiale.it - November 29, 2016, 4:43 pm29L594651W050124L
+www.maremmacinghiale.it - November 29, 2016, 4:43 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 4:43 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 4:43 pm
+www.maremmacinghiale.it - November 29, 2016, 4:43 pmHTTP ERROR:Unable to find the socket transport "https" - did you forget to enable it when you configured PHP?
+Server: www.maremmacinghiale.it - November 29, 2016, 4:48 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 4:49 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 4:49 pmfunzioniPaypal.php
+www.maremmacinghiale.it - November 29, 2016, 4:49 pmfunzioniPaypal.php ->FINE
+POST DATA: txn_id =0V754729KN806130H
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - November 29, 2016, 4:49 pmPOST DATA: txn_id =0V754729KN806130H
+POST DATA: txn_type =web_accept
+
+cmd=_notify-validate:
+www.maremmacinghiale.it - November 29, 2016, 4:49 pmcmd=_notify-validate:
+
+www.maremmacinghiale.it - November 29, 2016, 4:49 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - November 29, 2016, 4:49 pm67
+www.maremmacinghiale.it - November 29, 2016, 4:49 pmCompleted
+www.maremmacinghiale.it - November 29, 2016, 4:49 pm5.00
+www.maremmacinghiale.it - November 29, 2016, 4:49 pmEUR
+www.maremmacinghiale.it - November 29, 2016, 4:49 pm0V754729KN806130H
+www.maremmacinghiale.it - November 29, 2016, 4:49 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 4:49 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 4:49 pm
+www.maremmacinghiale.it - November 29, 2016, 4:49 pmHTTP ERROR:php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Server: www.maremmacinghiale.it - November 29, 2016, 5:00 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 5:01 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 5:01 pmfunzioniPaypal.php
+www.maremmacinghiale.it - November 29, 2016, 5:01 pmfunzioniPaypal.php ->FINE
+POST DATA: txn_id =2889042690270100N
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - November 29, 2016, 5:01 pmPOST DATA: txn_id =2889042690270100N
+POST DATA: txn_type =web_accept
+
+cmd=_notify-validate:
+www.maremmacinghiale.it - November 29, 2016, 5:01 pmcmd=_notify-validate:
+
+www.maremmacinghiale.it - November 29, 2016, 5:01 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - November 29, 2016, 5:01 pm67
+www.maremmacinghiale.it - November 29, 2016, 5:01 pmCompleted
+www.maremmacinghiale.it - November 29, 2016, 5:01 pm5.00
+www.maremmacinghiale.it - November 29, 2016, 5:01 pmEUR
+www.maremmacinghiale.it - November 29, 2016, 5:01 pm2889042690270100N
+www.maremmacinghiale.it - November 29, 2016, 5:01 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 5:01 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 5:01 pm
+www.maremmacinghiale.it - November 29, 2016, 5:01 pmHTTP ERROR:0
+www.maremmacinghiale.it - November 29, 2016, 5:01 pmHTTP ERROR:php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Server: www.maremmacinghiale.it - November 29, 2016, 5:04 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 5:04 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 5:04 pmfunzioniPaypal.php
+www.maremmacinghiale.it - November 29, 2016, 5:04 pmfunzioniPaypal.php ->FINE
+POST DATA: txn_id =7T889826CC275843B
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - November 29, 2016, 5:04 pmPOST DATA: txn_id =7T889826CC275843B
+POST DATA: txn_type =web_accept
+
+cmd=_notify-validate:
+www.maremmacinghiale.it - November 29, 2016, 5:04 pmcmd=_notify-validate:
+
+www.maremmacinghiale.it - November 29, 2016, 5:04 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - November 29, 2016, 5:04 pm67
+www.maremmacinghiale.it - November 29, 2016, 5:04 pmCompleted
+www.maremmacinghiale.it - November 29, 2016, 5:04 pm5.00
+www.maremmacinghiale.it - November 29, 2016, 5:04 pmEUR
+www.maremmacinghiale.it - November 29, 2016, 5:04 pm7T889826CC275843B
+www.maremmacinghiale.it - November 29, 2016, 5:04 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 5:04 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 5:04 pm
+www.maremmacinghiale.it - November 29, 2016, 5:04 pmHTTP ERROR:34612744
+www.maremmacinghiale.it - November 29, 2016, 5:04 pmHTTP ERROR:Unable to find the socket transport "https" - did you forget to enable it when you configured PHP?
+www.maremmacinghiale.it - November 29, 2016, 5:29 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 5:29 pmfunzioniPaypal.php
+www.maremmacinghiale.it - November 29, 2016, 5:29 pmfunzioniPaypal.php ->FINE
+POST DATA: txn_id =74J64594KF3089432
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - November 29, 2016, 5:29 pmPOST DATA: txn_id =74J64594KF3089432
+POST DATA: txn_type =web_accept
+
+cmd=_notify-validate:
+www.maremmacinghiale.it - November 29, 2016, 5:29 pmcmd=_notify-validate:
+
+www.maremmacinghiale.it - November 29, 2016, 5:29 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - November 29, 2016, 5:29 pm67
+www.maremmacinghiale.it - November 29, 2016, 5:29 pmCompleted
+www.maremmacinghiale.it - November 29, 2016, 5:29 pm5.00
+www.maremmacinghiale.it - November 29, 2016, 5:29 pmEUR
+www.maremmacinghiale.it - November 29, 2016, 5:29 pm74J64594KF3089432
+www.maremmacinghiale.it - November 29, 2016, 5:29 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 5:29 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 5:29 pm
+www.maremmacinghiale.it - November 29, 2016, 5:29 pmHTTP ERROR:20522504
+www.maremmacinghiale.it - November 29, 2016, 5:29 pmHTTP ERROR:Unable to find the socket transport "https" - did you forget to enable it when you configured PHP?
+Server: www.maremmacinghiale.it - November 29, 2016, 5:36 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 5:37 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 5:37 pmfunzioniPaypal.php
+www.maremmacinghiale.it - November 29, 2016, 5:37 pmfunzioniPaypal.php ->FINE
+POST DATA: txn_id =7M745260MD259113S
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - November 29, 2016, 5:37 pmPOST DATA: txn_id =7M745260MD259113S
+POST DATA: txn_type =web_accept
+
+cmd=_notify-validate:
+www.maremmacinghiale.it - November 29, 2016, 5:37 pmcmd=_notify-validate:
+
+www.maremmacinghiale.it - November 29, 2016, 5:37 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - November 29, 2016, 5:37 pm67
+www.maremmacinghiale.it - November 29, 2016, 5:37 pmCompleted
+www.maremmacinghiale.it - November 29, 2016, 5:37 pm5.00
+www.maremmacinghiale.it - November 29, 2016, 5:37 pmEUR
+www.maremmacinghiale.it - November 29, 2016, 5:37 pm7M745260MD259113S
+www.maremmacinghiale.it - November 29, 2016, 5:37 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 5:37 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 5:37 pm
+www.maremmacinghiale.it - November 29, 2016, 5:37 pmHTTP ERROR:32843272
+www.maremmacinghiale.it - November 29, 2016, 5:37 pmHTTP ERROR:Unable to find the socket transport "https" - did you forget to enable it when you configured PHP?
+Server: www.maremmacinghiale.it - November 29, 2016, 5:38 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 5:39 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 5:39 pmfunzioniPaypal.php
+www.maremmacinghiale.it - November 29, 2016, 5:39 pmfunzioniPaypal.php ->FINE
+POST DATA: txn_id =5R98171183976661B
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - November 29, 2016, 5:39 pmPOST DATA: txn_id =5R98171183976661B
+POST DATA: txn_type =web_accept
+
+cmd=_notify-validate:
+www.maremmacinghiale.it - November 29, 2016, 5:39 pmcmd=_notify-validate:
+
+www.maremmacinghiale.it - November 29, 2016, 5:39 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - November 29, 2016, 5:39 pm67
+www.maremmacinghiale.it - November 29, 2016, 5:39 pmCompleted
+www.maremmacinghiale.it - November 29, 2016, 5:39 pm5.00
+www.maremmacinghiale.it - November 29, 2016, 5:39 pmEUR
+www.maremmacinghiale.it - November 29, 2016, 5:39 pm5R98171183976661B
+www.maremmacinghiale.it - November 29, 2016, 5:39 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 5:39 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 5:39 pm
+www.maremmacinghiale.it - November 29, 2016, 5:39 pmHTTP ERROR:32843272
+www.maremmacinghiale.it - November 29, 2016, 5:39 pmHTTP ERROR:Unable to find the socket transport "https" - did you forget to enable it when you configured PHP?
+Server: www.maremmacinghiale.it - November 29, 2016, 5:47 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 29, 2016, 5:47 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 29, 2016, 5:47 pmfunzioniPaypal.php
+www.maremmacinghiale.it - November 29, 2016, 5:47 pmfunzioniPaypal.php ->FINE
+POST DATA: txn_id =48E82164CP0854625
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - November 29, 2016, 5:47 pmPOST DATA: txn_id =48E82164CP0854625
+POST DATA: txn_type =web_accept
+
+cmd=_notify-validate:
+www.maremmacinghiale.it - November 29, 2016, 5:47 pmcmd=_notify-validate:
+
+www.maremmacinghiale.it - November 29, 2016, 5:47 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - November 29, 2016, 5:47 pm67
+www.maremmacinghiale.it - November 29, 2016, 5:47 pmCompleted
+www.maremmacinghiale.it - November 29, 2016, 5:47 pm5.00
+www.maremmacinghiale.it - November 29, 2016, 5:47 pmEUR
+www.maremmacinghiale.it - November 29, 2016, 5:47 pm48E82164CP0854625
+www.maremmacinghiale.it - November 29, 2016, 5:47 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 5:47 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - November 29, 2016, 5:47 pm
+www.maremmacinghiale.it - November 29, 2016, 5:47 pmPOST /cgi-bin/webscr HTTP/1.0
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1261
+
+cmd=_notify-validate&amp;amp;amp;mc_gross=5.00&amp;amp;amp;protection_eligibility=Ineligible&amp;amp;amp;payer_id=JWZS9YK4G4DR8&amp;amp;amp;tax=3.00&amp;amp;amp;payment_date=08%3A47%3A39+Nov+29%2C+2016+PST&amp;amp;amp;payment_status=Completed&amp;amp;amp;charset=windows-1252&amp;amp;amp;first_name=test&amp;amp;amp;mc_fee=0.52&amp;amp;amp;notify_version=3.8&amp;amp;amp;custom=&amp;amp;amp;payer_status=verified&amp;amp;amp;business=pagamenti-facilitator%40maremmacinghiale.it&amp;amp;amp;quantity=1&amp;amp;amp;verify_sign=AqBqA1nSf.CEBj1d5rbDP.LO-woKAev9nIdGbrn88EsmrNib2G9m2oYX&amp;amp;amp;payer_email=pagamenti-buyer%40maremmacinghiale.it&amp;amp;amp;txn_id=48E82164CP0854625&amp;amp;amp;payment_type=instant&amp;amp;amp;last_name=buyer&amp;amp;amp;receiver_email=pagamenti-facilitator%40maremmacinghiale.it&amp;amp;amp;payment_fee=&amp;amp;amp;receiver_id=78SBCHTJZ6U3W&amp;amp;amp;txn_type=web_accept&amp;amp;amp;item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+verre+bianco&amp;amp;amp;mc_currency=EUR&amp;amp;amp;item_number=67&amp;amp;amp;residence_country=IT&amp;amp;amp;test_ipn=1&amp;amp;amp;handling_amount=0.00&amp;amp;amp;transaction_subject=&amp;amp;amp;payment_gross=&amp;amp;amp;shipping=0.00&amp;amp;amp;ipn_track_id=6a2d7f4ca9971
+www.maremmacinghiale.it - November 29, 2016, 5:47 pmHTTP ERROR:16802401
+www.maremmacinghiale.it - November 29, 2016, 5:47 pmHTTP ERROR:Unable to find the socket transport "https" - did you forget to enable it when you configured PHP?

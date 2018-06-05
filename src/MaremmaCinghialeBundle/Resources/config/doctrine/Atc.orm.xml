@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="MaremmaCinghialeBundle\Entity\Atc" table="atc">
+    <id name="id" type="integer" column="id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="idTerritorio" type="integer" column="id_territorio" nullable="false">
+      <options>
+        <option name="unsigned"/>
+        <option name="comment">Id Territorio</option>
+      </options>
+    </field>
+    <field name="siglaAtc" type="string" column="sigla_atc" length="4" nullable="false">
+      <options>
+        <option name="fixed"/>
+        <option name="comment">sigla ATC </option>
+      </options>
+    </field>
+    <field name="nomeAtc" type="string" column="nome_atc" length="150" nullable="false">
+      <options>
+        <option name="fixed"/>
+        <option name="comment">Nome esteso ATC</option>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>

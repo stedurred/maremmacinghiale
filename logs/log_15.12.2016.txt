@@ -1,0 +1,51 @@
+Server: www.maremmacinghiale.it - December 15, 2016, 12:30 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 15, 2016, 12:31 pm INIZIO PAGAMENTO
+POST DATA: txn_id =1RP39727WG836625B
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 15, 2016, 12:31 pmPOST DATA: txn_id =1RP39727WG836625B
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 15, 2016, 12:31 pmcmd=_notify-validate&amp;amp;amp;mc_gross=2.00&amp;amp;amp;protection_eligibility=Ineligible&amp;amp;amp;payer_id=JWZS9YK4G4DR8&amp;amp;amp;tax=0.00&amp;amp;amp;payment_date=03%3A31%3A05+Dec+15%2C+2016+PST&amp;amp;amp;payment_status=Completed&amp;amp;amp;charset=windows-1252&amp;amp;amp;first_name=test&amp;amp;amp;mc_fee=0.42&amp;amp;amp;notify_version=3.8&amp;amp;amp;custom=&amp;amp;amp;payer_status=verified&amp;amp;amp;business=pagamenti-facilitator%40maremmacinghiale.it&amp;amp;amp;quantity=1&amp;amp;amp;verify_sign=AoS.E.01W2nV8a9ir19jmW2JxA6YAkbq6CdprjzI.7lZvBFelxwiAbEo&amp;amp;amp;payer_email=pagamenti-buyer%40maremmacinghiale.it&amp;amp;amp;txn_id=1RP39727WG836625B&amp;amp;amp;payment_type=instant&amp;amp;amp;last_name=buyer&amp;amp;amp;receiver_email=pagamenti-facilitator%40maremmacinghiale.it&amp;amp;amp;payment_fee=&amp;amp;amp;receiver_id=78SBCHTJZ6U3W&amp;amp;amp;txn_type=web_accept&amp;amp;amp;item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+verre+bianco&amp;amp;amp;mc_currency=EUR&amp;amp;amp;item_number=67&amp;amp;amp;residence_country=IT&amp;amp;amp;test_ipn=1&amp;amp;amp;handling_amount=0.00&amp;amp;amp;transaction_subject=&amp;amp;amp;payment_gross=&amp;amp;amp;shipping=0.00&amp;amp;amp;ipn_track_id=d6f0b7cf10ec7
+cmd=_notify-validate:
+www.maremmacinghiale.it - December 15, 2016, 12:31 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - December 15, 2016, 12:31 pm67
+www.maremmacinghiale.it - December 15, 2016, 12:31 pmCompleted
+www.maremmacinghiale.it - December 15, 2016, 12:31 pm2.00
+www.maremmacinghiale.it - December 15, 2016, 12:31 pmEUR
+www.maremmacinghiale.it - December 15, 2016, 12:31 pm1RP39727WG836625B
+www.maremmacinghiale.it - December 15, 2016, 12:31 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - December 15, 2016, 12:31 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - December 15, 2016, 12:31 pm
+www.maremmacinghiale.it - December 15, 2016, 12:31 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: https://www.sandbox.paypal.com/cgi-bin/webscr:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1261
+Connection: close
+
+
+www.maremmacinghiale.it - December 15, 2016, 12:31 pmhttps
+www.maremmacinghiale.it - December 15, 2016, 12:31 pmwww.sandbox.paypal.com
+www.maremmacinghiale.it - December 15, 2016, 12:31 pm
+www.maremmacinghiale.it - December 15, 2016, 12:31 pm
+www.maremmacinghiale.it - December 15, 2016, 12:31 pm
+www.maremmacinghiale.it - December 15, 2016, 12:31 pm/cgi-bin/webscr
+www.maremmacinghiale.it - December 15, 2016, 12:31 pm
+www.maremmacinghiale.it - December 15, 2016, 12:31 pm
+www.maremmacinghiale.it - December 15, 2016, 12:31 pmHTTPS
+www.maremmacinghiale.it - December 15, 2016, 12:31 pmResource id #40
+WHILEHTTP/1.1 400 Bad Request
+WHILEDate: Thu, 15 Dec 2016 11:31:09 GMT
+WHILEServer: Apache
+WHILEContent-Length: 226
+WHILEConnection: close
+WHILEContent-Type: text/html; charset=iso-8859-1
+WHILE
+WHILE<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+WHILE<html><head>
+WHILE<title>400 Bad Request</title>
+WHILE</head><body>
+WHILE<h1>Bad Request</h1>
+WHILE<p>Your browser sent a request that this server could not understand.<br />
+WHILE</p>
+WHILE</body></html>
+fclose (fp);

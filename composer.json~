@@ -1,0 +1,9 @@
+{
+  "require": {
+    "php": ">=5.3",
+    "ext-curl": "*",
+    "paypal/buttonmanager-sdk-php":"*",
+    "paypal/rest-api-sdk-php": "*"
+  }
+
+}

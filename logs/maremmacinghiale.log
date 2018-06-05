@@ -1,0 +1,5 @@
+[Sun Jul 31 00:46:15.484851 2016] [authz_core:error] [pid 1380:tid 1628] [client 127.0.0.1:49788] AH01630: client denied by server configuration: C:/maremmacinghiale.it/
+[Sun Jul 31 00:46:16.139148 2016] [authz_core:error] [pid 1380:tid 1628] [client 127.0.0.1:49788] AH01630: client denied by server configuration: C:/maremmacinghiale.it/favicon.ico, referer: http://localhost/
+[Sun Jul 31 00:46:27.814929 2016] [authz_core:error] [pid 1380:tid 1628] [client 127.0.0.1:49798] AH01630: client denied by server configuration: C:/maremmacinghiale.it/
+[Sun Jul 31 00:46:49.485828 2016] [authz_core:error] [pid 1380:tid 1608] [client 127.0.0.1:49806] AH01630: client denied by server configuration: C:/maremmacinghiale.it/
+[Sun Jul 31 00:46:53.704578 2016] [authz_core:error] [pid 1380:tid 1608] [client 127.0.0.1:49806] AH01630: client denied by server configuration: C:/maremmacinghiale.it/, referer: http://localhost/

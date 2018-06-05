@@ -1,0 +1,188 @@
+Server: www.maremmacinghiale.it - January 24, 2017, 12:04 am INIZIO PRENOTAZIONE
+Server: www.maremmacinghiale.it - January 24, 2017, 3:44 pm INIZIO PRENOTAZIONE
+Server: www.maremmacinghiale.it - January 24, 2017, 3:49 pm INIZIO PRENOTAZIONE
+Server: www.maremmacinghiale.it - January 24, 2017, 4:02 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - January 24, 2017, 4:09 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - January 24, 2017, 4:09 pm INIZIO PAGAMENTO
+POST DATA: txn_id =1Y139577R90006008
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmwww.maremmacinghiale.it - January 24, 2017, 4:09 pm INIZIO PAGAMENTO
+POST DATA: txn_id =1Y139577R90006008
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - January 24, 2017, 4:09 pm INIZIO PAGAMENTO
+POST DATA: txn_id =1Y139577R90006008
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmwww.maremmacinghiale.it - January 24, 2017, 4:09 pm INIZIO PAGAMENTO
+POST DATA: txn_id =1Y139577R90006008
+POST DATA: txn_type =web_accept
+
+cmd=_notify-validate:
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmPrenotazioneEvento:Evento di caccia della squadra di madonnina cacciatore
+www.maremmacinghiale.it - January 24, 2017, 4:09 pm126
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmCompleted
+www.maremmacinghiale.it - January 24, 2017, 4:09 pm0.20
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmEUR
+www.maremmacinghiale.it - January 24, 2017, 4:09 pm1Y139577R90006008
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - January 24, 2017, 4:09 pm
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: https://ipnpb.sandbox.paypal.com/cgi-bin/webscr:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 879
+Connection: close
+
+
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmhttps
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmipnpb.sandbox.paypal.com
+www.maremmacinghiale.it - January 24, 2017, 4:09 pm
+www.maremmacinghiale.it - January 24, 2017, 4:09 pm
+www.maremmacinghiale.it - January 24, 2017, 4:09 pm
+www.maremmacinghiale.it - January 24, 2017, 4:09 pm/cgi-bin/webscr
+www.maremmacinghiale.it - January 24, 2017, 4:09 pm
+www.maremmacinghiale.it - January 24, 2017, 4:09 pm
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmcmd=_notify-validate&mc_gross=0.20&protection_eligibility=Ineligible&payer_id=JWZS9YK4G4DR8&tax=0.00&payment_date=08%3A09%3A32+Jan+24%2C+2017+PST&payment_status=Completed&charset=windows-1252&first_name=test&mc_fee=0.20&notify_version=3.8&custom=&payer_status=verified&business=pagamenti-facilitator%40maremmacinghiale.it&quantity=1&verify_sign=AxpYDfrZEOWfawzZkLN7tKCy.BvJApEixJvdG5cu0LIMaopCpahLm0hY&payer_email=pagamenti-buyer%40maremmacinghiale.it&txn_id=1Y139577R90006008&payment_type=instant&last_name=buyer&receiver_email=pagamenti-facilitator%40maremmacinghiale.it&payment_fee=&receiver_id=78SBCHTJZ6U3W&txn_type=web_accept&item_name=PrenotazioneEvento%3AEvento+di+caccia+della+squadra+di+madonnina+cacciatore&mc_currency=EUR&item_number=126&residence_country=IT&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=467287588b757
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmHTTPS
+WHILEHTTP/1.1 200 OK
+
+WHILEDate: Tue, 24 Jan 2017 16:09:39 GMT
+
+WHILEServer: Apache
+
+WHILEX-Frame-Options: SAMEORIGIN
+
+WHILESet-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=IRIv1casIIQn6iiCeLJuwd6pd2cUD933FM8Lcf1P0FKVyCMcmTyWYeoPji71CVVXucG-0VfAzrGy1n6OQh1ePWfFUXD-ABDjDxN19uDacYo1h25ZR8fm_oNwByEyIQRM9fUekYqY1z9PyDTZqZqrcoDtJvjyFyw5jHlgSTy9VJvsYzpdFa4vxl5C6bkDtoUXy0FYmzbYpb0m6X9DYjZMbH3Mrhs4yvZwdcaSdUCg3LHpBHydJD_ehtcAroKbitCPC8jtdttw6O3R-ZTjSwoo-KEnOwxGzMaWYcZTpS0_Vdmpmx1z1o14Yk3fBEUSfc6oweuqozt4hiEtvomhQaQ6AoZQEL1cbzgUFkO4FcmPf4R74bfSwOCfmah_NeYGO3GGSmYBWrNZBzBbQGsdGb4IpCCeMKDBcx3xpWSPKZXvlWn2l4UM-xkaJvzkviq; domain=.paypal.com; path=/; Secure; HttpOnly
+
+WHILESet-Cookie: cookie_check=yes; expires=Fri, 22-Jan-2027 16:09:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+
+WHILESet-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+
+WHILESet-Cookie: navlns=0.0; expires=Thu, 24-Jan-2019 16:09:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+
+WHILESet-Cookie: Apache=10.72.108.11.1485274179298650; path=/; expires=Thu, 17-Jan-47 16:09:39 GMT
+
+WHILEVary: Accept-Encoding,User-Agent
+
+WHILEConnection: close
+
+WHILETransfer-Encoding: chunked
+
+WHILEContent-Type: text/html; charset=UTF-8
+
+WHILE
+
+WHILE8
+
+WHILEVERIFIED
+
+WHILEvalid_txnid:1Y139577R90006008
+valid_txnid1Y139577R90006008
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmvalid_txnid:1Y139577R90006008
+valid_txnid1Y139577R90006008
+
+
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmSELECT e.importo FROM evento e JOIN prenotazione p ON p.id_evento = e.id WHERE p.id = 126
+
+insertPagamenti:www.maremmacinghiale.it - January 24, 2017, 4:09 pmINSERT INTO pagamenti (txn_id, importo_pagamento, stato_pagamento, id_prenotazione, data_pagamento) VALUES (				'1Y139577R90006008' ,				'0.20' ,				'Completed' ,				'126' ,				'2017-01-24 16:09:39'				)
+
+----------updatePagamenti VALID PRICE45
+updatePrenotazione:www.maremmacinghiale.it - January 24, 2017, 4:09 pmUPDATE prenotazione SET stato = 'Pagato' WHERE id = 126
+
+valid_txnid:1Y139577R90006008
+valid_txnid1Y139577R90006008
+www.maremmacinghiale.it - January 24, 2017, 4:09 pmvalid_txnid:1Y139577R90006008
+valid_txnid1Y139577R90006008
+
+www.maremmacinghiale.it - January 24, 2017, 4:09 pm-------prenotazioneVALID PRICE:0
+
+WHILE0
+
+WHILE
+
+FINE
+Server: www.maremmacinghiale.it - January 24, 2017, 5:04 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - January 24, 2017, 5:05 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - January 24, 2017, 5:05 pm INIZIO PAGAMENTO
+POST DATA: txn_id =2TW40538HT683984N
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmwww.maremmacinghiale.it - January 24, 2017, 5:05 pm INIZIO PAGAMENTO
+POST DATA: txn_id =2TW40538HT683984N
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - January 24, 2017, 5:05 pm INIZIO PAGAMENTO
+POST DATA: txn_id =2TW40538HT683984N
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmwww.maremmacinghiale.it - January 24, 2017, 5:05 pm INIZIO PAGAMENTO
+POST DATA: txn_id =2TW40538HT683984N
+POST DATA: txn_type =web_accept
+
+cmd=_notify-validate:
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmPrenotazioneEvento:Evento di caccia della squadra di madonnina cacciatore
+www.maremmacinghiale.it - January 24, 2017, 5:05 pm127
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmCompleted
+www.maremmacinghiale.it - January 24, 2017, 5:05 pm0.50
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmEUR
+www.maremmacinghiale.it - January 24, 2017, 5:05 pm2TW40538HT683984N
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - January 24, 2017, 5:05 pm
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: https://ipnpb.sandbox.paypal.com/cgi-bin/webscr:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 879
+Connection: close
+
+
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmhttps
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmipnpb.sandbox.paypal.com
+www.maremmacinghiale.it - January 24, 2017, 5:05 pm
+www.maremmacinghiale.it - January 24, 2017, 5:05 pm
+www.maremmacinghiale.it - January 24, 2017, 5:05 pm
+www.maremmacinghiale.it - January 24, 2017, 5:05 pm/cgi-bin/webscr
+www.maremmacinghiale.it - January 24, 2017, 5:05 pm
+www.maremmacinghiale.it - January 24, 2017, 5:05 pm
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmcmd=_notify-validate&mc_gross=0.50&protection_eligibility=Ineligible&payer_id=JWZS9YK4G4DR8&tax=0.00&payment_date=09%3A05%3A28+Jan+24%2C+2017+PST&payment_status=Completed&charset=windows-1252&first_name=test&mc_fee=0.37&notify_version=3.8&custom=&payer_status=verified&business=pagamenti-facilitator%40maremmacinghiale.it&quantity=1&verify_sign=A6u1ZYevxULpgc2krkbhHmNysAYXAOPFmW6QnKUH9kjkExvGA3BKXj1I&payer_email=pagamenti-buyer%40maremmacinghiale.it&txn_id=2TW40538HT683984N&payment_type=instant&last_name=buyer&receiver_email=pagamenti-facilitator%40maremmacinghiale.it&payment_fee=&receiver_id=78SBCHTJZ6U3W&txn_type=web_accept&item_name=PrenotazioneEvento%3AEvento+di+caccia+della+squadra+di+madonnina+cacciatore&mc_currency=EUR&item_number=127&residence_country=IT&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=4844d1ea6e47c
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmHTTPS
+WHILEHTTP/1.1 200 OK
+
+WHILEDate: Tue, 24 Jan 2017 17:05:33 GMT
+
+WHILEServer: Apache
+
+WHILEX-Frame-Options: SAMEORIGIN
+
+WHILESet-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=sqP7dNsy7Mlsm-lmEQH2irhstALsZ4MOjjc6tr5lQcIyAaP9bHpsIagBu1xw6kYC3B5IoYSE7DY1pWgsXXN1V4nZNX6qIFIc9l_yHHx_9PryhoONjTrtnTnAsocRP1OPWET6UdRyKfO0-WZ4M4vLkBq96DJN6EJRbp5-0O2f_BKKOI6ld6gNoERRt4WGONaF3q85ULcijhfRZ5EJMjPhare0Up186CPdlOMfaM2kyD1uxk4xZvaGIGoIhRzSs9mlQNHV3MnXxCXU9-Ed912FGesE2zd3Ppp4YgWhAenrZQ3JT8YCF8kifpwhUcspks2h6DsSjL4uZSvHfwqLT_X_HwojnU-j1cV9FeEyX6z305Mkc2CtEQo3IvvL4mE8LKdNiUBWDAhRDXyQ3SorWueR2ng_oQDENHAIz0d9MWp9ghm8dY5ozKuRxNJ49Du; domain=.paypal.com; path=/; Secure; HttpOnly
+
+WHILESet-Cookie: cookie_check=yes; expires=Fri, 22-Jan-2027 17:05:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+
+WHILESet-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+
+WHILESet-Cookie: navlns=0.0; expires=Thu, 24-Jan-2019 17:05:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+
+WHILESet-Cookie: Apache=10.72.108.11.1485277533351459; path=/; expires=Thu, 17-Jan-47 17:05:33 GMT
+
+WHILEVary: Accept-Encoding,User-Agent
+
+WHILEConnection: close
+
+WHILETransfer-Encoding: chunked
+
+WHILEContent-Type: text/html; charset=UTF-8
+
+WHILE
+
+WHILE8
+
+WHILEVERIFIED
+
+WHILEvalid_txnid:2TW40538HT683984N
+valid_txnid2TW40538HT683984N
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmvalid_txnid:2TW40538HT683984N
+valid_txnid2TW40538HT683984N
+
+
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmSELECT e.importo FROM evento e JOIN prenotazione p ON p.id_evento = e.id WHERE p.id = 127
+
+www.maremmacinghiale.it - January 24, 2017, 5:05 pmSELECT * FROM users WHERE email = 'pagamenti-buyer@maremmacinghiale.it' OR fb_user_email  = 'pagamenti-buyer@maremmacinghiale.it'
+

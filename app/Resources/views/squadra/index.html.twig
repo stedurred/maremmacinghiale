@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Squadra list</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Numero</th>
+                <th>Urlfoto</th>
+                <th>Catturecinghiali</th>
+                <th>Idatc</th>
+                <th>Trndate</th>
+                <th>Totuserssquadra</th>
+                <th>Quotaannuale</th>
+                <th>Id</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for squadra in squadras %}
+            <tr>
+                <td><a href="{{ path('squadra_show', { 'id': squadra.id }) }}">{{ squadra.nome }}</a></td>
+                <td>{{ squadra.numero }}</td>
+                <td>{{ squadra.urlFoto }}</td>
+                <td>{{ squadra.cattureCinghiali }}</td>
+                <td>{{ squadra.idAtc }}</td>
+                <td>{% if squadra.trnDate %}{{ squadra.trnDate|date('Y-m-d') }}{% endif %}</td>
+                <td>{{ squadra.totUsersSquadra }}</td>
+                <td>{{ squadra.quotaAnnuale }}</td>
+                <td>{{ squadra.id }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('squadra_show', { 'id': squadra.id }) }}">show</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('squadra_edit', { 'id': squadra.id }) }}">edit</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('squadra_new') }}">Create a new entry</a>
+        </li>
+    </ul>
+{% endblock %}

@@ -1,0 +1,52 @@
+Server: www.maremmacinghiale.it - December 13, 2016, 9:22 pm INIZIO PRENOTAZIONE
+Server: www.maremmacinghiale.it - December 13, 2016, 9:23 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 13, 2016, 9:24 pm INIZIO PAGAMENTO
+POST DATA: txn_id =0PK285010V5616342
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 13, 2016, 9:24 pmPOST DATA: txn_id =0PK285010V5616342
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 13, 2016, 9:24 pmcmd=_notify-validate&amp;amp;amp;mc_gross=25.00&amp;amp;amp;protection_eligibility=Ineligible&amp;amp;amp;payer_id=JWZS9YK4G4DR8&amp;amp;amp;tax=0.00&amp;amp;amp;payment_date=12%3A24%3A43+Dec+13%2C+2016+PST&amp;amp;amp;payment_status=Completed&amp;amp;amp;charset=windows-1252&amp;amp;amp;first_name=test&amp;amp;amp;mc_fee=1.20&amp;amp;amp;notify_version=3.8&amp;amp;amp;custom=&amp;amp;amp;payer_status=verified&amp;amp;amp;business=pagamenti-facilitator%40maremmacinghiale.it&amp;amp;amp;quantity=1&amp;amp;amp;verify_sign=AB8uKJ-cgis5XVZJfu8yXdO6dhrpAFj6efzLewYMmYUZGHev5p0uI5Vg&amp;amp;amp;payer_email=pagamenti-buyer%40maremmacinghiale.it&amp;amp;amp;txn_id=0PK285010V5616342&amp;amp;amp;payment_type=instant&amp;amp;amp;last_name=buyer&amp;amp;amp;receiver_email=pagamenti-facilitator%40maremmacinghiale.it&amp;amp;amp;payment_fee=&amp;amp;amp;receiver_id=78SBCHTJZ6U3W&amp;amp;amp;txn_type=web_accept&amp;amp;amp;item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+di+stedurred&amp;amp;amp;mc_currency=EUR&amp;amp;amp;item_number=39&amp;amp;amp;residence_country=IT&amp;amp;amp;test_ipn=1&amp;amp;amp;handling_amount=0.00&amp;amp;amp;transaction_subject=&amp;amp;amp;payment_gross=&amp;amp;amp;shipping=0.00&amp;amp;amp;ipn_track_id=327b244c6157a
+cmd=_notify-validate:
+www.maremmacinghiale.it - December 13, 2016, 9:24 pmPrenotazioneEvento_Evento di caccia della squadra di stedurred
+www.maremmacinghiale.it - December 13, 2016, 9:24 pm39
+www.maremmacinghiale.it - December 13, 2016, 9:24 pmCompleted
+www.maremmacinghiale.it - December 13, 2016, 9:24 pm25.00
+www.maremmacinghiale.it - December 13, 2016, 9:24 pmEUR
+www.maremmacinghiale.it - December 13, 2016, 9:24 pm0PK285010V5616342
+www.maremmacinghiale.it - December 13, 2016, 9:24 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - December 13, 2016, 9:24 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - December 13, 2016, 9:24 pm
+www.maremmacinghiale.it - December 13, 2016, 9:24 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: https://www.sandbox.paypal.com/cgi-bin/webscr:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1262
+Connection: close
+
+
+www.maremmacinghiale.it - December 13, 2016, 9:24 pmhttps
+www.maremmacinghiale.it - December 13, 2016, 9:24 pmwww.sandbox.paypal.com
+www.maremmacinghiale.it - December 13, 2016, 9:24 pm
+www.maremmacinghiale.it - December 13, 2016, 9:24 pm
+www.maremmacinghiale.it - December 13, 2016, 9:24 pm
+www.maremmacinghiale.it - December 13, 2016, 9:24 pm/cgi-bin/webscr
+www.maremmacinghiale.it - December 13, 2016, 9:24 pm
+www.maremmacinghiale.it - December 13, 2016, 9:24 pm
+www.maremmacinghiale.it - December 13, 2016, 9:24 pmHTTPS
+www.maremmacinghiale.it - December 13, 2016, 9:24 pmResource id #40
+WHILEHTTP/1.1 400 Bad Request
+WHILEDate: Tue, 13 Dec 2016 20:24:49 GMT
+WHILEServer: Apache
+WHILEContent-Length: 226
+WHILEConnection: close
+WHILEContent-Type: text/html; charset=iso-8859-1
+WHILE
+WHILE<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+WHILE<html><head>
+WHILE<title>400 Bad Request</title>
+WHILE</head><body>
+WHILE<h1>Bad Request</h1>
+WHILE<p>Your browser sent a request that this server could not understand.<br />
+WHILE</p>
+WHILE</body></html>
+fclose (fp);

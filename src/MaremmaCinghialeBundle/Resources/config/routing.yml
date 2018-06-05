@@ -1,0 +1,7 @@
+maremma_cinghiale_evento:
+    resource: "@MaremmaCinghialeBundle/Resources/config/routing/evento.php"
+    prefix:   /evento
+
+maremma_cinghiale_squadra:
+      resource: "@MaremmaCinghialeBundle/Resources/config/routing/squadra.php"
+      prefix:   /squadra

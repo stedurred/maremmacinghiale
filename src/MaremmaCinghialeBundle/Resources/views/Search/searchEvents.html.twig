@@ -1,0 +1,31 @@
+<h1>Eventi {{ numEventi }}</h1>
+<ul>
+
+
+    <table border="1" style="width: 80%;">
+        <thead>
+        <tr>
+            <td>ID Evento</td>
+            <td>Titolo Evento</td>
+            <td>Descrizione</td>
+            <td>Data Evento</td>
+            <td>Importo</td>
+            <td>Immagine</td>
+
+            <td>URL foto</td>
+        </tr>
+        </thead>
+        <tbody>
+        {% for evento in eventi %}
+            <tr>
+                <td>{{ evento.id }}</td>
+                <td>{{ evento.titolo }}</td>
+                <td>{{ evento.descrizione }}</td>
+                <td>{{ evento.dataEvento|date("m/d/Y") }}</td>
+                <td>{{ evento.importo }}</td>
+                <td>{{ evento.urlFoto }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</ul>

@@ -1,0 +1,42 @@
+www.maremmacinghiale.it - November 27, 2016, 12:41 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 27, 2016, 12:41 pm
+www.maremmacinghiale.it - November 27, 2016, 12:41 pmResource id #39
+HTTP/1.0 400 Bad Request
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+fclose (fp);
+Server: www.maremmacinghiale.it - November 27, 2016, 11:12 pm INIZIO PRENOTAZIONE
+Server: www.maremmacinghiale.it - November 27, 2016, 11:16 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 27, 2016, 11:17 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 27, 2016, 11:17 pm
+www.maremmacinghiale.it - November 27, 2016, 11:17 pmResource id #39
+HTTP/1.0 400 Bad Request
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+fclose (fp);
+Server: www.maremmacinghiale.it - November 27, 2016, 11:21 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 27, 2016, 11:23 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 27, 2016, 11:23 pm
+www.maremmacinghiale.it - November 27, 2016, 11:23 pm
+
+Resource id #39
+HTTP/1.0 400 Bad Request
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+fclose (fp);
+Server: www.maremmacinghiale.it - November 27, 2016, 11:41 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 27, 2016, 11:45 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 27, 2016, 11:45 pm funzioniPayPal.php
+www.maremmacinghiale.it - November 27, 2016, 11:45 pmResource id #39
+HTTP/1.0 400 Bad Request
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+fclose (fp);

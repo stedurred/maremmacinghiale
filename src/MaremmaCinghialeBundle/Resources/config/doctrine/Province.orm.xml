@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="MaremmaCinghialeBundle\Entity\Province" table="province">
+    <id name="id" type="integer" column="id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="idRegione" type="integer" column="id_regione" nullable="false">
+      <options>
+        <option name="unsigned"/>
+        <option name="comment">Id Regione</option>
+      </options>
+    </field>
+    <field name="siglaProvincia" type="string" column="sigla_provincia" length="2" nullable="false">
+      <options>
+        <option name="fixed"/>
+        <option name="comment">sigla provincia</option>
+      </options>
+    </field>
+    <field name="nomeProvincia" type="string" column="nome_provincia" length="50" nullable="false">
+      <options>
+        <option name="fixed"/>
+        <option name="comment">nome provincia</option>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>

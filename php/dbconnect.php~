@@ -1,0 +1,34 @@
+<?php
+
+$db_host_localhost = "localhost";
+$db_host_aruba_1 = "62.149.150.175";
+$connection = mysqli_connect('62.149.150.175', 'Sql930635', 'ivbbu370jo' ,'Sql930635_1');
+if(!$connection)
+{
+    echo "Error: Unable to connect to MySQL." . PHP_EOL;
+    echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
+    echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
+    exit;
+    die('oops connection problem ! --> '.mysqli_connect_error());
+}else{
+/*    echo "Connessione avvenuta con successo Indirizzo IP: " .mysqli_get_host_info($connection);
+    echo "Protocollo: " .mysqli_get_proto_info($connection);
+    echo "</br>Connessione avvenuta con successo al server MySql: " .mysqli_get_server_info($connection);
+    echo "</br>Versione del server MySql: " .mysqli_get_server_version($connection);
+    echo "</br>Versione del client version MySql: " .mysqli_get_client_version($connection);
+    echo "</br>Versione del client info MySql: " .mysqli_get_client_info();
+
+    echo "</br>Character set: " .mysqli_character_set_name($connection);*/
+
+}
+
+
+//echo "Success: A proper connection to MySQL was made! The my_db database is great." . PHP_EOL;
+//echo "Host information: " . mysqli_get_host_info($connection) . PHP_EOL;
+
+$db_select = mysqli_select_db($connection,"Sql930635_1");
+if(!$db_select)
+{
+     die('oops database selection problem ! --> '.mysql_error());
+}
+?>

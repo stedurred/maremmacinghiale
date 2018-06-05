@@ -1,0 +1,60 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Squadra</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Nome</th>
+                <td>{{ squadra.nome }}</td>
+            </tr>
+            <tr>
+                <th>Numero</th>
+                <td>{{ squadra.numero }}</td>
+            </tr>
+            <tr>
+                <th>Urlfoto</th>
+                <td>{{ squadra.urlFoto }}</td>
+            </tr>
+            <tr>
+                <th>Catturecinghiali</th>
+                <td>{{ squadra.cattureCinghiali }}</td>
+            </tr>
+            <tr>
+                <th>Idatc</th>
+                <td>{{ squadra.idAtc }}</td>
+            </tr>
+            <tr>
+                <th>Trndate</th>
+                <td>{% if squadra.trnDate %}{{ squadra.trnDate|date('Y-m-d') }}{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Totuserssquadra</th>
+                <td>{{ squadra.totUsersSquadra }}</td>
+            </tr>
+            <tr>
+                <th>Quotaannuale</th>
+                <td>{{ squadra.quotaAnnuale }}</td>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <td>{{ squadra.id }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('squadra_index') }}">Back to the list</a>
+        </li>
+        <li>
+            <a href="{{ path('squadra_edit', { 'id': squadra.id }) }}">Edit</a>
+        </li>
+        <li>
+            {{ form_start(delete_form) }}
+                <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+        </li>
+    </ul>
+{% endblock %}

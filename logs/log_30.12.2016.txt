@@ -1,0 +1,152 @@
+Server: www.maremmacinghiale.it - December 30, 2016, 2:20 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 30, 2016, 2:21 pm INIZIO PAGAMENTO
+POST DATA: txn_id =0YN29803YH708194G
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 30, 2016, 2:21 pmPOST DATA: txn_id =0YN29803YH708194G
+POST DATA: txn_type =web_accept
+
+POST DATA: txn_id =0YN29803YH708194G
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 30, 2016, 2:21 pmPOST DATA: txn_id =0YN29803YH708194G
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 30, 2016, 2:21 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 863
+Connection: close
+
+
+www.maremmacinghiale.it - December 30, 2016, 2:21 pm
+www.maremmacinghiale.it - December 30, 2016, 2:21 pm
+www.maremmacinghiale.it - December 30, 2016, 2:21 pm
+www.maremmacinghiale.it - December 30, 2016, 2:21 pm
+www.maremmacinghiale.it - December 30, 2016, 2:21 pm
+www.maremmacinghiale.it - December 30, 2016, 2:21 pmipnpb.sandbox.paypal.com
+www.maremmacinghiale.it - December 30, 2016, 2:21 pm
+www.maremmacinghiale.it - December 30, 2016, 2:21 pm
+www.maremmacinghiale.it - December 30, 2016, 2:21 pmcmd=_notify-validate&mc_gross=0.10&protection_eligibility=Ineligible&payer_id=JWZS9YK4G4DR8&tax=0.00&payment_date=05%3A21%3A18+Dec+30%2C+2016+PST&payment_status=Completed&charset=windows-1252&first_name=test&mc_fee=0.10&notify_version=3.8&custom=&payer_status=verified&business=pagamenti-facilitator%40maremmacinghiale.it&quantity=1&verify_sign=ARyNDMbKwa-zLx7AtfPa-etrhyTVAKDR3Qjcm.ks7GTDeHS1ufRy2PRJ&payer_email=pagamenti-buyer%40maremmacinghiale.it&txn_id=0YN29803YH708194G&payment_type=instant&last_name=buyer&receiver_email=pagamenti-facilitator%40maremmacinghiale.it&payment_fee=&receiver_id=78SBCHTJZ6U3W&txn_type=web_accept&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+di+Stefano&mc_currency=EUR&item_number=68&residence_country=IT&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=3177f9795f764
+www.maremmacinghiale.it - December 30, 2016, 2:21 pmHTTPS
+WHILE1FINE
+Server: www.maremmacinghiale.it - December 30, 2016, 3:29 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 30, 2016, 4:33 pm INIZIO PAGAMENTO
+POST DATA: txn_id =7WC52149SV250320D
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 30, 2016, 4:33 pmPOST DATA: txn_id =7WC52149SV250320D
+POST DATA: txn_type =web_accept
+
+POST DATA: txn_id =7WC52149SV250320D
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 30, 2016, 4:33 pmPOST DATA: txn_id =7WC52149SV250320D
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 30, 2016, 4:33 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.sandbox.paypal.com:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 863
+Connection: close
+
+
+www.maremmacinghiale.it - December 30, 2016, 4:33 pm
+www.maremmacinghiale.it - December 30, 2016, 4:33 pm
+www.maremmacinghiale.it - December 30, 2016, 4:33 pm
+www.maremmacinghiale.it - December 30, 2016, 4:33 pm
+www.maremmacinghiale.it - December 30, 2016, 4:33 pm
+www.maremmacinghiale.it - December 30, 2016, 4:33 pmipnpb.sandbox.paypal.com
+www.maremmacinghiale.it - December 30, 2016, 4:33 pm
+www.maremmacinghiale.it - December 30, 2016, 4:33 pm
+www.maremmacinghiale.it - December 30, 2016, 4:33 pmcmd=_notify-validate&mc_gross=0.10&protection_eligibility=Ineligible&payer_id=JWZS9YK4G4DR8&tax=0.00&payment_date=07%3A32%3A59+Dec+30%2C+2016+PST&payment_status=Completed&charset=windows-1252&first_name=test&mc_fee=0.10&notify_version=3.8&custom=&payer_status=verified&business=pagamenti-facilitator%40maremmacinghiale.it&quantity=1&verify_sign=A1oGOA3gzVMcdXmtIgfbakbg7h5YA-58u1rVdsB4AAE3XcBJ.8iQsk3e&payer_email=pagamenti-buyer%40maremmacinghiale.it&txn_id=7WC52149SV250320D&payment_type=instant&last_name=buyer&receiver_email=pagamenti-facilitator%40maremmacinghiale.it&payment_fee=&receiver_id=78SBCHTJZ6U3W&txn_type=web_accept&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+di+Stefano&mc_currency=EUR&item_number=68&residence_country=IT&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=abaecf31de9aa
+www.maremmacinghiale.it - December 30, 2016, 4:33 pmHTTPS
+WHILEFINE
+Server: www.maremmacinghiale.it - December 30, 2016, 4:36 pm INIZIO PRENOTAZIONE
+Server: www.maremmacinghiale.it - December 30, 2016, 4:54 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 30, 2016, 4:54 pm INIZIO PAGAMENTO
+POST DATA: txn_id =9YE65695TS052184E
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 30, 2016, 4:54 pmPOST DATA: txn_id =9YE65695TS052184E
+POST DATA: txn_type =web_accept
+
+POST DATA: txn_id =9YE65695TS052184E
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 30, 2016, 4:54 pmPOST DATA: txn_id =9YE65695TS052184E
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 30, 2016, 4:54 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.paypal.com:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 815
+Connection: close
+
+
+www.maremmacinghiale.it - December 30, 2016, 4:54 pm
+www.maremmacinghiale.it - December 30, 2016, 4:54 pm
+www.maremmacinghiale.it - December 30, 2016, 4:54 pm
+www.maremmacinghiale.it - December 30, 2016, 4:54 pm
+www.maremmacinghiale.it - December 30, 2016, 4:54 pm
+www.maremmacinghiale.it - December 30, 2016, 4:54 pmipnpb.paypal.com
+www.maremmacinghiale.it - December 30, 2016, 4:54 pm
+www.maremmacinghiale.it - December 30, 2016, 4:54 pm
+www.maremmacinghiale.it - December 30, 2016, 4:54 pmcmd=_notify-validate&transaction_subject=&payment_date=07%3A54%3A46+Dec+30%2C+2016+PST&txn_type=web_accept&last_name=Durante&residence_country=IT&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+di+Stefano&payment_gross=&mc_currency=EUR&business=pagamenti%40maremmacinghiale.it&payment_type=instant&protection_eligibility=Ineligible&verify_sign=AdN3sWBijt-05f2cZxWD3ItyAGQHArTqugkcrtYXn3HxLJTC55j7xpik&payer_status=verified&payer_email=stedurred%40hotmail.com&txn_id=9YE65695TS052184E&quantity=1&receiver_email=pagamenti%40maremmacinghiale.it&first_name=Stefano&payer_id=UJV4FDR2TZSCQ&receiver_id=WXK63TNUFFW8Q&item_number=68&payer_business_name=Maremmacinghiale.it&payment_status=Completed&payment_fee=&mc_fee=0.10&mc_gross=0.10&custom=&charset=windows-1252&notify_version=3.8&ipn_track_id=9ae9b53c1bda4
+www.maremmacinghiale.it - December 30, 2016, 4:54 pmHTTPS
+WHILEFINE
+Server: www.maremmacinghiale.it - December 30, 2016, 5:01 pm INIZIO PRENOTAZIONE
+Server: www.maremmacinghiale.it - December 30, 2016, 5:02 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 30, 2016, 5:03 pm INIZIO PAGAMENTO
+POST DATA: txn_id =4L5657005W534842F
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 30, 2016, 5:03 pmPOST DATA: txn_id =4L5657005W534842F
+POST DATA: txn_type =web_accept
+
+POST DATA: txn_id =4L5657005W534842F
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 30, 2016, 5:03 pmPOST DATA: txn_id =4L5657005W534842F
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 30, 2016, 5:03 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.paypal.com:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 814
+Connection: close
+
+
+www.maremmacinghiale.it - December 30, 2016, 5:03 pm
+www.maremmacinghiale.it - December 30, 2016, 5:03 pm
+www.maremmacinghiale.it - December 30, 2016, 5:03 pm
+www.maremmacinghiale.it - December 30, 2016, 5:03 pm
+www.maremmacinghiale.it - December 30, 2016, 5:03 pm
+www.maremmacinghiale.it - December 30, 2016, 5:03 pmipnpb.paypal.com
+www.maremmacinghiale.it - December 30, 2016, 5:03 pm
+www.maremmacinghiale.it - December 30, 2016, 5:03 pm
+www.maremmacinghiale.it - December 30, 2016, 5:03 pmcmd=_notify-validate&transaction_subject=&payment_date=08%3A02%3A58+Dec+30%2C+2016+PST&txn_type=web_accept&last_name=Durante&residence_country=IT&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+di+Stefano&payment_gross=&mc_currency=EUR&business=pagamenti%40maremmacinghiale.it&payment_type=instant&protection_eligibility=Ineligible&verify_sign=AzFmRN2alSXsVcRQ-bkJDjsW0iFTA43DzkkDfryrPAGyWBOOnoVDx.-.&payer_status=verified&payer_email=stedurred%40hotmail.com&txn_id=4L5657005W534842F&quantity=1&receiver_email=pagamenti%40maremmacinghiale.it&first_name=Stefano&payer_id=UJV4FDR2TZSCQ&receiver_id=WXK63TNUFFW8Q&item_number=69&payer_business_name=Maremmacinghiale.it&payment_status=Completed&payment_fee=&mc_fee=0.02&mc_gross=0.02&custom=&charset=windows-1252&notify_version=3.8&ipn_track_id=94c77c9115ab
+www.maremmacinghiale.it - December 30, 2016, 5:03 pmHTTPS
+WHILEFINE
+Server: www.maremmacinghiale.it - December 30, 2016, 5:11 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 30, 2016, 5:12 pm INIZIO PAGAMENTO
+POST DATA: txn_id =4UY138091P755230N
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 30, 2016, 5:12 pmPOST DATA: txn_id =4UY138091P755230N
+POST DATA: txn_type =web_accept
+
+POST DATA: txn_id =4UY138091P755230N
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 30, 2016, 5:12 pmPOST DATA: txn_id =4UY138091P755230N
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 30, 2016, 5:12 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: ipnpb.paypal.com:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 815
+Connection: close
+
+
+www.maremmacinghiale.it - December 30, 2016, 5:12 pm
+www.maremmacinghiale.it - December 30, 2016, 5:12 pm
+www.maremmacinghiale.it - December 30, 2016, 5:12 pm
+www.maremmacinghiale.it - December 30, 2016, 5:12 pm
+www.maremmacinghiale.it - December 30, 2016, 5:12 pm
+www.maremmacinghiale.it - December 30, 2016, 5:12 pmipnpb.paypal.com
+www.maremmacinghiale.it - December 30, 2016, 5:12 pm
+www.maremmacinghiale.it - December 30, 2016, 5:12 pm
+www.maremmacinghiale.it - December 30, 2016, 5:12 pmcmd=_notify-validate&transaction_subject=&payment_date=08%3A12%3A38+Dec+30%2C+2016+PST&txn_type=web_accept&last_name=Durante&residence_country=IT&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+di+Stefano&payment_gross=&mc_currency=EUR&business=pagamenti%40maremmacinghiale.it&payment_type=instant&protection_eligibility=Ineligible&verify_sign=AnHDRp16zRtu62B-gdTexFGNDtX8AUcL.c1iP9VX1l2a0yCYYSnly4xL&payer_status=verified&payer_email=stedurred%40hotmail.com&txn_id=4UY138091P755230N&quantity=1&receiver_email=pagamenti%40maremmacinghiale.it&first_name=Stefano&payer_id=UJV4FDR2TZSCQ&receiver_id=WXK63TNUFFW8Q&item_number=69&payer_business_name=Maremmacinghiale.it&payment_status=Completed&payment_fee=&mc_fee=0.02&mc_gross=0.02&custom=&charset=windows-1252&notify_version=3.8&ipn_track_id=be1353478a791
+www.maremmacinghiale.it - December 30, 2016, 5:12 pmHTTPS
+WHILEFINE

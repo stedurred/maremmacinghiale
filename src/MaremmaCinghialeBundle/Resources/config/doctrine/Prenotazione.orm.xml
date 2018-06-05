@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="MaremmaCinghialeBundle\Entity\Prenotazione" table="prenotazione">
+    <id name="id" type="integer" column="id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="idUser" type="integer" column="id_user" nullable="true">
+      <options>
+        <option name="unsigned"/>
+        <option name="comment">Id User</option>
+      </options>
+    </field>
+    <field name="dataPrenotazione" type="datetime" column="data_prenotazione" nullable="false">
+      <options>
+        <option name="comment">Data prenotazione</option>
+      </options>
+    </field>
+    <field name="idEvento" type="integer" column="id_evento" nullable="false">
+      <options>
+        <option name="unsigned"/>
+        <option name="comment">Id Evento</option>
+      </options>
+    </field>
+    <field name="stato" type="string" column="stato" length="20" nullable="false">
+      <options>
+        <option name="fixed"/>
+        <option name="comment">Stato prenotazione</option>
+      </options>
+    </field>
+    <field name="customerIp" type="string" column="customer_ip" length="15" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>

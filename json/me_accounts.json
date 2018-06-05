@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "access_token": "EAAM03PcZABZBcBAGXDgfUwViO8INsSElvcIQABHsYJFEZCsSvzZALJ9udJ1zG59xNxBBFAaozZCGASzDNgK4HY9khFnE2Mm2OWjnvauj178tlCQ7fJT6zWDt2piBK5xbuSeKreR1AZBrne3ocSpQPl0CVRx0LSvz4ZD",
+      "category": "Hotel",
+      "category_list": [
+        {
+          "id": "197289820310880",
+          "name": "Home"
+        },
+        {
+          "id": "164243073639257",
+          "name": "Hotel"
+        }
+      ],
+      "name": "B&B a casa mia",
+      "id": "155465901226245",
+      "perms": [
+        "ADMINISTER",
+        "EDIT_PROFILE",
+        "CREATE_CONTENT",
+        "MODERATE_CONTENT",
+        "CREATE_ADS",
+        "BASIC_ADMIN"
+      ]
+    },
+    {
+      "access_token": "EAAM03PcZABZBcBAEawoLIrUYz9oKlWLMjnInnm2TBUbuVaOGzj7Y1Xf4bGtSqjqFTSZBa0GRtjyuUhbV8Cx689Oc6qQyPPTnjr0Y5NZChDTFCWDlRIymSXlhpZCDoJ5JZBZC52cdM8tmHBYkjySeD9CkWUZADZCKbVYMZD",
+      "category": "Cargo & Freight Company",
+      "category_list": [
+        {
+          "id": "152367304818850",
+          "name": "Transportation Service"
+        },
+        {
+          "id": "184395321600410",
+          "name": "Cargo & Freight Company"
+        }
+      ],
+      "name": "Private Jet International",
+      "id": "260308327513516",
+      "perms": [
+        "ADMINISTER",
+        "EDIT_PROFILE",
+        "CREATE_CONTENT",
+        "MODERATE_CONTENT",
+        "CREATE_ADS",
+        "BASIC_ADMIN"
+      ]
+    },
+    {
+      "access_token": "EAAM03PcZABZBcBAJvCNOmvZBwRutrnpImXhZCSUc4gp3c20e2PMuWRv0zPjDxtfcN5Df9P6VCiNqcbVWarF2xCnWBDFDUJTrJcn8pCEdhi5JeV6J3XvGaZCku4ZCNOentxbVekupEF7mPuW7ZCBLHGyDwfaTcXUC665slNaVOwPKwZDZD",
+      "category": "Sports Team",
+      "name": "Maremma Cinghiale",
+      "id": "1019169091455466",
+      "perms": [
+        "ADMINISTER",
+        "EDIT_PROFILE",
+        "CREATE_CONTENT",
+        "MODERATE_CONTENT",
+        "CREATE_ADS",
+        "BASIC_ADMIN"
+      ]
+    },
+    {
+      "access_token": "EAAM03PcZABZBcBAB3yldAan12ZBm3u2q3ZB5q8t1qwTOWmaKpzOzAmbP6WePQAJMjWVHD8I06dzfo5jsZBrO2wZAgr9A3fNqaBwUmwaZBhXIbiZATNIcRekcBG51gs6rrRZBqkNv8ZANpx2znPFnc19vv6zwFhOKkuRo8ZD",
+      "category": "Automotive",
+      "category_list": [
+        {
+          "id": "180410821995109",
+          "name": "Automotive"
+        }
+      ],
+      "name": "APS Racing",
+      "id": "187816054592366",
+      "perms": [
+        "ADMINISTER",
+        "EDIT_PROFILE",
+        "CREATE_CONTENT",
+        "MODERATE_CONTENT",
+        "CREATE_ADS",
+        "BASIC_ADMIN"
+      ]
+    },
+    {
+      "access_token": "EAAM03PcZABZBcBADP91Q7FAJ4mOXTXYXEj5us5gajy9TSZCwVyTU8jW1C10XHrOiKC5Q3bnJRJ4Q7KvlTauO7G3mIA2UBI3fz0DLG0BTgUUcLm6PcKcmzgeoXkDVBLnRYC160NDZCJegPdvtZBWGl4QH4W1lcwl8ZD",
+      "category": "Grocery Store",
+      "category_list": [
+        {
+          "id": "150108431712141",
+          "name": "Grocery Store"
+        },
+        {
+          "id": "200600219953504",
+          "name": "Shopping\/Retail"
+        },
+        {
+          "id": "132778023455109",
+          "name": "Malpractice Lawyer"
+        }
+      ],
+      "name": "Pastaparola",
+      "id": "106127556171478",
+      "perms": [
+        "ADMINISTER",
+        "EDIT_PROFILE",
+        "CREATE_CONTENT",
+        "MODERATE_CONTENT",
+        "CREATE_ADS",
+        "BASIC_ADMIN"
+      ]
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "MTU1NDY1OTAxMjI2MjQ1",
+      "after": "MTA2MTI3NTU2MTcxNDc4"
+    }
+  }
+}

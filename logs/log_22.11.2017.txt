@@ -1,0 +1,266 @@
+22-11-2017 04:52:55#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 04:52:56#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=f6cebe21abb29c11e0ad5ab3d653b79a&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+Server: www.maremmacinghiale.it - November 22, 2017, 5:34 am INIZIO PRENOTAZIONE 
+Server: www.maremmacinghiale.it - November 22, 2017, 5:34 am Customer IP: 164.132.161.87
+22-11-2017 09:15:47#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 09:15:47#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=fa7d813754802ad66965c89710311bb7&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+22-11-2017 09:51:35#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 09:51:35#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=f2284f560b29e36919259376733e07cd&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+22-11-2017 10:10:50#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 10:10:50#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=20f4c3f98d50df274d54148d41382b3b&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+22-11-2017 10:40:56#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 10:40:56#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 10:45:26#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 10:45:26#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 10:46:59#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 10:46:59#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 11:17:48#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 11:17:48#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 11:20:20#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 11:20:20#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 11:21:46#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 11:21:46#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 11:22:14#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 11:22:14#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 11:23:40#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 11:23:40#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 12:42:43#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 12:42:43#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 12:42:43#####____FACEBOOK OBJECT___#####
+22-11-2017 12:42:43#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 13:01:03#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 13:01:03#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 13:15:32#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 13:15:32#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 13:15:32#####____FACEBOOK OBJECT___#####
+22-11-2017 13:15:32#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 13:15:34#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 13:15:34#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 13:15:34#####____FACEBOOK OBJECT___#####
+22-11-2017 13:15:34#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 13:18:37#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 13:18:37#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 13:18:37#####____FACEBOOK OBJECT___#####
+22-11-2017 13:18:37#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 13:20:00#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 13:20:00#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 13:20:00#####____FACEBOOK OBJECT___#####
+22-11-2017 13:20:00#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 13:23:19#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 13:23:19#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 13:31:40#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 13:31:40#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 13:34:07#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 13:34:07#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 13:34:07#####____FACEBOOK OBJECT___#####FbApp
+22-11-2017 13:34:07#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 13:34:45#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 13:34:45#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 13:34:45#####____FACEBOOK OBJECT___#####FbApp
+22-11-2017 13:34:45#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 13:38:36#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 13:38:36#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 13:39:04#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 13:39:04#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 13:41:51#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 13:41:51#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 13:43:30#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 13:43:30#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 13:56:09#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 13:56:09#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:00:06#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:00:06#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:00:08#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:00:08#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:02:35#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:02:35#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:19:36#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:19:36#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:30:32#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:30:32#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:30:32#####____FACEBOOK OBJECT___#####
+22-11-2017 14:30:32#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 14:30:35#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:30:35#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:30:35#####____FACEBOOK OBJECT___#####
+22-11-2017 14:30:35#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 14:33:15#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:33:15#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:33:15#####____FACEBOOK OBJECT___#####
+22-11-2017 14:33:15#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 14:35:11#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:35:11#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:35:14#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:35:14#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:37:00#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:37:00#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:37:17#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:38:21#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:38:21#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:38:21#####____FACEBOOK OBJECT___#####
+22-11-2017 14:38:21#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 14:39:04#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:39:04#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:50:59#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:50:59#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:58:21#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:58:21#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:58:23#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:58:23#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:58:24#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:58:24#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:58:25#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:58:25#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:58:25#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:58:25#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:58:26#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:58:26#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:58:26#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:58:26#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:58:27#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:58:27#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 14:58:27#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 14:58:27#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:06:42#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:06:42#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:07:24#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:07:24#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:07:24#####____FACEBOOK OBJECT___#####PIPPO
+22-11-2017 15:07:24#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:08:15#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:08:15#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:08:15#####____FACEBOOK OBJECT___#####PIPPO
+22-11-2017 15:08:15#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:10:50#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:10:50#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:10:50#####____FACEBOOK OBJECT___#####PIPPO
+22-11-2017 15:10:50#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:10:53#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:10:53#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:10:53#####____FACEBOOK OBJECT___#####PIPPO
+22-11-2017 15:10:53#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:12:06#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:13:18#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:13:59#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:13:59#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:13:59#####____FACEBOOK OBJECT___#####PIPPO
+22-11-2017 15:13:59#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:14:09#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:14:09#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:14:09#####____FACEBOOK OBJECT___#####PIPPO
+22-11-2017 15:14:09#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:15:12#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:15:12#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:15:12#####____FACEBOOK OBJECT___#####
+22-11-2017 15:15:12#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:16:15#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:16:15#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:16:15#####____FACEBOOK OBJECT___#####
+22-11-2017 15:16:15#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:16:31#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:16:31#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:16:31#####____FACEBOOK OBJECT___#####
+22-11-2017 15:16:31#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:18:31#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:18:31#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:18:31#####____FACEBOOK OBJECT___#####PIPPO
+22-11-2017 15:18:31#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:20:38#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:23:34#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:29:00#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:29:00#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:29:00#####____FACEBOOK OBJECT___#####PIPPO
+22-11-2017 15:29:00#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:32:35#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:32:35#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:32:35#####____FACEBOOK OBJECT___#####PIPPO
+22-11-2017 15:32:35#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:33:13#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:33:13#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:34:17#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:34:17#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:34:17#####____FACEBOOK OBJECT___#####PIPPO
+22-11-2017 15:34:17#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:34:38#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:34:38#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:34:38#####____FACEBOOK OBJECT___#####PIPPO
+22-11-2017 15:34:38#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:48:11#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:48:11#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 15:48:11#####____FACEBOOK OBJECT___#####PIPPO
+22-11-2017 15:48:11#####____FACEBOOK OBJECT REQUEST_FINE___#####
+22-11-2017 15:50:21#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:51:08#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:51:59#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:52:39#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:54:40#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 15:55:40#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:02:36#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:04:26#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:05:20#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:05:45#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:05:48#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:06:10#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:06:13#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:06:15#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:06:15#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:06:15#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:06:16#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:06:16#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:10:13#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:10:18#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:11:08#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:11:13#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook senza AccessToken
+22-11-2017 16:11:48#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:12:39#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:12:50#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:12:58#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:13:57#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:14:40#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:15:29#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:16:22#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:17:34#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:18:07#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:18:30#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:18:30#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=62dc11488d42b10ac9f4a0f3ec9fb45d&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+22-11-2017 16:18:51#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+22-11-2017 16:18:51#####____FACEBOOK USER ___#####{"name":"Stefano Durante","id":"10205234522253187","email":"stedurred@gmail.com","first_name":"Stefano","last_name":"Durante","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/20841881_10209003985687417_1597909213213191023_n.jpg?oh=48068c65b0fa3668950325f71809881c&oe=5A94E820","width":50},"cover":{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}}
+22-11-2017 16:18:51#####____FACEBOOK USER COVER___#####{"id":"10209003995487662","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/20934027_10209003995487662_8337022187245064413_o.jpg?oh=f497d5ff35c3c782129d675c1a3676d9&oe=5A92FA56"}
+22-11-2017 16:18:51#####____FACEBOOK USER INSERISCO IN SESSION[] I DATI UTENTE#####
+22-11-2017 16:18:53#####____FACEBOOK USER REQUEST_INIZIO___#####
+22-11-2017 16:18:53#####____FACEBOOK USER PAGES___#####[{"id":"1019169091455466","name":"MaremmaCinghiale"},{"id":"106127556171478","name":"Pastaparola"},{"id":"140678523224092","name":"Squadra+di+Caccia+Madonnina+e+Cacciatore"},{"id":"118083545528752","name":"Il+re+delle+Quaglie"},{"id":"155465901226245","name":"B%26B+a+casa+mia"},{"id":"187816054592366","name":"APS+Racing"},{"id":"260308327513516","name":"Private+Jet+International"}]
+22-11-2017 16:18:53#####____FACEBOOK USER REQUEST_FINE___#####
+22-11-2017 16:18:53#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"1019169091455466","name":"MaremmaCinghiale"},{"id":"106127556171478","name":"Pastaparola"},{"id":"140678523224092","name":"Squadra+di+Caccia+Madonnina+e+Cacciatore"},{"id":"118083545528752","name":"Il+re+delle+Quaglie"},{"id":"155465901226245","name":"B%26B+a+casa+mia"},{"id":"187816054592366","name":"APS+Racing"},{"id":"260308327513516","name":"Private+Jet+International"}]
+22-11-2017 16:18:53#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook
+22-11-2017 16:18:53#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook sqlControlloUtente:
+SELECT  users.*                                    FROM users                                                                       WHERE users.email='stedurred@gmail.com' or users.fb_user_email='stedurred@gmail.com'
+22-11-2017 16:18:53#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook : Utente Facebook esistente Inserisco in SESSION
+22-11-2017 16:18:53#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='169'
+22-11-2017 16:20:14#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:20:14#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=cf93a8bd68c6804cc42983007c3b4d18&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+22-11-2017 16:20:21#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:20:21#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=cf93a8bd68c6804cc42983007c3b4d18&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+22-11-2017 16:21:08#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:21:42#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:22:01#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:22:01#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=cf93a8bd68c6804cc42983007c3b4d18&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+22-11-2017 16:22:29#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:22:57#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:23:20#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:23:43#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:23:43#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=cf93a8bd68c6804cc42983007c3b4d18&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+22-11-2017 16:27:00#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:27:00#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=cf93a8bd68c6804cc42983007c3b4d18&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+22-11-2017 16:27:38#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:28:15#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:28:52#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:28:52#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 16:28:55#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:28:55#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 16:31:42#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:31:42#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 16:34:02#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:34:02#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+22-11-2017 16:34:05#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+22-11-2017 16:34:05#####____FACEBOOK OBJECT REQUEST_INIZIO___#####

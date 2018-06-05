@@ -1,0 +1,12 @@
+<?php
+session_start();
+
+if(isset($_GET['inserisci']))
+{
+ header("Location: register.php");
+}
+if(isset($_GET['modifica']))
+{
+ header("Location: register.php");
+}
+?>

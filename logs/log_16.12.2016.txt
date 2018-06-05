@@ -1,0 +1,240 @@
+Server: www.maremmacinghiale.it - December 16, 2016, 12:55 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 16, 2016, 12:57 pm INIZIO PAGAMENTO
+POST DATA: txn_id =7UW86285J4750561E
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 16, 2016, 12:57 pmPOST DATA: txn_id =7UW86285J4750561E
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 16, 2016, 12:57 pmcmd=_notify-validate&mc_gross=2.00&protection_eligibility=Ineligible&payer_id=JWZS9YK4G4DR8&tax=0.00&payment_date=03%3A57%3A32+Dec+16%2C+2016+PST&payment_status=Completed&charset=windows-1252&first_name=test&mc_fee=0.42&notify_version=3.8&custom=&payer_status=verified&business=pagamenti-facilitator%40maremmacinghiale.it&quantity=1&verify_sign=AyPYlQ8Oa6oGsLhFw3LOipLJYfWnAoqE-icY45n4LEbNmEGqG0So2nNp&payer_email=pagamenti-buyer%40maremmacinghiale.it&txn_id=7UW86285J4750561E&payment_type=instant&last_name=buyer&receiver_email=pagamenti-facilitator%40maremmacinghiale.it&payment_fee=&receiver_id=78SBCHTJZ6U3W&txn_type=web_accept&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+verre+bianco&mc_currency=EUR&item_number=67&residence_country=IT&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=23c2c266c2a33
+cmd=_notify-validate:
+www.maremmacinghiale.it - December 16, 2016, 12:57 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - December 16, 2016, 12:57 pm67
+www.maremmacinghiale.it - December 16, 2016, 12:57 pmCompleted
+www.maremmacinghiale.it - December 16, 2016, 12:57 pm2.00
+www.maremmacinghiale.it - December 16, 2016, 12:57 pmEUR
+www.maremmacinghiale.it - December 16, 2016, 12:57 pm7UW86285J4750561E
+www.maremmacinghiale.it - December 16, 2016, 12:57 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - December 16, 2016, 12:57 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - December 16, 2016, 12:57 pm
+www.maremmacinghiale.it - December 16, 2016, 12:57 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: https://www.sandbox.paypal.com/cgi-bin/webscr:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 865
+Connection: close
+
+
+www.maremmacinghiale.it - December 16, 2016, 12:57 pmhttps
+www.maremmacinghiale.it - December 16, 2016, 12:57 pmwww.sandbox.paypal.com
+www.maremmacinghiale.it - December 16, 2016, 12:57 pm
+www.maremmacinghiale.it - December 16, 2016, 12:57 pm
+www.maremmacinghiale.it - December 16, 2016, 12:57 pm
+www.maremmacinghiale.it - December 16, 2016, 12:57 pm/cgi-bin/webscr
+www.maremmacinghiale.it - December 16, 2016, 12:57 pm
+www.maremmacinghiale.it - December 16, 2016, 12:57 pm
+Server: www.maremmacinghiale.it - December 16, 2016, 2:19 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm INIZIO PAGAMENTO
+POST DATA: txn_id =3XY38598NA4575731
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmPOST DATA: txn_id =3XY38598NA4575731
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmcmd=_notify-validate&mc_gross=2.00&protection_eligibility=Ineligible&payer_id=JWZS9YK4G4DR8&tax=0.00&payment_date=05%3A20%3A34+Dec+16%2C+2016+PST&payment_status=Completed&charset=windows-1252&first_name=test&mc_fee=0.42&notify_version=3.8&custom=&payer_status=verified&business=pagamenti-facilitator%40maremmacinghiale.it&quantity=1&verify_sign=Az-7lYaCY5RXQ2BJcd7C3M0cHeqTAX9N3dGIZNx.I6upxcOD1O4E45nd&payer_email=pagamenti-buyer%40maremmacinghiale.it&txn_id=3XY38598NA4575731&payment_type=instant&last_name=buyer&receiver_email=pagamenti-facilitator%40maremmacinghiale.it&payment_fee=&receiver_id=78SBCHTJZ6U3W&txn_type=web_accept&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+verre+bianco&mc_currency=EUR&item_number=67&residence_country=IT&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=a6c4181f8f977
+cmd=_notify-validate:
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm67
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmCompleted
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm2.00
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmEUR
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm3XY38598NA4575731
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: https://www.sandbox.paypal.com/cgi-bin/webscr:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 865
+Connection: close
+
+
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmhttps
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmwww.sandbox.paypal.com
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm/cgi-bin/webscr
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmcmd=_notify-validate&mc_gross=2.00&protection_eligibility=Ineligible&payer_id=JWZS9YK4G4DR8&tax=0.00&payment_date=05%3A20%3A34+Dec+16%2C+2016+PST&payment_status=Completed&charset=windows-1252&first_name=test&mc_fee=0.42&notify_version=3.8&custom=&payer_status=verified&business=pagamenti-facilitator%40maremmacinghiale.it&quantity=1&verify_sign=Az-7lYaCY5RXQ2BJcd7C3M0cHeqTAX9N3dGIZNx.I6upxcOD1O4E45nd&payer_email=pagamenti-buyer%40maremmacinghiale.it&txn_id=3XY38598NA4575731&payment_type=instant&last_name=buyer&receiver_email=pagamenti-facilitator%40maremmacinghiale.it&payment_fee=&receiver_id=78SBCHTJZ6U3W&txn_type=web_accept&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+verre+bianco&mc_currency=EUR&item_number=67&residence_country=IT&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=a6c4181f8f977
+cmd=_notify-validate:
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm67
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmCompleted
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm2.00
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmEUR
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm3XY38598NA4575731
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: https://www.sandbox.paypal.com/cgi-bin/webscr:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 865
+Connection: close
+
+
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmhttps
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmwww.sandbox.paypal.com
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm/cgi-bin/webscr
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm
+www.maremmacinghiale.it - December 16, 2016, 2:20 pm
+www.maremmacinghiale.it - December 16, 2016, 2:20 pmError:Resource id #40
+Server: www.maremmacinghiale.it - December 16, 2016, 2:24 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 16, 2016, 2:25 pm INIZIO PAGAMENTO
+POST DATA: txn_id =7HP52093X5497720B
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 16, 2016, 2:25 pmPOST DATA: txn_id =7HP52093X5497720B
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 16, 2016, 2:25 pmcmd=_notify-validate&transaction_subject=&payment_date=05%3A25%3A10+Dec+16%2C+2016+PST&txn_type=web_accept&last_name=buyer&residence_country=IT&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+verre+bianco&payment_gross=&mc_currency=EUR&business=pagamenti-facilitator%40maremmacinghiale.it&payment_type=instant&protection_eligibility=Ineligible&verify_sign=A--8MSCLabuvN8L.-MHjxC9uypBtAxAG1YH88q8.g5Lae2HamElOCcuR&payer_status=verified&test_ipn=1&payer_email=pagamenti-buyer%40maremmacinghiale.it&txn_id=7HP52093X5497720B&quantity=1&receiver_email=pagamenti-facilitator%40maremmacinghiale.it&first_name=test&payer_id=JWZS9YK4G4DR8&receiver_id=78SBCHTJZ6U3W&item_number=67&payment_status=Completed&payment_fee=&mc_fee=0.42&mc_gross=2.00&custom=&charset=windows-1252&notify_version=3.8&ipn_track_id=21b06877c5cd9
+cmd=_notify-validate:
+www.maremmacinghiale.it - December 16, 2016, 2:25 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - December 16, 2016, 2:25 pm67
+www.maremmacinghiale.it - December 16, 2016, 2:25 pmCompleted
+www.maremmacinghiale.it - December 16, 2016, 2:25 pm2.00
+www.maremmacinghiale.it - December 16, 2016, 2:25 pmEUR
+www.maremmacinghiale.it - December 16, 2016, 2:25 pm7HP52093X5497720B
+www.maremmacinghiale.it - December 16, 2016, 2:25 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - December 16, 2016, 2:25 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - December 16, 2016, 2:25 pm
+www.maremmacinghiale.it - December 16, 2016, 2:25 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: https://www.sandbox.paypal.com/cgi-bin/webscr:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 821
+Connection: close
+
+
+www.maremmacinghiale.it - December 16, 2016, 2:25 pmhttps
+www.maremmacinghiale.it - December 16, 2016, 2:25 pmwww.sandbox.paypal.com
+www.maremmacinghiale.it - December 16, 2016, 2:25 pm
+www.maremmacinghiale.it - December 16, 2016, 2:25 pm
+www.maremmacinghiale.it - December 16, 2016, 2:25 pm
+www.maremmacinghiale.it - December 16, 2016, 2:25 pm/cgi-bin/webscr
+www.maremmacinghiale.it - December 16, 2016, 2:25 pm
+www.maremmacinghiale.it - December 16, 2016, 2:25 pm
+www.maremmacinghiale.it - December 16, 2016, 2:25 pmError:Resource id #40
+Server: www.maremmacinghiale.it - December 16, 2016, 2:28 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 16, 2016, 2:29 pm INIZIO PAGAMENTO
+POST DATA: txn_id =13508450GL5924426
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 16, 2016, 2:29 pmPOST DATA: txn_id =13508450GL5924426
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 16, 2016, 2:29 pmcmd=_notify-validate&mc_gross=2.00&protection_eligibility=Ineligible&payer_id=JWZS9YK4G4DR8&tax=0.00&payment_date=05%3A29%3A13+Dec+16%2C+2016+PST&payment_status=Completed&charset=windows-1252&first_name=test&mc_fee=0.42&notify_version=3.8&custom=&payer_status=verified&business=pagamenti-facilitator%40maremmacinghiale.it&quantity=1&verify_sign=ApZwcZsoP.0EhLY44k88Z0WcxxqnAPl2IwEs9CZm11AYFS3etrk-h3ae&payer_email=pagamenti-buyer%40maremmacinghiale.it&txn_id=13508450GL5924426&payment_type=instant&last_name=buyer&receiver_email=pagamenti-facilitator%40maremmacinghiale.it&payment_fee=&receiver_id=78SBCHTJZ6U3W&txn_type=web_accept&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+verre+bianco&mc_currency=EUR&item_number=67&residence_country=IT&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=6247883ccf166
+cmd=_notify-validate:
+www.maremmacinghiale.it - December 16, 2016, 2:29 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - December 16, 2016, 2:29 pm67
+www.maremmacinghiale.it - December 16, 2016, 2:29 pmCompleted
+www.maremmacinghiale.it - December 16, 2016, 2:29 pm2.00
+www.maremmacinghiale.it - December 16, 2016, 2:29 pmEUR
+www.maremmacinghiale.it - December 16, 2016, 2:29 pm13508450GL5924426
+www.maremmacinghiale.it - December 16, 2016, 2:29 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - December 16, 2016, 2:29 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - December 16, 2016, 2:29 pm
+www.maremmacinghiale.it - December 16, 2016, 2:29 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: https://www.sandbox.paypal.com/cgi-bin/webscr:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 865
+Connection: close
+
+
+www.maremmacinghiale.it - December 16, 2016, 2:29 pmhttps
+www.maremmacinghiale.it - December 16, 2016, 2:29 pmwww.sandbox.paypal.com
+www.maremmacinghiale.it - December 16, 2016, 2:29 pm
+www.maremmacinghiale.it - December 16, 2016, 2:29 pm
+www.maremmacinghiale.it - December 16, 2016, 2:29 pm
+www.maremmacinghiale.it - December 16, 2016, 2:29 pm/cgi-bin/webscr
+www.maremmacinghiale.it - December 16, 2016, 2:29 pm
+www.maremmacinghiale.it - December 16, 2016, 2:29 pm
+www.maremmacinghiale.it - December 16, 2016, 2:29 pmError:Resource id #40
+Server: www.maremmacinghiale.it - December 16, 2016, 2:46 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 16, 2016, 2:47 pm INIZIO PAGAMENTO
+POST DATA: txn_id =90R26160WJ258674E
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 16, 2016, 2:47 pmPOST DATA: txn_id =90R26160WJ258674E
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 16, 2016, 2:47 pmcmd=_notify-validate&mc_gross=2.00&protection_eligibility=Ineligible&payer_id=JWZS9YK4G4DR8&tax=0.00&payment_date=05%3A47%3A13+Dec+16%2C+2016+PST&payment_status=Completed&charset=windows-1252&first_name=test&mc_fee=0.42&notify_version=3.8&custom=&payer_status=verified&business=pagamenti-facilitator%40maremmacinghiale.it&quantity=1&verify_sign=A7HJF8RSStXOqP9cU9tXztOpHA5-AQ5HYrDBsGZppjqALkpS1uL1KdSb&payer_email=pagamenti-buyer%40maremmacinghiale.it&txn_id=90R26160WJ258674E&payment_type=instant&last_name=buyer&receiver_email=pagamenti-facilitator%40maremmacinghiale.it&payment_fee=&receiver_id=78SBCHTJZ6U3W&txn_type=web_accept&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+verre+bianco&mc_currency=EUR&item_number=67&residence_country=IT&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b402f6775f59b
+cmd=_notify-validate:
+www.maremmacinghiale.it - December 16, 2016, 2:47 pmPrenotazioneEvento_Evento di caccia della squadra verre bianco
+www.maremmacinghiale.it - December 16, 2016, 2:47 pm67
+www.maremmacinghiale.it - December 16, 2016, 2:47 pmCompleted
+www.maremmacinghiale.it - December 16, 2016, 2:47 pm2.00
+www.maremmacinghiale.it - December 16, 2016, 2:47 pmEUR
+www.maremmacinghiale.it - December 16, 2016, 2:47 pm90R26160WJ258674E
+www.maremmacinghiale.it - December 16, 2016, 2:47 pmpagamenti-facilitator@maremmacinghiale.it
+www.maremmacinghiale.it - December 16, 2016, 2:47 pmpagamenti-buyer@maremmacinghiale.it
+www.maremmacinghiale.it - December 16, 2016, 2:47 pm
+www.maremmacinghiale.it - December 16, 2016, 2:47 pmPOST /cgi-bin/webscr HTTP/1.1
+Host: https://www.sandbox.paypal.com/cgi-bin/webscr:443
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 865
+Connection: close
+
+
+www.maremmacinghiale.it - December 16, 2016, 2:47 pmhttps
+www.maremmacinghiale.it - December 16, 2016, 2:47 pmwww.sandbox.paypal.com
+www.maremmacinghiale.it - December 16, 2016, 2:47 pm
+www.maremmacinghiale.it - December 16, 2016, 2:47 pm
+www.maremmacinghiale.it - December 16, 2016, 2:47 pm
+www.maremmacinghiale.it - December 16, 2016, 2:47 pm/cgi-bin/webscr
+www.maremmacinghiale.it - December 16, 2016, 2:47 pm
+www.maremmacinghiale.it - December 16, 2016, 2:47 pm
+www.maremmacinghiale.it - December 16, 2016, 2:47 pmError:Resource id #40
+Server: www.maremmacinghiale.it - December 16, 2016, 2:57 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 16, 2016, 2:58 pm INIZIO PAGAMENTO
+POST DATA: txn_id =9AW59424LF4623529
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 16, 2016, 2:58 pmPOST DATA: txn_id =9AW59424LF4623529
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 16, 2016, 2:58 pmError:Resource id #40
+Server: www.maremmacinghiale.it - December 16, 2016, 3:06 pm INIZIO PRENOTAZIONE
+Server: www.maremmacinghiale.it - December 16, 2016, 3:48 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 16, 2016, 3:49 pm INIZIO PAGAMENTO
+POST DATA: txn_id =6SS96287PU268372F
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 16, 2016, 3:49 pmPOST DATA: txn_id =6SS96287PU268372F
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 16, 2016, 3:49 pmcmd=_notify-validate&mc_gross=2.00&protection_eligibility=Ineligible&payer_id=JWZS9YK4G4DR8&tax=0.00&payment_date=06%3A49%3A13+Dec+16%2C+2016+PST&payment_status=Completed&charset=windows-1252&first_name=test&mc_fee=0.42&notify_version=3.8&custom=&payer_status=verified&business=pagamenti-facilitator%40maremmacinghiale.it&quantity=1&verify_sign=AoIlwP.cbXyRSnpgjFfIYtfb677IA1UTj6TSTnHwrlfMZ-YVJXDK8Ftm&payer_email=pagamenti-buyer%40maremmacinghiale.it&txn_id=6SS96287PU268372F&payment_type=instant&last_name=buyer&receiver_email=pagamenti-facilitator%40maremmacinghiale.it&payment_fee=&receiver_id=78SBCHTJZ6U3W&txn_type=web_accept&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+verre+bianco&mc_currency=EUR&item_number=67&residence_country=IT&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=4626b4052de8f
+www.maremmacinghiale.it - December 16, 2016, 3:49 pmError:Resource id #41
+www.maremmacinghiale.it - December 16, 2016, 4:46 pm INIZIO PAGAMENTO
+POST DATA: txn_id =05K980698G101152Y
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 16, 2016, 4:46 pmPOST DATA: txn_id =05K980698G101152Y
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 16, 2016, 4:46 pmcmd=_notify-validate&mc_gross=2.00&protection_eligibility=Ineligible&payer_id=JWZS9YK4G4DR8&tax=0.00&payment_date=07%3A46%3A33+Dec+16%2C+2016+PST&payment_status=Completed&charset=windows-1252&first_name=test&mc_fee=0.42&notify_version=3.8&custom=&payer_status=verified&business=pagamenti-facilitator%40maremmacinghiale.it&quantity=1&verify_sign=AB63pz3qIrLOaZiQqVB04NGoucJcA4fsFuR7WRn6Pi2K6vPxAls-LER2&payer_email=pagamenti-buyer%40maremmacinghiale.it&txn_id=05K980698G101152Y&payment_type=instant&last_name=buyer&receiver_email=pagamenti-facilitator%40maremmacinghiale.it&payment_fee=&receiver_id=78SBCHTJZ6U3W&txn_type=web_accept&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+verre+bianco&mc_currency=EUR&item_number=67&residence_country=IT&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=4b1e902e36bf8
+www.maremmacinghiale.it - December 16, 2016, 4:46 pmError:
+Server: www.maremmacinghiale.it - December 16, 2016, 4:50 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 16, 2016, 4:52 pm INIZIO PAGAMENTO
+POST DATA: txn_id =39674087YC8615214
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 16, 2016, 4:52 pmPOST DATA: txn_id =39674087YC8615214
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 16, 2016, 4:52 pmcmd=_notify-validate&mc_gross=2.00&protection_eligibility=Ineligible&payer_id=JWZS9YK4G4DR8&tax=0.00&payment_date=07%3A52%3A00+Dec+16%2C+2016+PST&payment_status=Completed&charset=windows-1252&first_name=test&mc_fee=0.42&notify_version=3.8&custom=&payer_status=verified&business=pagamenti-facilitator%40maremmacinghiale.it&quantity=1&verify_sign=AwMRUaewWLMpARtEP3hNyRl6jiUvATP-m1XYst-LhFfemdZWjRNWBAKz&payer_email=pagamenti-buyer%40maremmacinghiale.it&txn_id=39674087YC8615214&payment_type=instant&last_name=buyer&receiver_email=pagamenti-facilitator%40maremmacinghiale.it&payment_fee=&receiver_id=78SBCHTJZ6U3W&txn_type=web_accept&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+verre+bianco&mc_currency=EUR&item_number=67&residence_country=IT&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b9f3ce1f438d9
+www.maremmacinghiale.it - December 16, 2016, 4:52 pmError response:
+Server: www.maremmacinghiale.it - December 16, 2016, 4:57 pm INIZIO PRENOTAZIONE
+Server: www.maremmacinghiale.it - December 16, 2016, 5:33 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - December 16, 2016, 5:33 pm INIZIO PAGAMENTO
+POST DATA: txn_id =3FB55259KN385874D
+POST DATA: txn_type =web_accept
+www.maremmacinghiale.it - December 16, 2016, 5:33 pmPOST DATA: txn_id =3FB55259KN385874D
+POST DATA: txn_type =web_accept
+
+www.maremmacinghiale.it - December 16, 2016, 5:33 pmcmd=_notify-validate&mc_gross=2.00&protection_eligibility=Ineligible&payer_id=JWZS9YK4G4DR8&tax=0.00&payment_date=08%3A33%3A50+Dec+16%2C+2016+PST&payment_status=Completed&charset=windows-1252&first_name=test&mc_fee=0.42&notify_version=3.8&custom=&payer_status=verified&business=pagamenti-facilitator%40maremmacinghiale.it&quantity=1&verify_sign=AQGmldskndJM-hb8IFX3tOln3fbsA9CbaOsvwiosmkl2VbPbw-Vbk7nO&payer_email=pagamenti-buyer%40maremmacinghiale.it&txn_id=3FB55259KN385874D&payment_type=instant&last_name=buyer&receiver_email=pagamenti-facilitator%40maremmacinghiale.it&payment_fee=&receiver_id=78SBCHTJZ6U3W&txn_type=web_accept&item_name=PrenotazioneEvento_Evento+di+caccia+della+squadra+verre+bianco&mc_currency=EUR&item_number=67&residence_country=IT&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=a1f66936ba3dd
+www.maremmacinghiale.it - December 16, 2016, 5:33 pmError response:

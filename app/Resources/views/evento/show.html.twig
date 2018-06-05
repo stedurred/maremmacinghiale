@@ -1,0 +1,68 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Evento</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Titolo</th>
+                <td>{{ evento.titolo }}</td>
+            </tr>
+            <tr>
+                <th>Dataevento</th>
+                <td>{% if evento.dataEvento %}{{ evento.dataEvento|date('Y-m-d H:i:s') }}{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Importo</th>
+                <td>{{ evento.importo }}</td>
+            </tr>
+            <tr>
+                <th>Idsquadra</th>
+                <td>{{ evento.idSquadra }}</td>
+            </tr>
+            <tr>
+                <th>Descrizione</th>
+                <td>{{ evento.descrizione }}</td>
+            </tr>
+            <tr>
+                <th>Urlfoto</th>
+                <td>{{ evento.urlFoto }}</td>
+            </tr>
+            <tr>
+                <th>Ristoroevento</th>
+                <td>{% if evento.ristoroEvento %}Yes{% else %}No{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Totusersevento</th>
+                <td>{{ evento.totUsersEvento }}</td>
+            </tr>
+            <tr>
+                <th>Maxusersevento</th>
+                <td>{{ evento.maxUsersEvento }}</td>
+            </tr>
+            <tr>
+                <th>Catturecinghiali</th>
+                <td>{{ evento.cattureCinghiali }}</td>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <td>{{ evento.id }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('evento_index') }}">Back to the list</a>
+        </li>
+        <li>
+            <a href="{{ path('evento_edit', { 'id': evento.id }) }}">Edit</a>
+        </li>
+        <li>
+            {{ form_start(delete_form) }}
+                <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+        </li>
+    </ul>
+{% endblock %}

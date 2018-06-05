@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="MaremmaCinghialeBundle\Entity\Evento" table="evento">
+    <unique-constraints>
+      <unique-constraint name="squadra" columns="id,id_squadra"/>
+    </unique-constraints>
+    <id name="id" type="integer" column="id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="titolo" type="string" column="titolo" length="150" nullable="false">
+      <options>
+        <option name="fixed"/>
+        <option name="comment">Titolo dell'evento</option>
+      </options>
+    </field>
+    <field name="dataEvento" type="datetime" column="data_evento" nullable="false">
+      <options>
+        <option name="comment">Data Evento</option>
+      </options>
+    </field>
+    <field name="importo" type="float" column="importo" precision="10" scale="0" nullable="false">
+      <options>
+        <option name="comment">Costo evento</option>
+      </options>
+    </field>
+    <field name="idSquadra" type="integer" column="id_squadra" nullable="false">
+      <options>
+        <option name="unsigned"/>
+        <option name="comment">Squadra che ha inserito l'evento</option>
+      </options>
+    </field>
+    <field name="descrizione" type="string" column="descrizione" length="500" nullable="true">
+      <options>
+        <option name="fixed"/>
+        <option name="comment">Descrizione dell'evento</option>
+      </options>
+    </field>
+    <field name="urlFoto" type="string" column="url_foto" length="150" nullable="true">
+      <options>
+        <option name="fixed"/>
+        <option name="comment">Immagine evento</option>
+      </options>
+    </field>
+    <field name="ristoroEvento" type="boolean" column="ristoro_evento" nullable="true"/>
+    <field name="totUsersEvento" type="integer" column="tot_users_evento" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="maxUsersEvento" type="integer" column="max_users_evento" nullable="false">
+      <options>
+        <option name="unsigned"/>
+        <option name="default">99</option>
+      </options>
+    </field>
+    <field name="cattureCinghiali" type="integer" column="catture_cinghiali" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>

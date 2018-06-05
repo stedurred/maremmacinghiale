@@ -1,0 +1,275 @@
+<?php
+session_start();
+include_once 'php\dbconnect.php';
+ $timezone = date_default_timezone_get();
+ echo "The current server timezone is: " . $timezone;
+ date_default_timezone_set($timezone);
+ setlocale(LC_ALL,"it_IT");
+if(!isset($_SESSION['user']))
+{
+ header("Location: index.php");
+}
+
+$sql="SELECT users.id, 
+			users.username, 
+			users.trn_date, 
+			users.url_foto, 
+			atc.sigla_atc, 
+			atc.nome_atc,
+			squadra.nome as nome_squadra, 
+			squadra.url_foto as foto_squadra, 
+			squadra.numero as numero_squadra,
+			cane.nome as nome_cane,
+			cane.url_foto as foto_cane
+		FROM `users`
+		LEFT JOIN atc ON users.id_atc = atc.id 
+		LEFT JOIN squadra ON users.id_squadra = squadra.id 
+		LEFT JOIN cane ON cane.id_user = users.id 
+		WHERE users.id='".$_SESSION['user_id']."'";
+
+$result = mysqli_query($connection,$sql);
+if (!$result) {
+    printf("Error: %s\n", mysqli_error($connection));
+    exit();
+}
+$userRow=mysqli_fetch_array($result);
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Maremma Cinghiale - Caccia al cinghiale nella Maremma Toscana</title>
+        <meta name="keywords" content="Maremma Cinghiale Caccia Toscana" />
+        <meta name="description" content="Maremma Cinghiale - Caccia al cinghiale nella Maremma Toscana � un sito dove si posso trovare le varie squadre di caccia al cinghiale della maremma toscana" />
+        <link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+		<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="js/cufon-yui.js"></script>
+		
+      <script type="text/javascript" src="js/28_Days_Later_400.font.js"></script>
+      <script type="text/javascript">
+        Cufon.replace("H1");
+      	Cufon.replace("H2");
+      	Cufon.replace("H3");
+      	Cufon.replace("#top_padding a");
+      	Cufon.replace("#menu a");
+      </script>
+	
+
+      <link rel='Icon MaremmaCinghiale' href='favicon.ico' type='image/x-icon' />
+    </head>
+    <body>
+            <!-- Codice Accettazione Cookie-->
+				<script type="text/javascript" src="js/cookiechoices.js"></script>
+				<!--consenso all'uso dei cookie-->
+				<script>
+				document.addEventListener('DOMContentLoaded', function (event) {
+						cookieChoices.showCookieConsentBar('Questo sito fa uso di cookies. Continuando la navigazione se ne autorizza l\'uso.', 'OK', 'Più info', 'http://www.maremmacinghiale.it/privacy.html');
+				});
+				</script>
+    	<div id="wrap">
+    		<div id="content_top"></div>				
+			<div id="content_bg_repeat">
+				<div id="top_padding">
+						<a href="#">MAREMMA CINGHIALE</a>
+						<h3><a href="">Caccia al cinghiale nella Maremma Toscana</a></h3>
+				</div>
+				
+				<div id="menu">
+					<ul>
+						<li><a href="index.php" class="active">Home</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="contact_us.php">Contattaci</a></li>
+					</ul>
+				</div>
+				<div id="wrapper">
+						<div id="slider-wrapper">        
+							<div id="slider" class="nivoSlider">
+								<img src="images/header1.jpg" alt="" />
+								<img src="images/header2.jpg" alt=""/>
+								<img src="images/header3.jpg" alt="" />
+								<img src="images/header4.jpg" alt="" />
+								<img src="images/header5.jpg" alt="" />
+								<img src="images/header6.jpg" alt=""/>
+								<img src="images/header7.jpg" alt="" />
+								<img src="images/header8.jpg" alt="" />
+								<img src="images/header9.jpg" alt="" />
+							</div>        
+						</div>
+				
+				</div>
+					
+				<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+					<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+					<script type="text/javascript">
+					$(window).load(function() {
+						$('#slider').nivoSlider(
+							{
+								effect:'fade'
+							});
+					});
+					</script>
+					
+		<div id="content">
+			<div class="col1">
+				<h2><?php echo $userRow['username']?></h2>
+				<div class="wrapper pad_bot2">
+					<div class="left marg_right1" style="max-width:160px;">
+						<?php echo '<img src="'.$userRow['url_foto'].'" >'?> &nbsp;<br/>
+						<?php echo '<input type="hidden" value="'.$userRow['id'].'"'?> &nbsp;<br/>
+					</div>
+					<?php 
+					if($_SESSION['user']=='stedurred')
+					{
+					  echo '<a href="admin_squadra.php?inserisci">Modifica Squadra</a><br/>';
+					  echo '<a href="admin_user.php?inserisci">Modifica Utente</a><br/>';
+					  echo '<a href="admin_evento.php?inserisci">Modifica Evento</a>';
+					  
+					}?> &nbsp;<br/>
+					
+					<a href="logout.php?logout">Sign Out</a>
+					<p class="pad_bot1 pad_top1"><span class="color1">Registrato il<?php echo date_format(date_create($userRow['trn_date']),"d/m/Y");?></span></p>
+					<p class="pad_bot1 pad_top1"><span class="color1">Residenza Venatoria</span><?php echo $userRow['nome_atc']?></span></p>
+					<div class="left marg_right1" style="max-width:160px;">
+						<p class="pad_bot1 pad_top1"><span class="color1">Squadra  </span><?php echo $userRow['nome_squadra']?></p>
+						<?php echo '<img src="'.$userRow['foto_squadra'].'" >'?> &nbsp;<br/>
+					</div>
+						<p class="pad_bot1 pad_top1"> <?php ($userRow['capocaccia'] !==null) ? print 'Capocaccia': print '' ?></p>
+						<p class="pad_bot1 pad_top1"> <?php ($userRow['canaio'] !==null) ?  print 'Canaio' : print ''?></p>
+				</div>
+				<div class="wrapper pad_bot2">
+					<div class="left marg_right1" style="max-width:160px;">
+						<a href="admin_user.php?modifica" ><?php echo '<img src="'.$userRow['url_foto'].'" alt="Immagine del profilo">'?> &nbsp;</a>
+						<p><span class="color1">Nome: <?php echo $userRow['nome_cane']?> &nbsp;</p>
+						<p><span class="color1"><?php echo '<img src="'.$userRow['foto_cane'].'" >'?> &nbsp;</p>
+					</div>
+					<p class="pad_bot1 pad_top1"><span class="color1">Registrato il&nbsp;</span><?php echo date_format(date_create($userRow['trn_date']),"d/m/Y");?></p>
+					<p><span class="color1">Residenza Venatoria </span><?php echo $userRow['nome_atc']?>&nbsp;</p>
+					
+					<p><span class="color1"><a href="admin_user.php?modifica">Modifica Profilo</a>&nbsp;</p>
+					<p><a href="logout.php?logout">Sign Out</a>&nbsp;</p>
+				</div>
+				<div class="wrapper">
+					<div class="left marg_right1" style="max-width:160px;"><a href="admin_squadra.php?inserisci"><?php echo '<img src="'.$userRow['foto_squadra'].'" >'?></a></div>
+					<p class="pad_bot1 pad_top1"><span class="color1">Squadra al cinghiale</span></p>
+					<p><span class="color1">Nome: </span><?php echo $userRow['nome_squadra']?></p>
+					<p><span class="color1">Numero: </span><?php echo $userRow['numero_squadra']?></p>
+				</div>
+       		</div>
+			<div class="col2">
+				<h2 class="pad_bot1">Iscriviti a MaremmaCinghiale  GRATIS!</h2>
+				<p class="pad_bot1 color1 pad_top1">Per iscriversi alla lista di cacciatori e simpatizzanti del sito maremmacinghiale.it basta cliccare sul bottone "ISCRIZIONE"</p>
+				<p class="pad_bot3">Questo servizio unisce tutti i cacciatori delle varie squadre di caccia al cinghiale</p>
+				<div class="wrapper"><a href="mailto:cacciatori-subscribe@maremmacinghiale.it" class="button right">Iscrizione gratuita</a></div>
+				<h2 class="pad_bot1 pad_top1">Guida alla sottoscrizione</h2>
+				<div class="wrapper">
+					<div class="left marg_right1"><img src="images/boar.jpg" alt="" /></div>
+					<p class="pad_top1 pad_bot1 color1">Una volta cliccato il bottone "ISCRIZIONE" si aprirà una messaggio di posta da inviare lasciando vuoti i campi</p>
+					Il sito invierà un messaggio di sicurezza a cui rispondere per iscriversi alla lista. 
+				</div>
+				<!--Facebook Comment plug-in-->	
+				<div class="fb-comments" data-href="https://www.facebook.com/maremmacinghiale/" data-numposts="5"></div>
+				<!--Facebook Comment plug-in-->	
+       		</div>
+
+       		
+		</div>
+		<!--Facebook App ID-->		
+		<script>
+		  window.fbAsyncInit = function() {
+			FB.init({
+			  appId      : '902548573194215',
+			  xfbml      : true,
+			  version    : 'v2.5'
+			});
+		  };
+		 </script>
+		 <!--Facebook App ID-->	
+		
+		 <!--Facebook App -->
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.5&appId=902548573194215";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<!--Facebook App -->
+
+			
+				<div id="footer_top">
+					<div id="footer_column1">
+						<h2>Facebook Like</h2>
+						<div class="footer_text">
+							
+							<!--Facebook like -->
+								<div
+								  class="fb-like"
+								  data-share="true"
+								  data-width="150"
+								  data-show-faces="false">
+								</div>
+							<!--Facebook like -->
+							<!--fb-root -->
+								<div id="fb-root"></div>
+							<!--fb-root -->
+							<!--fb-page -->
+								<div class="fb-page" 
+									data-href="https://www.facebook.com/maremmacinghiale/" 
+									data-tabs="timeline" 
+									data-height="140" 
+									data-small-header="true" 
+									data-adapt-container-width="false" 
+									data-hide-cover="false" 
+									data-show-facepile="true">
+									<div class="fb-xfbml-parse-ignore">
+										<blockquote cite="https://www.facebook.com/maremmacinghiale/">
+										<a href="https://www.facebook.com/maremmacinghiale/">Maremma Cinghiale</a></blockquote>
+									</div>
+								</div>
+							<!--fb-page -->
+							
+						</div>
+					</div>
+					<div id="footer_column2">
+						<h2>Share with Others</h2>
+						<div class="footer_text">
+							<div class="foot_pad">
+		            <div class="link1"><a href="mailto:cacciatori-subscribe@maremmacinghiale.it">Iscriviti alla lista dei cacciatori</a></div>
+		            <div class="link2"><a href="http:\\www.facebook.com/maremmacinghiale">MaremmaCinghiale su Facebook</a></div>
+		            <div class="link3"><a href="#">RSS Feed</a></div>
+		            <div class="link4"><a href="#">Seguici su Twitter</a></div>
+		          </div>
+						</div>
+					</div>
+					<div id="footer_column3">
+						<h2>Collegamenti importanti</h2>
+						<div class="footer_text">
+							<div class="foot_pad">
+		                    	<ul class="ls">
+		                        	<li><a href="#">Lorem ipsum dolor</a></li>
+		                            <li><a href="#">Maecenas in turpis </a></li>
+		                            <li><a href="#">Morbi fringilla libero</a></li>
+		                            <li><a href="#">In venenatis metus vel </a></li>
+		                            <li><a href="#">Donec cursus quam ac </a></li>
+		                        </ul>
+		                    </div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div id="footer_bot">
+					<p>Copyright  2015. <!-- Do not remove -->Design by <a href="mailto:caccia@maremmacinghiale.it" title="contatto Stefano Durante">Stefano Durante</a><!-- end --></p>
+			        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+				</div>
+					
+				</div>
+				
+				
+				<div id="content_bottom"></div>
+				
+		</div>
+    </body>
+</html>
+

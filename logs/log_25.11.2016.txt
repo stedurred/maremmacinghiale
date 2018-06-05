@@ -1,0 +1,11 @@
+
+Server: www.maremmacinghiale.it - November 25, 2016, 5:49 pm INIZIO PRENOTAZIONE
+www.maremmacinghiale.it - November 25, 2016, 5:49 pm INIZIO PAGAMENTO
+www.maremmacinghiale.it - November 25, 2016, 5:49 pm
+www.maremmacinghiale.it - November 25, 2016, 5:49 pmResource id #39
+HTTP/1.0 400 Bad Request
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+fclose (fp);

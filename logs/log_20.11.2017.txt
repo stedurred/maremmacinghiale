@@ -1,0 +1,127 @@
+Server: www.maremmacinghiale.it - November 20, 2017, 5:27 am INIZIO PRENOTAZIONE 
+Server: www.maremmacinghiale.it - November 20, 2017, 5:27 am Customer IP: 164.132.161.31
+20-11-2017 09:43:28#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+20-11-2017 09:43:28#####____FACEBOOK____index.php___#####____FACEBOOK APP MAREMMACINGHIALE FB____
+20-11-2017 09:43:28#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=d69d9d35df75b6406200310b9549f2a6&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+20-11-2017 09:43:28#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+20-11-2017 10:58:12#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+20-11-2017 10:58:13#####____FACEBOOK____index.php___#####____FACEBOOK APP MAREMMACINGHIALE FB____
+20-11-2017 10:58:13#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=688ec1b392362d6d108e6b6ae4ded2db&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+20-11-2017 10:58:13#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+20-11-2017 10:58:17#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+20-11-2017 10:58:57#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+20-11-2017 10:58:57#####____FACEBOOK____index.php___#####____FACEBOOK APP MAREMMACINGHIALE FB____
+20-11-2017 10:58:57#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=688ec1b392362d6d108e6b6ae4ded2db&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+20-11-2017 10:58:57#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+20-11-2017 10:59:00#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+20-11-2017 11:50:12#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+20-11-2017 11:50:29#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+20-11-2017 11:50:29#####____FACEBOOK____index.php___#####____FACEBOOK APP MAREMMACINGHIALE FB____
+20-11-2017 11:50:29#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=688ec1b392362d6d108e6b6ae4ded2db&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+20-11-2017 11:50:29#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+20-11-2017 11:50:33#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+20-11-2017 11:55:02#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+20-11-2017 11:55:02#####____FACEBOOK____index.php___#####____FACEBOOK APP MAREMMACINGHIALE FB____
+20-11-2017 11:55:02#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=688ec1b392362d6d108e6b6ae4ded2db&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+20-11-2017 11:55:02#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+20-11-2017 11:55:06#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+20-11-2017 13:06:20#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+20-11-2017 13:06:20#####____FACEBOOK____index.php___#####____FACEBOOK APP MAREMMACINGHIALE FB____
+20-11-2017 13:06:20#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=f6efebc3e3855826aac01daf2bd8a370&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+20-11-2017 13:06:20#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+20-11-2017 13:36:41#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+20-11-2017 13:36:41#####____FACEBOOK____index.php___#####____FACEBOOK APP MAREMMACINGHIALE FB____
+20-11-2017 13:36:41#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=688ec1b392362d6d108e6b6ae4ded2db&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+20-11-2017 13:36:41#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+20-11-2017 13:39:15#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+20-11-2017 13:39:15#####____FACEBOOK____index.php___#####____FACEBOOK APP MAREMMACINGHIALE FB____
+20-11-2017 13:39:15#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=688ec1b392362d6d108e6b6ae4ded2db&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+20-11-2017 13:39:15#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+20-11-2017 13:39:23#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+20-11-2017 13:39:23#####____FACEBOOK USER ___#####{"name":"Open Graph Test User","id":"383499125371472","email":"open_tsbipcn_user@tfbnw.net","first_name":"Open","last_name":"User","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/14650525_383518662036185_3283583238563241777_n.jpg?oh=98c603393f2191cb5c4c99e2a7c5fe02&oe=5A9620E6","width":50},"cover":{"id":"474981299556587","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/16602321_474981299556587_6163442732597336116_o.jpg?oh=b58aa1f9d8d27b320f85f22a1cc9416f&oe=5A900E4D"}}
+20-11-2017 13:39:23#####____FACEBOOK USER COVER___#####{"id":"474981299556587","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/16602321_474981299556587_6163442732597336116_o.jpg?oh=b58aa1f9d8d27b320f85f22a1cc9416f&oe=5A900E4D"}
+20-11-2017 13:39:25#####____FACEBOOK USER REQUEST_INIZIO___#####
+20-11-2017 13:39:25#####____FACEBOOK USER PAGES___#####[{"id":"1095776973899816","name":"Squadra di caccia TestOpen"},{"id":"245303359247629","name":"Cacciatori di Maremma"}]
+20-11-2017 13:39:25#####____FACEBOOK USER REQUEST_FINE___#####
+20-11-2017 13:39:25#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"1095776973899816","name":"Squadra di caccia TestOpen"},{"id":"245303359247629","name":"Cacciatori di Maremma"}]
+20-11-2017 13:39:32#####____FACEBOOK USER admin_user.php?modifica___#####Location: user_profile.php?&fb_user_name=Open Graph Test User&fb_user_first_name=Open&fb_user_last_name=User&fb_user_id=383499125371472&fb_user_email=open_tsbipcn_user@tfbnw.net&fb_user_picture=https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/14650525_383518662036185_3283583238563241777_n.jpg?oh=98c603393f2191cb5c4c99e2a7c5fe02&fb_user_picture_url=https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/14650525_383518662036185_3283583238563241777_n.jpg?oh=98c603393f2191cb5c4c99e2a7c5fe02&fb_user_pages=null
+20-11-2017 13:39:32#####____FACEBOOK USER getPagine.php___#####null
+20-11-2017 14:40:09#####____FACEBOOK USER getPagine.php___#####null
+20-11-2017 14:40:13#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+20-11-2017 14:40:13#####____FACEBOOK____index.php___#####____FACEBOOK APP MAREMMACINGHIALE FB____
+20-11-2017 14:40:13#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=c74ce4a252ca669d9a546c2e03462d9e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+20-11-2017 14:40:13#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+20-11-2017 14:40:13#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='135'
+20-11-2017 14:40:18#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+20-11-2017 14:40:18#####____FACEBOOK____index.php___#####____FACEBOOK APP MAREMMACINGHIALE FB____
+20-11-2017 14:40:18#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=85b67df0ac318fd6a52e056afe01a2af&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+20-11-2017 14:40:18#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+20-11-2017 14:40:23#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+20-11-2017 14:40:23#####____FACEBOOK USER ___#####{"name":"Open Graph Test User","id":"383499125371472","email":"open_tsbipcn_user@tfbnw.net","first_name":"Open","last_name":"User","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/14650525_383518662036185_3283583238563241777_n.jpg?oh=98c603393f2191cb5c4c99e2a7c5fe02&oe=5A9620E6","width":50},"cover":{"id":"474981299556587","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/16602321_474981299556587_6163442732597336116_o.jpg?oh=b58aa1f9d8d27b320f85f22a1cc9416f&oe=5A900E4D"}}
+20-11-2017 14:40:23#####____FACEBOOK USER COVER___#####{"id":"474981299556587","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/16602321_474981299556587_6163442732597336116_o.jpg?oh=b58aa1f9d8d27b320f85f22a1cc9416f&oe=5A900E4D"}
+20-11-2017 14:40:25#####____FACEBOOK USER REQUEST_INIZIO___#####
+20-11-2017 14:40:25#####____FACEBOOK USER PAGES___#####[{"id":"1095776973899816","name":"Squadra di caccia TestOpen"},{"id":"245303359247629","name":"Cacciatori di Maremma"}]
+20-11-2017 14:40:25#####____FACEBOOK USER REQUEST_FINE___#####
+20-11-2017 14:40:25#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"1095776973899816","name":"Squadra di caccia TestOpen"},{"id":"245303359247629","name":"Cacciatori di Maremma"}]
+20-11-2017 14:40:25#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook
+20-11-2017 14:40:25#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook sqlControlloUtente:SELECT  users.*                                    FROM users                                                                       WHERE users.email='open_tsbipcn_user@tfbnw.net' or users.fb_user_email='open_tsbipcn_user@tfbnw.net'
+20-11-2017 14:40:25#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook : Utente Facebook esistente Inserisco in SESSION
+20-11-2017 14:40:25#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='135'
+20-11-2017 14:43:41#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+20-11-2017 14:43:41#####____FACEBOOK____index.php___#####____FACEBOOK APP MAREMMACINGHIALE FB____
+20-11-2017 14:43:41#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=d363847cf73b95141f154b89aee34cbf&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+20-11-2017 14:43:41#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+20-11-2017 14:43:41#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='135'
+20-11-2017 14:43:46#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+20-11-2017 14:43:46#####____FACEBOOK____index.php___#####____FACEBOOK APP MAREMMACINGHIALE FB____
+20-11-2017 14:43:46#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=69403b81fdcf7209f9b1753643d0862b&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+20-11-2017 14:43:46#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+20-11-2017 14:43:49#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+20-11-2017 14:43:49#####____FACEBOOK USER ___#####{"name":"Open Graph Test User","id":"383499125371472","email":"open_tsbipcn_user@tfbnw.net","first_name":"Open","last_name":"User","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/14650525_383518662036185_3283583238563241777_n.jpg?oh=98c603393f2191cb5c4c99e2a7c5fe02&oe=5A9620E6","width":50},"cover":{"id":"474981299556587","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/16602321_474981299556587_6163442732597336116_o.jpg?oh=b58aa1f9d8d27b320f85f22a1cc9416f&oe=5A900E4D"}}
+20-11-2017 14:43:49#####____FACEBOOK USER COVER___#####{"id":"474981299556587","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/16602321_474981299556587_6163442732597336116_o.jpg?oh=b58aa1f9d8d27b320f85f22a1cc9416f&oe=5A900E4D"}
+20-11-2017 14:43:50#####____FACEBOOK USER REQUEST_INIZIO___#####
+20-11-2017 14:43:50#####____FACEBOOK USER PAGES___#####[{"id":"1095776973899816","name":"Squadra di caccia TestOpen"},{"id":"245303359247629","name":"Cacciatori di Maremma"}]
+20-11-2017 14:43:50#####____FACEBOOK USER REQUEST_FINE___#####
+20-11-2017 14:43:50#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"1095776973899816","name":"Squadra di caccia TestOpen"},{"id":"245303359247629","name":"Cacciatori di Maremma"}]
+20-11-2017 14:43:50#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook
+20-11-2017 14:43:50#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook sqlControlloUtente:
+SELECT  users.*                                    FROM users                                                                       WHERE users.email='open_tsbipcn_user@tfbnw.net' or users.fb_user_email='open_tsbipcn_user@tfbnw.net'
+20-11-2017 14:43:50#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook : Utente Facebook esistente Inserisco in SESSION
+20-11-2017 14:43:50#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='135'
+20-11-2017 14:47:24#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+20-11-2017 14:47:24#####____FACEBOOK____index.php___#####____FACEBOOK APP MAREMMACINGHIALE FB____
+20-11-2017 14:47:24#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=e1daf1691e9e1b19a5c2cdead61ce802&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+20-11-2017 14:47:24#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+20-11-2017 14:47:41#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+20-11-2017 14:47:41#####____FACEBOOK USER ___#####{"name":"Open Graph Test User","id":"383499125371472","email":"open_tsbipcn_user@tfbnw.net","first_name":"Open","last_name":"User","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/14650525_383518662036185_3283583238563241777_n.jpg?oh=98c603393f2191cb5c4c99e2a7c5fe02&oe=5A9620E6","width":50},"cover":{"id":"474981299556587","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/16602321_474981299556587_6163442732597336116_o.jpg?oh=b58aa1f9d8d27b320f85f22a1cc9416f&oe=5A900E4D"}}
+20-11-2017 14:47:41#####____FACEBOOK USER COVER___#####{"id":"474981299556587","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/16602321_474981299556587_6163442732597336116_o.jpg?oh=b58aa1f9d8d27b320f85f22a1cc9416f&oe=5A900E4D"}
+20-11-2017 14:47:47#####____FACEBOOK USER REQUEST_INIZIO___#####
+20-11-2017 14:47:47#####____FACEBOOK USER PAGES___#####[{"id":"1095776973899816","name":"Squadra di caccia TestOpen"},{"id":"245303359247629","name":"Cacciatori di Maremma"}]
+20-11-2017 14:47:47#####____FACEBOOK USER REQUEST_FINE___#####
+20-11-2017 14:47:47#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"1095776973899816","name":"Squadra di caccia TestOpen"},{"id":"245303359247629","name":"Cacciatori di Maremma"}]
+20-11-2017 14:47:47#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook
+20-11-2017 14:47:47#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook sqlControlloUtente:
+SELECT  users.*                                    FROM users                                                                       WHERE users.email='open_tsbipcn_user@tfbnw.net' or users.fb_user_email='open_tsbipcn_user@tfbnw.net'
+20-11-2017 14:47:47#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook : Utente Facebook esistente Inserisco in SESSION
+20-11-2017 14:47:47#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='135'
+20-11-2017 15:13:38#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____
+20-11-2017 15:13:39#####____FACEBOOK____index.php___#####____FACEBOOK APP MAREMMACINGHIALE FB____
+20-11-2017 15:13:39#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.5/dialog/oauth?client_id=902548573194215&state=5370268331ae03205241ddcf7aa5e044&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+20-11-2017 15:13:39#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+20-11-2017 15:13:43#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook con AccessToken
+20-11-2017 15:13:44#####____FACEBOOK USER ___#####{"name":"Open Graph Test User","id":"383499125371472","email":"open_tsbipcn_user@tfbnw.net","first_name":"Open","last_name":"User","picture":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/14650525_383518662036185_3283583238563241777_n.jpg?oh=98c603393f2191cb5c4c99e2a7c5fe02&oe=5A9620E6","width":50},"cover":{"id":"474981299556587","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/16602321_474981299556587_6163442732597336116_o.jpg?oh=b58aa1f9d8d27b320f85f22a1cc9416f&oe=5A900E4D"}}
+20-11-2017 15:13:44#####____FACEBOOK USER COVER___#####{"id":"474981299556587","offset_x":0,"offset_y":50,"source":"https:\/\/scontent.xx.fbcdn.net\/v\/t31.0-0\/p180x540\/16602321_474981299556587_6163442732597336116_o.jpg?oh=b58aa1f9d8d27b320f85f22a1cc9416f&oe=5A900E4D"}
+20-11-2017 15:13:44#####____FACEBOOK USER INSERISCO IN SESSION[] I DATI UTENTE#####
+20-11-2017 15:13:45#####____FACEBOOK USER REQUEST_INIZIO___#####
+20-11-2017 15:13:45#####____FACEBOOK USER PAGES___#####[{"id":"1095776973899816","name":"Squadra di caccia TestOpen"},{"id":"245303359247629","name":"Cacciatori di Maremma"}]
+20-11-2017 15:13:45#####____FACEBOOK USER REQUEST_FINE___#####
+20-11-2017 15:13:45#####____FACEBOOK USER home.php___fb_user_pagesEncoded#####[{"id":"1095776973899816","name":"Squadra di caccia TestOpen"},{"id":"245303359247629","name":"Cacciatori di Maremma"}]
+20-11-2017 15:13:45#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook
+20-11-2017 15:13:45#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook sqlControlloUtente:
+SELECT  users.*                                    FROM users                                                                       WHERE users.email='open_tsbipcn_user@tfbnw.net' or users.fb_user_email='open_tsbipcn_user@tfbnw.net'
+20-11-2017 15:13:45#####____FACEBOOK USER home.php___#####Controllo Dati Utente Facebook : Utente Facebook esistente Inserisco in SESSION
+20-11-2017 15:13:45#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,          atc.sigla_atc,          atc.nome_atc,          squadra.nome as nome_squadra,          squadra.url_foto as foto_squadra,          squadra.numero as numero_squadra,          squadra.catture_cinghiali as catture_cinghiali_squadra,          cane.nome as nome_cane,          cane.url_foto as foto_cane        FROM `users`          LEFT JOIN squadra ON users.id_squadra = squadra.id          LEFT JOIN atc ON squadra.id_atc = atc.id          LEFT JOIN cane ON cane.id_user = users.id        WHERE users.id='135'

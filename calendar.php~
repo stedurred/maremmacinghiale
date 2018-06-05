@@ -1,0 +1,124 @@
+<?php
+session_start();
+if(isset($_SESSION['user_squadra']))
+{
+ $squadra=$_SESSION['user_squadra'];
+}
+
+
+ 
+function draw_calendar($month,$year,$connection){
+
+
+
+	/* draw table */
+	$calendar = '<table cellpadding="0" cellspacing="0" class="table">';
+	
+	
+	/* table headings */
+	$headings = array('Domenica','Lunedi','Martedi','Mercoledi','Giovedi','Venerdi','Sabato');
+	//$calendar.= '<tr class="calendar-row"><td class="calendar-day-head">'.implode('</td><td class="calendar-day-head">',$headings).'</td></tr>';
+
+	/* days and weeks vars now ... */
+	$running_day = date('w',mktime(0,0,0,$month,1,$year));
+	$tm = date('e',mktime(0,0,0,$month,1,$year));
+	echo $tm;
+	$days_in_month = date('t',mktime(0,0,0,$month,1,$year));
+	//echo $days_in_month;
+	$days_in_this_week = 1;
+	$day_counter = 0;
+	$dates_array = array();
+
+	/* row for week one */
+	$calendar.= '<tr class="calendar-row">';
+
+	/* print "blank" days until the first of the current week */
+	for($x = 0; $x < $running_day; $x++):
+		$calendar.= '<td class="calendar-day-np"> </td>';
+		$days_in_this_week++;
+	endfor;
+
+	/* keep going with days.... */
+	for($list_day = 1; $list_day <= $days_in_month; $list_day++):
+		
+			/* add in the day name and number  */
+			$now = time();
+			$dateNow=date('Y-m-d', $now);
+			$dayname=date('l',mktime(0,0,0,$month,$list_day,$year));
+			$day = strftime ('%A',mktime(0,0,0,$month,$list_day,$year));
+			
+			$sdate = $year.'-'.$month.'-'.$list_day;
+			$date = date_create_from_format('Y-m-d',$sdate);
+			$sqlDate = date_format($date,'Y-m-d');
+			
+			$calendar.= '<td class="calendar-day';
+			/* Today in danger  */
+			$calendar.= $sqlDate==$dateNow ? ' danger">': '">';
+			$calendar.= '<span class="badge">'.$list_day.'</span>';
+			$calendar.='<span class="badge">'.utf8_encode ($day).'</span>';
+
+			$sql = "SELECT * FROM evento 
+				JOIN squadra on squadra.id = evento.id_squadra 
+				JOIN users on users.id_squadra = squadra.id 
+				WHERE  users.id_squadra = 20
+				AND DATE_FORMAT(evento.data_evento,'%Y-%m-%d')='".$sqlDate."'";   
+				/*	AND MONTH(evento.data_evento)='$month' 
+				AND YEAR(evento.data_evento)='$year'"*/                    
+			
+				$result=mysqli_query($connection,$sql);
+			$i=0;
+$calendar.= '<div class="panel-group" id="accordion'.$sdate.'" role="tablist" aria-multiselectable="true">';
+			 while ($evento=mysqli_fetch_assoc($result)) {
+			 $i++;	 
+				/**QUERY THE DATABASE FOR AN ENTRY FOR THIS DAY !!  IF MATCHES FOUND, PRINT THEM !!    **/
+
+$calendar.= '  <div class="panel panel-success">';
+$calendar.= '    <div class="panel-heading" role="tab" id="heading">';
+$calendar.= '      <h4 class="panel-title">';
+$calendar.= '        <a role="button" data-toggle="collapse" data-parent="#accordion'.$sdate.'" href="#collapse'.$sdate.'-'.$i.'" aria-expanded="true" aria-controls="collapse">';
+$calendar.= ''.utf8_encode ($evento['titolo']).'';
+$calendar.= '        </a>';
+$calendar.= '      </h4>';
+$calendar.= '    </div>';
+$calendar.= '    <div id="collapse'.$sdate.'-'.$i.'" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading">';
+$calendar.= '      <div class="panel-body">';
+$calendar.= '		<img src="'.$evento['url_foto'].'" style="max-width:50px;">';
+$calendar.= '		<p class="pad_top1 pad_bot1 color1">'.utf8_encode ($evento['descrizione']).'</p>';
+$calendar.= '      </div>';
+$calendar.= '    </div>';
+$calendar.= '  </div>';
+	
+				//$calendar.= '<div class="day-name"><p class="pad_bot3">'.utf8_encode ($evento['titolo']).'</p></div>';
+				//$calendar.= '<div class="day-name"><p class="pad_bot3">'.utf8_encode ($evento['descrizione']).'</p></div>';
+				//$calendar.= '<div class="day-name"><p class="pad_bot3"><img src="'.$evento['url_foto'].'" style="max-width:50px;"></p></div>';
+			 }
+$calendar.= '</div>';		  
+		$calendar.= '</td>';
+		if($running_day == 6):
+			$calendar.= '</tr>';
+			if(($day_counter+1) != $days_in_month):
+				$calendar.= '<tr class="calendar-row">';
+			endif;
+			$running_day = -1;
+			$days_in_this_week = 0;
+		endif;
+		$days_in_this_week++; $running_day++; $day_counter++;
+	endfor;
+
+	/* finish the rest of the days in the week */
+	if($days_in_this_week < 8):
+		for($x = 1; $x <= (8 - $days_in_this_week); $x++):
+			$calendar.= '<td class="calendar-day-np"> </td>';
+		endfor;
+	endif;
+
+	/* final row */
+	$calendar.= '</tr>';
+
+	/* end the table */
+	$calendar.= '</table>';
+	
+	/* all done, return result */
+	return $calendar;
+}
+?>

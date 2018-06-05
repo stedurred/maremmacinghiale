@@ -1,0 +1,439 @@
+<?php
+session_start();
+if(!isset($_SESSION['user']))
+{
+ header("Location: index.php");
+}
+include_once 'php\dbconnect.php';
+include_once 'calendar.php';
+			 	setlocale (LC_ALL, "it_IT");
+      	//echo '|'.implode('|',ini_get_all());
+      	date_default_timezone_set('Europe/Rome');
+     	//print (strftime ("%A.\n"));
+
+$datenow = date('Y-m-d H:i:s');
+//echo $datenow.'<br>';
+date_default_timezone_set('Europe/Rome');
+$timezone = date_default_timezone_get();
+//echo "The current server timezone is: " . $timezone.'<br>';
+$mounthNow = date('m');
+//print (strftime ("%A e in Italiano "));
+setlocale (LC_TIME, "it-IT");
+//print (strftime ("%A.\n"));
+$mounthNameNow =strftime ('%B');
+$yearNow=date('Y');
+
+
+/*print_r(mb_list_encodings());
+
+echo 'Mese Numero:'.$mounthNow.'<br>';
+echo 'Mese:'.$mounthNameNow.'<br>';
+echo 'Anno:'.$yearNow.'<br>';
+				printf("Initial character set: %s\n", mysqli_character_set_name($connection));
+
+				 
+				if (!mysqli_set_charset($connection, "utf8")) {
+					printf("Error loading character set utf8: %s\n", mysqli_error($connection));
+					exit();
+				} else {
+					printf("Current character set: %s\n", mysqli_character_set_name($connection));
+				}     */
+    
+if(isset($_POST['btn-insert_evento']))
+{
+	 $timezone = date_default_timezone_get();
+	 echo "The current server timezone is: " . $timezone;
+	 date_default_timezone_set($timezone);
+	 $datenow = date('Y-m-d H:i:s');
+
+	 $titolo = mysqli_real_escape_string($connection,$_POST['titolo']);
+	 $data_evento = mysqli_real_escape_string($connection,$_POST['data_evento']);
+	 $dimporto= mysqli_real_escape_string($connection,$_POST['importo']);
+	 $descrizione= mysqli_real_escape_string($connection,$_POST['descrizione']);
+	 if(isset($_POST['squadra'])){
+		 $squadra= mysqli_real_escape_string($connection,$_POST['squadra']);
+	 }else $squadra= mysqli_real_escape_string($connection,$_POST['DropDownSquadre']);
+ 
+	 $error_types = array(
+		0 => 'There is no error, the file uploaded with success',
+		1 => 'The uploaded file exceeds the upload_max_filesize directive in php.ini',
+		2 => 'The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form',
+		3 => 'The uploaded file was only partially uploaded',
+		4 => 'No file was uploaded',
+		6 => 'Missing a temporary folder',
+		7 => 'Failed to write file to disk.',
+		8 => 'A PHP extension stopped the file upload.');
+ 
+ 
+	 $uploaddir = './uploads/';
+	 $file      = $_FILES['img_evento'];
+	 $name      = $file['name'];
+	 $tmp_name  = $file['tmp_name'];
+	 $error     = $file['error'];
+	 $uploadfile = $uploaddir.basename($name);
+
+
+	if ($file == null){
+	 if ($error == UPLOAD_ERR_OK){
+		  if (move_uploaded_file($tmp_name, $uploadfile)) {
+			 $msg .= "Immagine dell''evento '".$tmp_name."' aggiornata '".$name."'<br/>\n";
+			 echo "File is valid, and was successfully uploaded.\n";
+		  } else {
+			$errormsg .= "Could not move uploaded file '".$tmp_name."' to '".$name."'<br/>\n";
+		  }
+	 }else $errormsg .= "Upload error on file '".$name."'<br/>\n".$error_types[$error];
+	}
+
+	$sql = "INSERT INTO evento(titolo,data_evento,url_foto,importo,descrizione,id_squadra) VALUES('$titolo','$data_evento','$uploadfile','$dimporto','$descrizione','$squadra')";   
+	if($_SESSION['user']=='stedurred'){
+	   $sql = "INSERT INTO evento(titolo,data_evento,url_foto,importo,descrizione,id_squadra) VALUES('$titolo','$data_evento','$uploadfile','$dimporto','$descrizione','$squadra') ON DUPLICATE KEY UPDATE 
+			titolo='$titolo',data_evento='$data_evento',url_foto='$uploadfile',importo='$dimporto',descrizione='$descrizione',id_squadra='$squadra'";
+	}
+	$result=mysqli_query($connection,$sql);
+
+}
+
+?>                                      
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Maremma Cinghiale - Caccia al cinghiale nella Maremma Toscana</title>
+        <meta name="keywords" content="Maremma Cinghiale Caccia Toscana" />
+        <meta name="description" content="Maremma Cinghiale - Caccia al cinghiale nella Maremma Toscana è un sito dove si possono trovare le varie squadre di caccia al cinghiale della maremma toscana" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+		  <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+		  <script type="text/javascript" src="js/cufon-yui.js"></script>
+		 
+
+		  <script type="text/javascript" src="js/28_Days_Later_400.font.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		 <link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+	<script type="text/javascript">
+	  Cufon.replace("H1");
+		Cufon.replace("H2");
+		Cufon.replace("H3");
+		Cufon.replace("#top_padding a");
+		Cufon.replace("#menu a");
+	</script>
+
+    </head>
+    <body onload="getRegioni()">
+    
+    <div class="container">
+		<!-- Codice Accettazione Cookie-->
+				<script type="text/javascript" src="js/cookiechoices.js"></script>
+				<!--consenso all'uso dei cookie-->
+				<script>
+				document.addEventListener('DOMContentLoaded', function (event) {
+						cookieChoices.showCookieConsentBar('Questo sito fa uso di cookies. Continuando la navigazione se ne autorizza l\'uso.', 'OK', 'Piu info', 'http://www.maremmacinghiale.it/privacy.html');
+				});
+				</script>
+
+
+    	<div id="wrap">
+	
+
+				
+				<div id="content_top"></div>				
+				<div id="content_bg_repeat">
+				<div id="top_padding">
+						<a href="#">MAREMMA CINGHIALE</a>
+						<h3><a href="">Caccia al cinghiale nella Maremma Toscana</a></h3>
+				</div>
+			<nav class="navbar navbar-inverse">
+               <div class="container-fluid">
+                 <div class="navbar-header">
+                   <a class="navbar-brand" href="http:\\www.maremmacinghiale.it">MaremmaCinghiale.it</a>
+                 </div>
+                 <ul class="nav navbar-nav">
+						<li><a href="http:\\www.maremmacinghiale.it" class="active">Home</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="contact_us.php">Contattaci</a></li>
+                 </ul>
+               </div>
+            </nav>   
+					<!--<div id="menu">
+					<ul>
+						<li><a href="http:\\www.maremmacinghiale.it" class="active">Home</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="contact_us.php">Contattaci</a></li>
+					</ul>
+				</div>-->
+					
+					
+			<div id="content">
+
+      			<div class="col3">
+                  <center>
+                     <div id="squadra-form">
+                        <form method="post" enctype="multipart/form-data">
+                        <h2 class="pad_bot1">Inserimento Evento di caccia</h2>
+                        <p class="pad_bot1 color1 pad_top1"><h1>Riempire i campi sottostanti</h1></p>
+                        <p class="pad_bot3"><h1>Questo modulo permette il salvataggio di un Evento di caccia al cinghiale</h1></p>
+         				
+                           <table align="center">
+                              <tr>
+                                 <td><h1><label for="titolo" title="Titolo evento">Nome evento</label></h1></td>
+                                 <td>
+                                    <div class="form-group">
+                                       <input type="text" name="titolo" placeholder="Nome evento" required class="form-control"/>
+                                    </div></td>
+                              </tr>
+                              <tr>
+                                 <td><h1><label for="data_evento" title="Data Evento">Data Evento</label></h1></td>
+                                 <td>
+                                 <div class="form-group">
+                                    <input type="text" id="datepicker" value='____-__-__' name="data_evento" placeholder="Data evento" required class="form-control"/>
+                                 </div>
+                              </tr>
+                              
+                              <tr>
+                              	<td>
+                              		<?php echo '<h1>'.$mounthNameNow.' '.$yearNow.'</h1>';?>
+                              	</td>
+                              	<td>
+                                    <div class="table-responsive">
+                                    <?php echo draw_calendar($mounthNow,$yearNow,$connection);?>
+                                    <div/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><h1><div class="form-group"><label for="descrizione" title="Descrizione Evento">Descrizione Evento</label></h1></div></td>
+                                 <td>
+                                    <div class="form-group">
+                                       <textarea rows="5" cols="50"  name="descrizione" placeholder="Descrizione" class="form-control"></textarea>
+                                    </div></td>
+                              </tr>
+                              <tr>
+                                 <td><h1><label for="importo" title="Importo Evento">Importo Evento</label></h1></td>
+                                 <td>
+                                    <div class="form-group">
+                                    	<span class="input-group-addon">&euro;</span>
+                                       <input type="currency"  name="importo"  class="form-control" placeholder="Importo"/>
+                                       <span class="input-group-addon">,00</span>
+                                    </div></td>
+                              </tr>
+                              <tr>
+                                 <td><h1><label for="img_evento" title="Immagine dell'Evento">Immagine dell'Evento</label></h1></td>
+                                 <td>
+                                     <!-- MAX_FILE_SIZE deve precedere campo di input del nome file -->
+                                    <input type="hidden" name="MAX_FILE_SIZE" value="0" />
+                                    <div class="form-group"><input type="file" name="img_evento" class="form-control" placeholder="Immagine dell'Evento" /></div></td>
+                              </tr>
+                              <tr>
+                                 <td><h1><label for="DropDownRegione" title="Regione">Regione</label></h1></td>
+                                 <td>
+                                    <div class="form-group">
+                                    <select name = "DropDownRegione" id="ddregione"  class="form-control" onchange="getProvincie(this)" onfocus="getProvincie(this)">
+                                       <option value="">Selezionare una Regione</option>
+                                    </select></div></td>
+                                 </tr>   
+                                 <tr>
+                                    <td><h1><label for="DropDownProvincia" title="Provincia">Provincia</label></h1></td>
+                                    <td><div class="form-group"><select name = "DropDownProvincia" id="ddprovincia"  class="form-control" onchange="getAtc(this)" onfocus="getAtc(this)">
+                                          <option value="">Selezionare una Provincia</option>
+                                       </select></div></td>
+                                 </tr>
+                                 <tr>
+                                    <td><h1><label for="DropDownAtc" title="Ambito territoriale di caccia">A.T.C.</label></h1></td>
+                                    <td><div class="form-group"><select name = "DropDownAtc" id="ddatc"  class="form-control" onchange="getSquadre(this)">
+                                          <option value="">Selezionare un A.T.C.</option>
+                                       </select></div></td>
+                                 </tr>
+                                 <tr>
+                                    <td><h1><label for="DropDownSquadre" title="Squadra cinghiale">Squadra cinghiale</label></h1></td>
+                                    <td><div class="form-group"><select name = "DropDownSquadre" id="ddsquadre"  class="form-control" required>
+                                          <option value="">Selezionare una Squadra</option>
+                                       </select></div></td>
+                                 </tr>
+                              <tr>
+                                 <td colspan="2" align="middle"><button type="submit" id="buttonSalva" name="btn-insert_evento" class="btn btn-default">Salva</button></td>
+                              </tr>
+                           </table>
+                        </form>
+                     </div>
+                  <?php 
+                  if(isset($_POST['btn-insert_evento'])){
+                     if(!isset($errormsg)){
+                           print "<h2 class='pad_bot1 pad_top1'>evento inserito con successo</h2>";
+                     }else print "<h2 class='pad_bot1 pad_top1'>Errore salvataggio</h2>"."\n".$errormsg;
+                  }?>
+                  </center>
+               </div>
+      		</div>
+				
+				<div id="footer_top">
+					<div id="footer_column1">
+						<h2>Recent posts</h2>
+						<div class="footer_text">
+							<p><a href="#">Suspendisse rutrum interdum lacinia.</a>
+							Suspendisse tempus aliquet elit sit amet pellentesque. Donec iaculis pulvinar mauris, ac vulputate justo pretium quis. </p>
+							<br />
+							<p><a href="#">Quisque luctus, mi ornare malesuada</a>
+							Suspendisse tempus aliquet elit sit amet pellentesque. Donec iaculis pulvinar </p>
+						</div>
+					</div>
+					<div id="footer_column2">
+						<h2>Share with Others</h2>
+						<div class="footer_text">
+							<div class="foot_pad">
+		            <div class="link1"><a href="mailto:cacciatori-subscribe@maremmacinghiale.it">Iscriviti alla lista dei cacciatori</a></div>
+		            <div class="link2"><a href="http:\\www.facebook.com/maremmacinghiale">MaremmaCinghiale su Facebook</a></div>
+		            <div class="link3"><a href="#">RSS Feed</a></div>
+		            <div class="link4"><a href="#">Seguici su Twitter</a></div>
+		          </div>
+						</div>
+					</div>
+					<div id="footer_column3">
+						<h2>Collegamenti importanti</h2>
+						<div class="footer_text">
+							<div class="foot_pad">
+		                    	<ul class="ls">
+		                        	<li><a href="#">Lorem ipsum dolor</a></li>
+		                            <li><a href="#">Maecenas in turpis </a></li>
+		                            <li><a href="#">Morbi fringilla libero</a></li>
+		                            <li><a href="#">In venenatis metus vel </a></li>
+		                            <li><a href="#">Donec cursus quam ac </a></li>
+		                        </ul>
+		                    </div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div id="footer_bot">
+					<p>Copyright  2015. <!-- Do not remove -->Design by <a href="mailto:caccia@maremmacinghiale.it" title="contatto Stefano Durante">Stefano Durante</a><!-- end --></p>
+			        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+				</div>
+					
+				</div>
+				
+				
+				<div id="content_bottom"></div>
+				
+		</div>
+      
+    
+</div>
+    		
+		         <script type="text/javascript">
+            //Codice cambio Regione richiesta provincie
+            
+            function readyAJAX() { 
+               try {return new XMLHttpRequest();} catch(e) {
+                   try {return new ActiveXObject("Msxml2.XMLHTTP");} catch(e) { 
+                        try {return new ActiveXObject("Microsoft.XMLHTTP");} catch(e) { 
+                                    return "A newer browser is needed."; 
+                                    } 
+                              } 
+                        } 
+                   } 
+
+               function getRegioni(){
+                  var url = "getRegioni.php"; 
+                  //var e = document.getElementById("ddregione");
+                  var requestObj = readyAJAX(); 
+                  //var strIdRegione =select.value;
+                  
+                  //var params = "id_regione="+encodeURIComponent(strIdRegione); 
+                  requestObj.open("POST",url,true); 
+                  requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
+                  requestObj.send(); 
+                  requestObj.onreadystatechange = function() {
+                     if (requestObj.readyState == 4) {
+                        if (requestObj.status == 200) {
+                              document.getElementById("ddregione").innerHTML = requestObj.responseText;
+                              //alert(requestObj.responseText);
+                        } else {
+                           alert(requestObj.statusText);
+                        }
+                     }
+                  }
+               }
+
+               function getProvincie(select){
+                  var url = "getProvincie.php"; 
+                  var e = document.getElementById("ddregione");
+                  var requestObj = readyAJAX(); 
+                  var strIdRegione =select.value;
+                  
+                  var params = "id_regione="+encodeURIComponent(strIdRegione); 
+                  requestObj.open("POST",url,true); 
+                  requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
+                  requestObj.send(params); 
+                  requestObj.onreadystatechange = function() {
+                     if (requestObj.readyState == 4) {
+                        if (requestObj.status == 200) {
+                              document.getElementById("ddprovincia").innerHTML = requestObj.responseText;
+                              //alert(requestObj.responseText);
+                        } else {
+                           alert(requestObj.statusText);
+                        }
+                     }
+                  }
+               }
+               
+               function getAtc(select){
+                  var url = "getAtc.php"; 
+                  var e = document.getElementById("ddprovincia");
+                  var requestObj = readyAJAX(); 
+                  var strIdProvincia =select.value;
+                  
+                  var params = "id_provincia="+encodeURIComponent(strIdProvincia); 
+                 
+                  requestObj.open("POST",url,true); 
+                  requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
+                  requestObj.send(params); 
+                  requestObj.onreadystatechange = function() {
+                     if (requestObj.readyState == 4) {
+                        if (requestObj.status == 200) {
+                              document.getElementById("ddatc").innerHTML = requestObj.responseText;
+                              //alert(requestObj.responseText);
+                        } else {
+                           alert(requestObj.statusText);
+                        }
+                     }
+                  }
+               }
+
+               
+               function getSquadre(select){
+                  var url = "getSquadre.php"; 
+                  var e = document.getElementById("ddatc");
+                  var requestObj = readyAJAX(); 
+                  var strIdAtc =select.value;
+                  
+                  var params = "id_atc="+encodeURIComponent(strIdAtc); 
+                 
+                  requestObj.open("POST",url,true); 
+                  requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
+                  requestObj.send(params); 
+                  requestObj.onreadystatechange = function() {
+                     if (requestObj.readyState == 4) {
+                        if (requestObj.status == 200) {
+                              document.getElementById("ddsquadre").innerHTML = requestObj.responseText;
+                              //alert(requestObj.responseText);
+                        } else {
+                           alert(requestObj.statusText);
+                        }
+                     }
+                  }
+               }
+
+            </script>
+    </body>
+</html>
