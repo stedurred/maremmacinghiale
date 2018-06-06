@@ -43,6 +43,7 @@ final class fbUser {
 		// $_SESSION['facebook_access_token'] = (string) $accessToken;
 
 		$fb_user = $response->getGraphUser();
+		
 
 		
 		file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER ___#####" . $fb_user . PHP_EOL, FILE_APPEND );
@@ -70,6 +71,7 @@ final class fbUser {
 		
 		// var_dump($fb_user->getFieldNames());
 		// var_dump($fb_user->getName());
+// 		$this->fb_
 		$this->fb_user_name = $fb_user->getName ();
 		// var_dump($this->fb_user_name);
 		$_COOKIE ['fb_user_name'] = $fb_user->getName ();
@@ -126,7 +128,7 @@ final class fbUser {
 		
 		file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER INSERISCO IN SESSION[] I DATI UTENTE#####" . PHP_EOL, FILE_APPEND );
 		
-		$_SESSION ['fb_user'] = $this->fb_user;
+		$_SESSION ['fb_user'] = $fb_user;
 		
 		$_SESSION ['fb_user_id'] = $this->fb_user_id;
 		
@@ -144,9 +146,9 @@ final class fbUser {
 		
 		$_SESSION ['fb_user_last_name'] = $this->fb_user_last_name;
 		
-		// var_dump($_SESSION);
+		//var_dump($_SESSION);
 		
-		return $this->fb_user;
+		return $fb_user;
 	}
 	
 	/**
