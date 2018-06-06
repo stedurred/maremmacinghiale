@@ -2,6 +2,6 @@
 #####____MAREMMACINGHIALE.IT___#####
 Sito maremmacinghiale www.maremmacinghiale.it
 
-Maremma Cinghiale - Caccia al cinghiale nella Maremma Toscana.\n
+Maremma Cinghiale - Caccia al cinghiale nella Maremma Toscana.
 Prenota un evento e vai a caccia presso le squadre al cinghiale in tutta Italia
 
