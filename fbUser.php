@@ -96,6 +96,13 @@ final class fbUser {
 		
 		$this->fb_user_picture = $fb_user->getPicture ()->getUrl ();
 		$_COOKIE ['fb_user_picture'] = $fb_user->getPicture ()->getUrl ();
+		
+		$img = file_get_contents ( 'https://graph.facebook.com/' . $this->fb_user_id . '/picture?type=large' );
+		$file = dirname ( __file__ ) . '/images/' . $this->fb_user_id . '.jpg';
+		file_put_contents ( $file, $img );
+		file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER PROFILE PIC___#####" . $file . PHP_EOL, FILE_APPEND );
+		
+		
 		// echo 'Picture Url: ' . $fb_user_picture;
 		
 		$this->fb_user_hometown = $fb_user->getHometown ();
