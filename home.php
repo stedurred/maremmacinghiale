@@ -92,8 +92,8 @@ try {
 		} else {
 
 			// If they've gotten this far, they shouldn't be here
-			http_response_code(400);
-			exit;
+// 			http_response_code(400);
+// 			exit;
 			//Ho fatto Login con il metodo tradizionale del sito
 			// ma posso prelevare lo user da DB
 			// 			--a meno che non provengo gia dalla registrazione del sito
@@ -108,8 +108,8 @@ try {
 			// Devo rifare la GET da fb usando la SESSION['fb_user_id']
 			// Accesso al sito esclusivamente da facebook
 			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER home.php___#####" . "Richiesta Dati Utente Facebook senza AccessToken" . PHP_EOL, FILE_APPEND );
-            global $fb_user;
-			$GLOBALS['fb_user'] = new fbUser ( $fb, $accessToken );
+//             global $fb_user;
+// 			$GLOBALS['fb_user'] = new fbUser ( $fb, $accessToken );
 			//var_dump($fb_user);
 			
 			// getUserFacebook ( $fb,$accessToken );

@@ -1,0 +1,125 @@
+5-11-2018 11:05:24
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+5-11-2018 11:05:24#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+5-11-2018 11:05:25#####____FACEBOOK OBJECT REQUEST_FINE___#####
+5-11-2018 11:05:25#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=fb42b1e5656a942410420b845c1d8f82&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+5-11-2018 11:05:25#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+5-11-2018 11:10:10
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+5-11-2018 11:10:10#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+5-11-2018 11:10:10#####____FACEBOOK OBJECT REQUEST_FINE___#####
+5-11-2018 11:10:10#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=fb42b1e5656a942410420b845c1d8f82&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+5-11-2018 11:10:10#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+5-11-2018 11:12:16
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+5-11-2018 11:12:16#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+5-11-2018 11:12:16#####____FACEBOOK OBJECT REQUEST_FINE___#####
+5-11-2018 11:12:16#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=fb42b1e5656a942410420b845c1d8f82&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+5-11-2018 11:12:16#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+5-11-2018 11:43:14
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+5-11-2018 11:43:14#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+5-11-2018 11:43:14#####____FACEBOOK OBJECT REQUEST_FINE___#####
+5-11-2018 11:43:14#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=4138f6ab25051c9f5ea19c8121f02969&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+5-11-2018 11:43:14#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+5-11-2018 11:43:34
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+5-11-2018 11:43:34#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+5-11-2018 11:43:34#####____FACEBOOK OBJECT REQUEST_FINE___#####
+5-11-2018 11:43:34#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=4138f6ab25051c9f5ea19c8121f02969&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+5-11-2018 11:43:34#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+5-11-2018 11:44:23
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+5-11-2018 11:44:23#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+5-11-2018 11:44:23#####____FACEBOOK OBJECT REQUEST_FINE___#####
+5-11-2018 11:44:23#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=4138f6ab25051c9f5ea19c8121f02969&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+5-11-2018 11:44:23#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+5-11-2018 11:44:31
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+5-11-2018 11:44:31#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+5-11-2018 11:44:31#####____FACEBOOK OBJECT REQUEST_FINE___#####
+5-11-2018 11:44:31#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.8/dialog/oauth?client_id=902548573194215&state=4138f6ab25051c9f5ea19c8121f02969&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+5-11-2018 11:44:31#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+5-11-2018 11:44:31#####____INIT LOGIN STANDARD____index.php___#####
+5-11-2018 11:44:31#####___SQL LOGIN STANDARD____index.php___sqlUser:#####
+SELECT  users.*,					squadra.nome as nome_squadra,					squadra.numero as numero_squadra,					squadra.url_foto as foto_squadra					FROM users					JOIN squadra on squadra.id = users.id_squadra					WHERE users.email='stedurred' or  users.username='stedurred'
+5-11-2018 11:44:32#####___ LOGIN STANDARD____index.php___Login effettuata!!!!:#####
+5-11-2018 11:44:32#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+5-11-2018 11:44:32#####____FACEBOOK OBJECT REQUEST_FINE___#####
+5-11-2018 11:44:32#####____FACEBOOK____home.php___#####HOME____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+5-11-2018 12:01:26#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+5-11-2018 12:01:26#####____FACEBOOK OBJECT REQUEST_FINE___#####
+5-11-2018 12:01:26#####____FACEBOOK____home.php___#####HOME____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+5-11-2018 12:01:28#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+5-11-2018 12:01:28#####____FACEBOOK OBJECT REQUEST_FINE___#####
+5-11-2018 12:01:28#####____FACEBOOK____home.php___#####HOME____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+5-11-2018 12:01:28#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+5-11-2018 12:01:28#####____FACEBOOK OBJECT REQUEST_FINE___#####
+5-11-2018 12:01:28#####____FACEBOOK____home.php___#####HOME____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+5-11-2018 12:09:37#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+5-11-2018 12:09:37#####____FACEBOOK OBJECT REQUEST_FINE___#####
+5-11-2018 12:09:37#####____FACEBOOK____home.php___#####HOME____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+5-11-2018 12:09:37#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook senza AccessToken
+5-11-2018 12:09:37#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,
+
+          atc.sigla_atc,
+
+          atc.nome_atc,
+
+          squadra.nome as nome_squadra,
+
+          squadra.url_foto as foto_squadra,
+
+          squadra.numero as numero_squadra,
+
+          squadra.catture_cinghiali as catture_cinghiali_squadra,
+
+          cane.nome as nome_cane,
+
+          cane.url_foto as foto_cane
+
+        FROM `users`
+
+          LEFT JOIN squadra ON users.id_squadra = squadra.id
+
+          LEFT JOIN atc ON squadra.id_atc = atc.id
+
+          LEFT JOIN cane ON cane.id_user = users.id
+
+        WHERE users.id='2'
