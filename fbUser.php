@@ -115,11 +115,11 @@ final class fbUser {
 
 	
 				$fb_user = $response->getGraphUser();
-				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfilefb_userFacebook#####" .  $fb_user . PHP_EOL, FILE_APPEND );
+				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfilefb_userFacebook#####" .  $fb_user->asArray() . PHP_EOL, FILE_APPEND );
 				
 				var_dump($fb_user);
 				
-				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER ___#####" . $fb_user . PHP_EOL, FILE_APPEND );
+				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER ___#####" . $fb_user->__toString() . PHP_EOL, FILE_APPEND );
 			
 			} catch(FacebookResponseException $e) {
 				echo 'Graph returned an error: ' . $e->getMessage();
