@@ -49,6 +49,7 @@ final class fbUser {
 		
 			if(isset($_SESSION['facebook_access_token'])){
 				$fb->setDefaultAccessToken($_SESSION['facebook_access_token']);
+				
 			}else{
 				// Put short-lived access token in session
 				$_SESSION['facebook_access_token'] = (string) $accessToken;
@@ -65,10 +66,11 @@ final class fbUser {
 			}
 			
 			
-			
-			$response = $fb->get ( '/me?fields=name,id,email,first_name,last_name,picture,birthday,location,hometown,cover,link,gender,locale', $accessToken );
-			var_dump($response);
-			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook#####" .  $response . PHP_EOL, FILE_APPEND );
+// 			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook fb->get #####"  . PHP_EOL, FILE_APPEND );
+				
+// 			$response = $fb->get ( '/me?fields=name,id,email,first_name,last_name,picture,birthday,location,hometown,cover,link,gender,locale', $accessToken );
+// 			var_dump($response);
+// 			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook#####" .  $response . PHP_EOL, FILE_APPEND );
 			
 			// Logged in!
 			
@@ -77,7 +79,7 @@ final class fbUser {
 			
 			// Getting user facebook profile info
 			try {
-				$profileRequest = $fb->get('/me?fields=name,id,first_name,last_name,email,link,gender,locale,cover,picture');
+				$profileRequest = $fb->get('/me?fields=name,id,first_name,last_name,email,link,gender,locale,cover,picture',$accessToken);
 				var_dump($profileRequest);
 				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfileFacebook#####" .  $profileRequest . PHP_EOL, FILE_APPEND );
 				
