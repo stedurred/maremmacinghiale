@@ -45,27 +45,28 @@ final class fbUser {
 			
 		if(isset($accessToken)){
 			
-		
-			if(isset($_SESSION['facebook_access_token'])){
+			try {
 				
-				$fb->setDefaultAccessToken($_SESSION['facebook_access_token']);
-				var_dump("setDefaultAccessToken ".$_SESSION['facebook_access_token']);
-				
-			}else{
-				// Put short-lived access token in session
-				$_SESSION['facebook_access_token'] = (string) $accessToken;
-				var_dump("NOT setDefaultAccessToken ".$_SESSION['facebook_access_token']);
-				// OAuth 2.0 client handler helps to manage access tokens
-				$oAuth2Client = $fb->getOAuth2Client();
-		
-				// Exchanges a short-lived access token for a long-lived one
-				$longLivedAccessToken = $oAuth2Client->getLongLivedAccessToken($_SESSION['facebook_access_token']);
-				$_SESSION['facebook_access_token'] = (string) $longLivedAccessToken;
-		
-				// Set default access token to be used in script
-				$fb->setDefaultAccessToken($_SESSION['facebook_access_token']);
-			}
+				if(isset($_SESSION['facebook_access_token'])){
+					
+					$fb->setDefaultAccessToken($_SESSION['facebook_access_token']);
+					var_dump("setDefaultAccessToken ".$_SESSION['facebook_access_token']);
+					
+				}else{
+					// Put short-lived access token in session
+					$_SESSION['facebook_access_token'] = (string) $accessToken;
+					var_dump("NOT setDefaultAccessToken ".$_SESSION['facebook_access_token']);
+					// OAuth 2.0 client handler helps to manage access tokens
+					$oAuth2Client = $fb->getOAuth2Client();
 			
+					// Exchanges a short-lived access token for a long-lived one
+					$longLivedAccessToken = $oAuth2Client->getLongLivedAccessToken($_SESSION['facebook_access_token']);
+					$_SESSION['facebook_access_token'] = (string) $longLivedAccessToken;
+			
+					// Set default access token to be used in script
+					$fb->setDefaultAccessToken($_SESSION['facebook_access_token']);
+				}
+				
 			
 // 			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook fb->get #####"  . PHP_EOL, FILE_APPEND );
 				
@@ -79,7 +80,7 @@ final class fbUser {
 			
 			
 			// Getting user facebook profile info
-			try {
+			
 				$profileRequest = $fb->get('/me?fields=name,id,first_name,last_name,email,link,gender,locale,cover,picture',$accessToken);
 				var_dump("fb->get->". $profileRequest);
 				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfileRequestFacebook#####" .  $profileRequest . PHP_EOL, FILE_APPEND );
