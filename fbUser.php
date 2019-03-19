@@ -47,8 +47,9 @@ final class fbUser {
 			
 		
 			if(isset($_SESSION['facebook_access_token'])){
-				var_dump("setDefaultAccessToken ".$_SESSION['facebook_access_token']);
+				
 				$fb->setDefaultAccessToken($_SESSION['facebook_access_token']);
+				var_dump("setDefaultAccessToken ".$_SESSION['facebook_access_token']);
 				
 			}else{
 				// Put short-lived access token in session
@@ -80,11 +81,11 @@ final class fbUser {
 			// Getting user facebook profile info
 			try {
 				$profileRequest = $fb->get('/me?fields=name,id,first_name,last_name,email,link,gender,locale,cover,picture',$accessToken);
-				var_dump("fb->get". $profileRequest);
+				var_dump("fb->get->". $profileRequest);
 				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfileRequestFacebook#####" .  $profileRequest . PHP_EOL, FILE_APPEND );
 				
 				$fbUserProfile = $profileRequest->getGraphNode()->asArray();
-				var_dump($fbUserProfile);
+				var_dump("getGraphNode()->".$fbUserProfile);
 				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfilegetGraphNodeAsArrayFacebook#####" .  $fbUserProfile . PHP_EOL, FILE_APPEND );
 				
 				// Insert or update user data to the database
