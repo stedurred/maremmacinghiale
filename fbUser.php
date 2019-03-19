@@ -42,7 +42,8 @@ final class fbUser {
 	 *        	$accessToken
 	 */
 	function getUserFacebook(Facebook\Facebook  $fb, $accessToken) {
-		
+		file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook INIZIO#####"  . PHP_EOL, FILE_APPEND );
+			
 		if(isset($accessToken)){
 			
 		
