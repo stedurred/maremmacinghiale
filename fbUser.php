@@ -22,11 +22,12 @@ final class fbUser {
 	
 	
 	function __construct($fb, $accessToken) {
-		$this->getUserFacebook ( $fb, $accessToken );
-		$this->getUserFacebookPageList ( $fb, $accessToken );
-		
 		
 		file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER REQUEST_INIZIO___#####" . PHP_EOL, FILE_APPEND );
+		
+		$this->getUserFacebook ( $fb, $accessToken );
+		
+		$this->getUserFacebookPageList ( $fb, $accessToken );
 		
 		file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER PAGES___#####" . json_encode ( $this->fb_user_pages ) . PHP_EOL, FILE_APPEND );
 		file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER REQUEST_FINE___#####" . PHP_EOL, FILE_APPEND );
