@@ -68,11 +68,11 @@ final class fbUser {
 				}
 				
 			
-			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook fb->get #####"  . PHP_EOL, FILE_APPEND );
-				
-			$response = $fb->get('/me?fields=name,id,email,first_name,last_name,picture,birthday,location,hometown,cover,link,gender,locale', $accessToken );
-			var_dump("/me?fields".$response);
-			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook#####" .  $response . PHP_EOL, FILE_APPEND );
+				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook fb->get #####"  . PHP_EOL, FILE_APPEND );
+					
+				$response = $fb->get('/me?fields=name,id,email,first_name,last_name,picture,birthday,location,hometown,cover,link,gender,locale', $accessToken );
+				var_dump($response);
+				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook#####" .  $response . PHP_EOL, FILE_APPEND );
 			
 			// Logged in!
 			
@@ -82,11 +82,11 @@ final class fbUser {
 			// Getting user facebook profile info
 			
 				$profileRequest = $fb->get('/me?fields=name,id,first_name,last_name,email,link,gender,locale,cover,picture',$accessToken);
-				var_dump("fb->get->". $profileRequest);
+				var_dump($profileRequest);
 				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfileRequestFacebook#####" .  $profileRequest . PHP_EOL, FILE_APPEND );
 				
 				$fbUserProfile = $profileRequest->getGraphNode()->asArray();
-				var_dump("getGraphNode()->".$fbUserProfile);
+				var_dump($fbUserProfile);
 				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfilegetGraphNodeAsArrayFacebook#####" .  $fbUserProfile . PHP_EOL, FILE_APPEND );
 				
 				// Insert or update user data to the database
