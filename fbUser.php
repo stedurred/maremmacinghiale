@@ -104,10 +104,10 @@ final class fbUser {
 				);
 				
 				// Put user data into session
-				$_SESSION['userData'] = $userData;
-				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfileUserDataFacebook#####" .  $userData . PHP_EOL, FILE_APPEND );
+				$_SESSION['userData'] = $fbUserData;
+				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfileUserDataFacebook#####" .  $fbUserData . PHP_EOL, FILE_APPEND );
 				
-				var_dump($userData);
+				var_dump($fbUserData);
 				
 				// Get logout url
 				$logoutURL = $helper->getLogoutUrl($accessToken, $redirectURL.'logout.php');
