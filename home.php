@@ -170,12 +170,12 @@ try {
 				
 				$accessToken = $oAuth2Client->getLongLivedAccessToken ( $accessToken );
 				
-				echo '<h3>NEW Long-lived $accessToken </h3>' . $accessToken->isLongLived ();
+				echo '<h3>NEW Long-lived $accessToken </h3>' . $accessToken;
 				
 				$_SESSION ['facebook_access_token'] = ( string ) $accessToken;
 				
-				var_dump($accessToken);
-                var_dump($accessToken->isLongLived ());
+// 				var_dump($accessToken);
+//                 var_dump($accessToken->isLongLived ());
 			} catch ( Facebook\Exceptions\FacebookSDKException $e ) {
 				
 				echo "<p>Error getting long-lived access token: " . $helper->getMessage () . "</p>\n\n";

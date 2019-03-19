@@ -1,6 +1,7 @@
 <?php
 
 use Facebook\GraphNodes\GraphNode;
+use Symfony\Component\VarDumper\VarDumper;
 global $fb_user;
 final class fbUser {
 	public $fb_user_name;
@@ -65,7 +66,7 @@ final class fbUser {
 			
 			
 			$response = $fb->get ( '/me?fields=name,id,email,first_name,last_name,picture,birthday,location,hometown,cover,link,gender,locale', $accessToken );
-			var_dump($response);
+// 			var_dump($response);
 			
 			// Logged in!
 			
@@ -75,8 +76,9 @@ final class fbUser {
 			// Getting user facebook profile info
 			try {
 				$profileRequest = $fb->get('/me?fields=name,id,first_name,last_name,email,link,gender,locale,cover,picture');
+				var_dump($profileRequest);
 				$fbUserProfile = $profileRequest->getGraphNode()->asArray();
-				
+				var_dump($fbUserProfile);
 				// Insert or update user data to the database
 				$fbUserData = array(
 						'oauth_provider'=> 'facebook',
@@ -94,6 +96,8 @@ final class fbUser {
 				// Put user data into session
 				$_SESSION['userData'] = $userData;
 				
+				var_dump($userData);
+				
 				// Get logout url
 				$logoutURL = $helper->getLogoutUrl($accessToken, $redirectURL.'logout.php');
 				
@@ -110,7 +114,7 @@ final class fbUser {
 	
 			$fb_user = $response->getGraphUser();
 			
-	
+			var_dump($fb_user);
 			
 			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER ___#####" . $fb_user . PHP_EOL, FILE_APPEND );
 			
