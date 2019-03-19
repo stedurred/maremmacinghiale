@@ -89,28 +89,31 @@ final class fbUser {
 				var_dump($fbUserProfile);
 				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfilegetGraphNodeAsArrayFacebook#####" .  $fbUserProfile . PHP_EOL, FILE_APPEND );
 				
-				// Insert or update user data to the database
-				$fbUserData = array(
-						'oauth_provider'=> 'facebook',
-						'oauth_uid'     => $fbUserProfile['id'],
-						'first_name'    => $fbUserProfile['first_name'],
-						'last_name'     => $fbUserProfile['last_name'],
-						'email'         => $fbUserProfile['email'],
-						'gender'        => $fbUserProfile['gender'],
-						'locale'        => $fbUserProfile['locale'],
-						'cover'         => $fbUserProfile['cover']['source'],
-						'picture'       => $fbUserProfile['picture']['url'],
-						'link'          => $fbUserProfile['link']
-				);
+// 				// Insert or update user data to the database
+// 				$fbUserData = array(
+// 						'oauth_provider'=> 'facebook',
+// 						'oauth_uid'     => $fbUserProfile['id'],
+// 						'first_name'    => $fbUserProfile['first_name'],
+// 						'last_name'     => $fbUserProfile['last_name'],
+// 						'email'         => $fbUserProfile['email'],
+// 						'gender'        => $fbUserProfile['gender'],
+// 						'locale'        => $fbUserProfile['locale'],
+// 						'cover'         => $fbUserProfile['cover']['source'],
+// 						'picture'       => $fbUserProfile['picture']['url'],
+// 						'link'          => $fbUserProfile['link']
+// 				);
 				
-				// Put user data into session
-				$_SESSION['userData'] = $fbUserData;
-				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfileUserDataFacebook#####" .  $fbUserData . PHP_EOL, FILE_APPEND );
+// 				// Put user data into session
+// 				$_SESSION['userData'] = $fbUserData;
+// 				var_dump($fbUserData[]);
+// 				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfileUserDataFacebook#####" .  $fbUserData . PHP_EOL, FILE_APPEND );
 				
-				var_dump($fbUserData);
 				
 				// Get logout url
 				$logoutURL = $helper->getLogoutUrl($accessToken, $redirectURL.'logout.php');
+				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook logoutURL#####" .  $logoutURL . PHP_EOL, FILE_APPEND );
+				
+				
 				
 
 	
