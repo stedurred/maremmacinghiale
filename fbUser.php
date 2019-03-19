@@ -64,7 +64,7 @@ final class fbUser {
 			
 			
 			$response = $fb->get ( '/me?fields=name,id,email,first_name,last_name,picture,birthday,location,hometown,cover,link,gender,locale', $accessToken );
-			// var_dump($response);
+			var_dump($response);
 			
 			// Logged in!
 			
