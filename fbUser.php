@@ -48,12 +48,13 @@ final class fbUser {
 			
 		
 			if(isset($_SESSION['facebook_access_token'])){
+				var_dump("setDefaultAccessToken ".$_SESSION['facebook_access_token']);
 				$fb->setDefaultAccessToken($_SESSION['facebook_access_token']);
 				
 			}else{
 				// Put short-lived access token in session
 				$_SESSION['facebook_access_token'] = (string) $accessToken;
-		
+				var_dump("NOT setDefaultAccessToken ".$_SESSION['facebook_access_token']);
 				// OAuth 2.0 client handler helps to manage access tokens
 				$oAuth2Client = $fb->getOAuth2Client();
 		
