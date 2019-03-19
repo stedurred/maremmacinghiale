@@ -110,7 +110,7 @@ final class fbUser {
 				
 				
 				// Get logout url
-				$logoutURL = $helper->getLogoutUrl($accessToken, $redirectURL.'logout.php');
+				$logoutURL = $fb->getRedirectLoginHelper()->getLogoutUrl($accessToken, 'logout.php');
 				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook logoutURL#####" .  $logoutURL . PHP_EOL, FILE_APPEND );
 				
 				
