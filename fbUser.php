@@ -1,7 +1,6 @@
 <?php
 
 use Facebook\GraphNodes\GraphNode;
-use Symfony\Component\VarDumper\VarDumper;
 global $fb_user;
 final class fbUser {
 	public $fb_user_name;
