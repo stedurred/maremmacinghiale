@@ -174,8 +174,8 @@ try {
 				
 				$_SESSION ['facebook_access_token'] = ( string ) $accessToken;
 				
-				//var_dump($accessToken);
-                //var_dump($accessToken->isLongLived ());
+				var_dump($accessToken);
+                var_dump($accessToken->isLongLived ());
 			} catch ( Facebook\Exceptions\FacebookSDKException $e ) {
 				
 				echo "<p>Error getting long-lived access token: " . $helper->getMessage () . "</p>\n\n";
