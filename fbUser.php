@@ -66,7 +66,8 @@ final class fbUser {
 			
 			
 			$response = $fb->get ( '/me?fields=name,id,email,first_name,last_name,picture,birthday,location,hometown,cover,link,gender,locale', $accessToken );
-// 			var_dump($response);
+			var_dump($response);
+			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook#####" .  $response . PHP_EOL, FILE_APPEND );
 			
 			// Logged in!
 			
@@ -77,8 +78,12 @@ final class fbUser {
 			try {
 				$profileRequest = $fb->get('/me?fields=name,id,first_name,last_name,email,link,gender,locale,cover,picture');
 				var_dump($profileRequest);
+				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfileFacebook#####" .  $profileRequest . PHP_EOL, FILE_APPEND );
+				
 				$fbUserProfile = $profileRequest->getGraphNode()->asArray();
 				var_dump($fbUserProfile);
+				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfileAsArrayFacebook#####" .  $fbUserProfile . PHP_EOL, FILE_APPEND );
+				
 				// Insert or update user data to the database
 				$fbUserData = array(
 						'oauth_provider'=> 'facebook',
@@ -95,6 +100,7 @@ final class fbUser {
 				
 				// Put user data into session
 				$_SESSION['userData'] = $userData;
+				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfileUserDataFacebook#####" .  $userData . PHP_EOL, FILE_APPEND );
 				
 				var_dump($userData);
 				
@@ -113,6 +119,7 @@ final class fbUser {
 			}
 	
 			$fb_user = $response->getGraphUser();
+			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfilefb_userFacebook#####" .  $fb_user . PHP_EOL, FILE_APPEND );
 			
 			var_dump($fb_user);
 			
