@@ -70,9 +70,9 @@ final class fbUser {
 			
 // 			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook fb->get #####"  . PHP_EOL, FILE_APPEND );
 				
-// 			$response = $fb->get ( '/me?fields=name,id,email,first_name,last_name,picture,birthday,location,hometown,cover,link,gender,locale', $accessToken );
-// 			var_dump($response);
-// 			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook#####" .  $response . PHP_EOL, FILE_APPEND );
+			$response = $fb->get ( '/me?fields=name,id,email,first_name,last_name,picture,birthday,location,hometown,cover,link,gender,locale', $accessToken );
+			var_dump($response);
+			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook#####" .  $response . PHP_EOL, FILE_APPEND );
 			
 			// Logged in!
 			
@@ -112,10 +112,19 @@ final class fbUser {
 				// Get logout url
 				$logoutURL = $helper->getLogoutUrl($accessToken, $redirectURL.'logout.php');
 				
+
+	
+				$fb_user = $response->getGraphUser();
+				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfilefb_userFacebook#####" .  $fb_user . PHP_EOL, FILE_APPEND );
+				
+				var_dump($fb_user);
+				
+				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER ___#####" . $fb_user . PHP_EOL, FILE_APPEND );
+			
 			} catch(FacebookResponseException $e) {
 				echo 'Graph returned an error: ' . $e->getMessage();
 				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook##### FacebookResponseException SDK returned an error:" . $e->getMessage() . PHP_EOL, FILE_APPEND );
-				
+			
 				session_destroy();
 				// Redirect user back to app login page
 				header("Location: ./");
@@ -123,17 +132,9 @@ final class fbUser {
 			} catch(FacebookSDKException $e) {
 				echo 'Facebook SDK returned an error: ' . $e->getMessage();
 				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook##### FacebookSDKException SDK returned an error:" . $e->getMessage() . PHP_EOL, FILE_APPEND );
-				
+			
 				exit;
 			}
-	
-			$fb_user = $response->getGraphUser();
-			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserProfilefb_userFacebook#####" .  $fb_user . PHP_EOL, FILE_APPEND );
-			
-			var_dump($fb_user);
-			
-			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER ___#####" . $fb_user . PHP_EOL, FILE_APPEND );
-			
 			// var_dump ( $this );
 			
 			// var_dump($fb_user->getFieldNames());
