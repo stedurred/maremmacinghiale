@@ -112,13 +112,13 @@ try {
 // 			$GLOBALS['fb_user'] = new fbUser ( $fb, $accessToken );
 			//var_dump($fb_user);
 			
-			// getUserFacebook ( $fb,$accessToken );
+// 			getUserFacebook ( $fb,$accessToken );
 			
-			// getUserFacebookPages( $fb,$accessToken );
+// 			getUserFacebookPages( $fb,$accessToken );
 			
 			// echo $fb_user_pages;
 			
-			$fb_user_pagesEncoded = json_encode ( $fb_user->fb_user_pages ); // Array delle pagine Facebook dell'utente
+// 			$fb_user_pagesEncoded = json_encode ( $fb_user->fb_user_pages ); // Array delle pagine Facebook dell'utente
 
 			//exit;
 
@@ -135,9 +135,9 @@ try {
 		
 		// Logged in
 		
-		// echo '<h3>Access Token</h3>';
+		echo '<h3>Logged in Access Token</h3>';
 		
-		// var_dump($accessToken);
+		var_dump($accessToken);
 		
 		// The OAuth 2.0 client handler helps us manage access tokens
 		
@@ -1137,7 +1137,7 @@ $monthNow = date('m');
 							"ISCRIZIONE" si apre un messaggio di posta da inviare lasciando
 							vuoti i campi</p>
 
-						Il sito invia� un messaggio di sicurezza a cui rispondere per
+						Il sito invia un messaggio di sicurezza a cui rispondere per
 						iscriversi alla lista.
 
 					</div>
