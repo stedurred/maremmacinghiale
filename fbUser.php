@@ -114,12 +114,16 @@ final class fbUser {
 				
 			} catch(FacebookResponseException $e) {
 				echo 'Graph returned an error: ' . $e->getMessage();
+				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook##### FacebookResponseException SDK returned an error:" . $e->getMessage() . PHP_EOL, FILE_APPEND );
+				
 				session_destroy();
 				// Redirect user back to app login page
 				header("Location: ./");
 				exit;
 			} catch(FacebookSDKException $e) {
 				echo 'Facebook SDK returned an error: ' . $e->getMessage();
+				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook##### FacebookSDKException SDK returned an error:" . $e->getMessage() . PHP_EOL, FILE_APPEND );
+				
 				exit;
 			}
 	
