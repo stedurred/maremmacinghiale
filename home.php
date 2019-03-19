@@ -170,7 +170,7 @@ try {
 				
 				$accessToken = $oAuth2Client->getLongLivedAccessToken ( $accessToken );
 				
-				echo '<h3>Long-lived $accessToken</h3>' . $accessToken->isLongLived ();
+				echo '<h3>NEW Long-lived $accessToken </h3>' . $accessToken->isLongLived ();
 				
 				$_SESSION ['facebook_access_token'] = ( string ) $accessToken;
 				
@@ -190,7 +190,7 @@ try {
 		
 		// header('Location: https://example.com/members.php');
 		
-		file_put_contents ( 'logs/log_'  .PHP_EOL.date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER home.php___#####" . "Richiesta Dati Utente Facebook con AccessToken" . PHP_EOL, FILE_APPEND );
+		file_put_contents ( 'logs/log_'  .PHP_EOL.date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . '#####____FACEBOOK USER home.php___#####' . 'Richiesta Dati Utente Facebook con AccessToken' . PHP_EOL, FILE_APPEND );
 		global  $fb_user;
 		$fb_user = new fbUser ( $fb, $accessToken );
 		
