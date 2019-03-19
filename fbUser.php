@@ -68,7 +68,7 @@ final class fbUser {
 				}
 				
 			
-// 			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook fb->get #####"  . PHP_EOL, FILE_APPEND );
+			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook fb->get #####"  . PHP_EOL, FILE_APPEND );
 				
 			$response = $fb->get('/me?fields=name,id,email,first_name,last_name,picture,birthday,location,hometown,cover,link,gender,locale', $accessToken );
 			var_dump("/me?fields".$response);
