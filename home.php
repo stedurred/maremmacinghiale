@@ -190,7 +190,7 @@ try {
 		
 		// header('Location: https://example.com/members.php');
 		
-		file_put_contents ( 'logs/log_'  .PHP_EOL.date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . '#####____FACEBOOK USER home.php___#####' . 'Richiesta Dati Utente Facebook con AccessToken' . PHP_EOL, FILE_APPEND );
+		file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER home.php___#####" . "Richiesta Dati Utente Facebook con AccessToken" . PHP_EOL, FILE_APPEND );
 		global  $fb_user;
 		$fb_user = new fbUser ( $fb, $accessToken );
 		
