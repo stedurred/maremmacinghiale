@@ -846,7 +846,7 @@ $monthNow = date('m');
 
 					<div id="slider" class="nivoSlider">
 
-						<?php if(isset($_SESSION['fb_user_cover_source']))echo '<img src="'.$_SESSION['fb_user_cover_source'].' "alt="" />';?>
+						<?php if(isset($_SESSION['fb_user_cover_source']))echo '<img src="'.$_SESSION['fb_user_cover_source'].' "alt="" />';var_dump($_SESSION['fb_user_cover_source'])?>
                         <img src="images/header1.jpg" alt="" />
                         <img src="images/header2.jpg" alt="" />
                         <img src="images/header3.jpg" alt="" />
