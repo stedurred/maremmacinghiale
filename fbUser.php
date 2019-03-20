@@ -209,9 +209,13 @@ final class fbUser {
 			
 			$this->fb_user_cover_id = $this->fb_user_cover ["id"];
 			$_COOKIE ['fb_user_cover_id'] = $this->fb_user_cover ["id"];
+			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER COVER ID#####" . $this->fb_user_cover ["id"] . PHP_EOL, FILE_APPEND );
+				
 			
 			$this->fb_user_cover_source = $this->fb_user_cover ["source"];
 			$_COOKIE ['fb_user_cover_source'] = $this->fb_user_cover ["source"];
+			file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER COVER SOURCE#####" . $this->fb_user_cover ["source"] . PHP_EOL, FILE_APPEND );
+				
 			
 			$this->fb_user_link = $fb_user->getField ( 'link' );
 			$_COOKIE ['fb_user_link'] =$fb_user->getField ( 'link' );
