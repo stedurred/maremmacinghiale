@@ -42,7 +42,7 @@ final class fbApp{
 
 				'app_secret' => $decryptApp_secret,
 
-				'default_graph_version' => 'v2.8',
+				'default_graph_version' => 'v2.9',
 
 			]);
 
