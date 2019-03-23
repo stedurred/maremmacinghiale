@@ -61,6 +61,9 @@ final class fbApp{
 			file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
 				."#####____FACEBOOK OBJECT REQUEST_FINE___#####"
 				.PHP_EOL, FILE_APPEND);
+			file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
+			    ."#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####".$strGraphVersion
+			    .PHP_EOL, FILE_APPEND);
 
 		} catch(\Facebook\Exceptions\FacebookResponseException $e) {
 
