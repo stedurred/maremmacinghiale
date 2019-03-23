@@ -42,6 +42,7 @@ try {
 	global $fb;
     $fbApplication = new fbApp();
     $fbApplication->printGraphVersion();
+    
     $GLOBALS['fb'] = $fbApplication->fbApplication;
 
 	
