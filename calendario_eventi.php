@@ -44,7 +44,7 @@ echo 'Anno:'.$yearNow.'<br>';
 if (isset($_GET['token'])) {
     //https://www.paypal.com/webapps/www.maremmacinghiale.it/admin_prenotazione.php?inserisci&token=1EY20170Y99084608
     $token= $_GET['token'];
-    echo $token;
+    echo "ACCESS_TOKEN:".$token;
 }
 if(isset($_POST['btn-cerca_evento']))
 {
