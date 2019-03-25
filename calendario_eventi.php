@@ -58,6 +58,7 @@ if(isset($_POST['btn-cerca_evento']))
         $data_evento = mysqli_real_escape_string($connection,$_POST['data_evento']);
     }else{
         $data_evento = time();// mysqli_real_escape_string($connection,$_POST['data_evento']);
+        echo "Data Evento: " . $data_evento.PHP_EOL;
         file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
             ."____FACEBOOK APP MAREMMACINGHIALE____calendario_eventi.php->btn-cerca_evento->data_evento:".$data_evento.PHP_EOL, FILE_APPEND);
     }
