@@ -256,15 +256,13 @@ function draw_calendar_ricerca_eventi($nome,$data_evento,$ora_evento,$regione,$p
 	$date = date_create_from_format('d/m/Y',$data_evento);
 	var_dump($date);
 	file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
-	    ."#####____FACEBOOK____index.php v2.9___#####".
-	    "INIT____FACEBOOK APP MAREMMACINGHIALE____calendari.php->:draw_calendar_ricerca_eventi:data_evento:".$data_evento.PHP_EOL, FILE_APPEND);
+	    ."____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:data_evento:".$data_evento.PHP_EOL, FILE_APPEND);
 	//var_dump($data_evento);
 	//var_dump($ora_evento);
 	$time = date_create_from_format('d/m/Y',$ora_evento);
 	var_dump($time);
 	file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
-	    ."#####____FACEBOOK____index.php v2.9___#####".
-	    "INIT____FACEBOOK APP MAREMMACINGHIALE____calendari.php->:draw_calendar_ricerca_eventi:ora_evento:".$time.PHP_EOL, FILE_APPEND);
+	    ."____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:ora_evento:".$time.PHP_EOL, FILE_APPEND);
     $sqlDay = date_format($date,'d');
     $sqlMonth = date_format($date,'m');
     $sqlmounthName =strftime ('%B',$date->getTimestamp());
