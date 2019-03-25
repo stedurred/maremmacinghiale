@@ -256,7 +256,7 @@ function draw_calendar_ricerca_eventi($nome,$data_evento,$ora_evento,$regione,$p
 	//var_dump($data_evento);
 	//var_dump($ora_evento);
 	$time = date_create_from_format('d/m/Y',$ora_evento);
-	
+	var_dump($time);
     $sqlDay = date_format($date,'d');
     $sqlMonth = date_format($date,'m');
     $sqlmounthName =strftime ('%B',$date->getTimestamp());
