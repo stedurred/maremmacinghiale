@@ -56,9 +56,11 @@ if(isset($_POST['btn-cerca_evento']))
 
     if(isset($_POST['data_evento'])){
         $data_evento = mysqli_real_escape_string($connection,$_POST['data_evento']);
+        echo "Data Evento isset: " . $data_evento.PHP_EOL;
     }else{
         $data_evento = time();// mysqli_real_escape_string($connection,$_POST['data_evento']);
-        echo "Data Evento: " . $data_evento.PHP_EOL;
+        echo "Data Evento not set: " . $data_evento.PHP_EOL;
+        
         file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
             ."____FACEBOOK APP MAREMMACINGHIALE____calendario_eventi.php->btn-cerca_evento->data_evento:".$data_evento.PHP_EOL, FILE_APPEND);
     }
@@ -70,7 +72,7 @@ if(isset($_POST['btn-cerca_evento']))
     if(isset($_POST['titolo'])){
         $titolo = mysqli_real_escape_string($connection,$_POST['titolo']);
     }else $titolo= mysqli_real_escape_string($connection,$_POST['$titolo']);
-    echo $titolo;
+
     if(isset($_POST['regione'])){
         $regione= mysqli_real_escape_string($connection,$_POST['regione']);
     }else $regione= mysqli_real_escape_string($connection,$_POST['DropDownRegione']);
