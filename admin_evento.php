@@ -195,6 +195,9 @@ if (isset($_GET['modifica']))
 
 if (isset($_GET['visualizza'])) 
 {
+    file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
+        ."#####____FACEBOOK____index.php v2.9___#####".
+        "INIT____FACEBOOK APP MAREMMACINGHIALE____Location: calendario_eventi.php:".PHP_EOL, FILE_APPEND);
     
     header("Location: calendario_eventi.php");
 }
