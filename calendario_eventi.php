@@ -54,7 +54,7 @@ if(isset($_POST['btn-cerca_evento']))
 	 $datenow = date('Y-m-d H:i:s');
 
 
-    if(isset($_POST['data_evento'])){
+	 if(isset($_POST['data_evento']) && !empty($_POST['data_evento'])){
         $data_evento = mysqli_real_escape_string($connection,$_POST['data_evento']);
         echo "Data Evento isset: " . $data_evento.PHP_EOL;
     }else{
