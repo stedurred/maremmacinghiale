@@ -261,9 +261,9 @@ function draw_calendar_ricerca_eventi($nome,$data_evento,$ora_evento,$regione,$p
     $sqlMonth = date_format($date,'m');
     $sqlmounthName =strftime ('%B',$date->getTimestamp());
     $sqlYear = date_format($date,'Y');
-    $sqlHour = date_format($date,'H');
-    $sqlMinute = date_format($date,'i');
-    $sqlSecond = date_format($date,'s');
+    $sqlHour = date_format($time,'H');
+    $sqlMinute = date_format($time,'i');
+    $sqlSecond = date_format($time,'s');
 	/* days and weeks vars now ... */
 	$running_day = date('w',mktime(0,0,0,$month,1,$year));
 	$tm = date('e',mktime(0,0,0,$month,1,$year));

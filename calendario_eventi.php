@@ -56,11 +56,11 @@ if(isset($_POST['btn-cerca_evento']))
 
     if(isset($_POST['data_evento'])){
         $data_evento = mysqli_real_escape_string($connection,$_POST['data_evento']);
-    }else $data_evento = mysqli_real_escape_string($connection,$_POST['data_evento']);
+    }else $data_evento = time();// mysqli_real_escape_string($connection,$_POST['data_evento']);
 
     if(isset($_POST['ora_evento'])){
         $ora_evento = mysqli_real_escape_string($connection,$_POST['ora_evento']);
-    }else $ora_evento = mysqli_real_escape_string($connection,$_POST['ora_evento']);
+    }else $ora_evento =time();// mysqli_real_escape_string($connection,$_POST['ora_evento']);
 
     if(isset($_POST['titolo'])){
         $titolo = mysqli_real_escape_string($connection,$_POST['titolo']);
@@ -397,7 +397,7 @@ if(isset($_POST['btn-cerca_evento']))
                                                     <div class="col-md-3 col-xs-4">
                                                         <div class="form-group">
 
-                                                                <input type="text" id="datepicker" class="form-control" name="data_evento" placeholder="Data evento" required />
+                                                                <input type="text" id="datepicker" class="form-control" name="data_evento" placeholder="Data evento" />
 
                                                         </div>
                                                     </div>
