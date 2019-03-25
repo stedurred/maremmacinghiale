@@ -52,9 +52,11 @@ if(isset($_POST['btn-cerca_evento']))
 	 echo "The current server timezone is: " . $timezone;
 	 date_default_timezone_set($timezone);
 	 $datenow = date('Y-m-d H:i:s');
-	 $newdate = date('d-m-Y',strtotime("+1 year",$datenow));
+	 echo "Data now: " . $datenow.PHP_EOL;
+	 $newdate = date('Y-m-d H:i:s',strtotime("+1 year",$datenow));
+	 echo "Data newdate: " . $newdate.PHP_EOL;
 	 $newYearFormat = $newdate->format('Y-m-d H:i:s');
-
+	 echo "Data newYearFormat: " . $newYearFormat.PHP_EOL;
 	 if(isset($_POST['data_evento']) && !empty($_POST['data_evento'])){
         $data_evento = mysqli_real_escape_string($connection,$_POST['data_evento']);
         echo "Data Evento isset: " . $data_evento.PHP_EOL;
