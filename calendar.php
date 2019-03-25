@@ -252,7 +252,7 @@ function draw_calendar_ricerca_eventi($nome,$data_evento,$ora_evento,$regione,$p
 	//$calendar.= '<tr class="calendar-row"><td class="calendar-day-head">'.implode('</td><td class="calendar-day-head">',$headings).'</td></tr>';
     //$date = date_create_from_format('Y-m-d',$data_evento);
 	$date = date_create_from_format('d/m/Y',$data_evento);
-	//var_dump($nome);
+	var_dump($date);
 	//var_dump($data_evento);
 	//var_dump($ora_evento);
 	$time = date_create_from_format('d/m/Y',$ora_evento);
