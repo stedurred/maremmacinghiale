@@ -216,7 +216,7 @@ function draw_calendar($month,$year,$connection){
 function draw_calendar_ricerca_eventi($nome,$data_evento,$ora_evento,$regione,$provincia,$atc,$squadra,$month,$year, $connection){
     file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
         ."#####____FACEBOOK____index.php v2.9___#####".
-        "INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi".PHP_EOL, FILE_APPEND);
+        "INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi".$nome.$data_evento.$ora_evento.$regione.$provincia.$atc.$squadra.$month.$year.PHP_EOL, FILE_APPEND);
 	setlocale(LC_MONETARY, 'it_IT');
 
     $mounthNameNow =strftime ('%B');
