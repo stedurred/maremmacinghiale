@@ -198,14 +198,16 @@ $datenow = date('Y-m-d H:i:s');
 $yearNow=date('Y');
 
 $nextYear=date_format(date_add(date_create_from_format('d-m-Y','01-01-'.$yearNow),new DateInterval('P1Y')),'Y');
-$nextYearDate=date_format(date_add($datenow,new DateInterval('P1Y')),'Y');
-echo  $nextYearDate;
+$nextYearDate=date_format(date_create_from_format('d-m-Y','31-12-'.$nextYear),'d/m/Y');
+echo "nextYearDate". $nextYearDate;
 
 $monthNow = date('m');
 
 //echo $monthNow;
 
 $gennaio=date_format(date_add(date_create_from_format('d-m-Y','01-12-'.$yearNow),new DateInterval('P1M')),'m');
+
+echo "gennaio". $gennaio;
 
 $febbraio=date_format(date_add(date_create_from_format('d-m-Y','01-01-'.$yearNow),new DateInterval('P1M')),'m');
 
@@ -398,12 +400,12 @@ if(isset($_POST['btn-login']))
 // 	$date_interval_format = date_interval_create_from_date_string('+1y');
 // 	echo "date_interval_format----------------------------3>".$date_interval_format."\n";
 	$data_evento =  $nextYearDate;//date_format(date_add($dateNow,$date_interval_format),'d/m/Y');
-    var_dump($dateNow);
+	var_dump($data_evento);
 	echo "DataEvento---------------------------->before button cerca".$data_evento."\n";
 
 
 	$ora_evento = $hourNow;
-	echo "OraEvento---------------------------->before button cerca".$ora_evento."\n";;
+	echo "OraEvento---------------------------->before button cerca".$ora_evento ."\n";;
 
 
 
@@ -423,21 +425,21 @@ if(isset($_POST['btn-cerca_evento']))
     $datenow = date('Y-m-d H:i:s');
 
 
-    if(isset($_POST['data_evento'])){
+    if(isset($_POST['data_evento']) && !empty($_POST['data_evento'])){
 
     	//Provengo dal form di ricerca laterale
 
         $data_evento = mysqli_real_escape_string($connection,$_POST['data_evento']);
-        echo "DataEvento---------------------------->isset".$data_evento;
+        echo "DataEvento---------------------------->isset ".$data_evento;
     }else{
         
-        $data_evento =  date_format(date_add($data_evento,date_interval_create_from_date_string("1 year")),"Y-m-d");
-        echo "DataEvento---------------------------->NOT isset".$data_evento;
+//         $data_evento =  date_format(date_add($data_evento,date_interval_create_from_date_string("1 year")),'Y-m-d');
+        echo "DataEvento---------------------------->NOT isset ".$data_evento;
     }
 
     //echo "data_evento: " . $data_evento;
 
-    if(isset($_POST['ora_evento'])){
+    if(isset($_POST['ora_evento'])&& !empty($_POST['ora_evento'])){
 
         $ora_evento = mysqli_real_escape_string($connection,$_POST['ora_evento']);
 
@@ -1106,7 +1108,7 @@ if(isset($_POST['btn-cerca_evento']))
 
 
 
-                                                                <input type="text" id="datepicker" class="form-control" name="data_evento" placeholder="Data" alt="Data" required />
+                                                                <input type="text" id="datepicker" class="form-control" name="data_evento" placeholder="Data" alt="Data" />
 
 
 

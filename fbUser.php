@@ -196,7 +196,7 @@ final class fbUser {
 			// echo 'Picture Url: ' . $fb_user_picture;
 			
 			$this->fb_user_hometown = $fb_user->getHometown ();
-			$_COOKIE ['b_user_hometown'] = $fb_user->getHometown ();
+			$_COOKIE ['fb_user_hometown'] = $fb_user->getHometown ();
 			// echo 'user_hometown: ' . $fb_user_hometown.PHP_EOL;
 			
 			$this->fb_user_birthday = $fb_user->getBirthday ();

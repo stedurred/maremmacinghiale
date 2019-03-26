@@ -952,7 +952,7 @@ $monthNow = date('m');
 
 					<?php
 					
-					if ($_SESSION ['user'] == 'stedurred') 
+					if ($_SESSION ['user'] || $_SESSION ['fb_user'] ) 
 
 					{
 						
@@ -960,7 +960,7 @@ $monthNow = date('m');
 						
 						echo '<a href="admin_user.php?admin">Modifica Utente</a><br/>';
 						
-						echo '<a href="admin_evento.php?inserisci">Modifica Evento</a>';
+						echo '<a href="admin_evento.php?inserisci">Inserisci Evento Evento</a>';
 					}
 					?> &nbsp;<br /> <a href="logout.php?logout">Sign Out</a>
 

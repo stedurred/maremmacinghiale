@@ -1,0 +1,402 @@
+26-3-2019 12:03:04
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:03:04#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:03:04#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:03:04#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:03:04#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:03:04#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:03:04#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi12:03:04032019
+26-3-2019 12:03:04____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:data_evento:
+26-3-2019 12:03:04____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:ora_evento:
+26-3-2019 12:03:54
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:03:54#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:03:54#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:03:54#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:03:54#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:03:54#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:03:54#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi12:03:54032019
+26-3-2019 12:03:54____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:data_evento:
+26-3-2019 12:03:54____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:ora_evento:
+26-3-2019 12:04:31
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:04:31#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:04:31#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:04:31#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:04:31#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:04:31#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:04:31#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi12:04:31032019
+26-3-2019 12:04:31____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:data_evento:
+26-3-2019 12:04:31____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:ora_evento:
+26-3-2019 12:04:53
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:04:53#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:04:53#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:04:53#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:04:53#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:04:53#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:04:53#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi12:04:53032019
+26-3-2019 12:04:53____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:data_evento:
+26-3-2019 12:04:53____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:ora_evento:
+26-3-2019 12:06:17
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:06:17#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:06:17#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:06:17#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:06:17#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:06:17#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:06:17#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi12:06:17032019
+26-3-2019 12:06:17____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:data_evento:
+26-3-2019 12:06:17____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:ora_evento:
+26-3-2019 12:07:51
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:07:51#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:07:51#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:07:51#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:07:51#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:07:51#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:08:22
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:08:22#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:08:22#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:08:22#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:08:22#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:08:22#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:08:22#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi12:08:22032019
+26-3-2019 12:08:22____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:data_evento:
+26-3-2019 12:08:22____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:ora_evento:
+26-3-2019 12:19:09
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:19:09#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:19:10#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:19:10#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:19:10#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:19:10#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:19:10#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi12:19:10032019
+26-3-2019 12:19:10____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:data_evento:
+26-3-2019 12:19:10____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:ora_evento:
+26-3-2019 12:20:52
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:20:52#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:20:52#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:20:52#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:20:52#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:20:52#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:20:52#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi12:20:52032019
+26-3-2019 12:20:52____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:data_evento:
+26-3-2019 12:20:52____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:ora_evento:
+26-3-2019 12:22:39
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:22:39#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:22:39#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:22:39#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:22:39#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:22:39#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:22:39#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi202112:22:39032019
+26-3-2019 12:22:39____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:data_evento:
+26-3-2019 12:22:39____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:ora_evento:
+26-3-2019 12:23:33
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:23:33#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:23:33#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:23:33#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:23:33#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:23:33#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:23:33#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi202112:23:33032019
+26-3-2019 12:23:33____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:data_evento:
+26-3-2019 12:23:33____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:ora_evento:
+26-3-2019 12:24:15
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:24:15#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:24:15#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:24:15#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:24:15#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:24:15#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:24:15#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi202112:24:15032019
+26-3-2019 12:24:16____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:data_evento:
+26-3-2019 12:24:16____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:ora_evento:
+26-3-2019 12:25:18
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:25:18#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:25:18#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:25:18#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:25:18#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:25:18#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:25:18#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi31-12-202112:25:18032019
+26-3-2019 12:25:18____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:data_evento:
+26-3-2019 12:25:18____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:ora_evento:
+26-3-2019 12:26:11
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:26:11#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:26:11#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:26:11#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:26:11#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:26:11#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:26:11#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi31-12-202012:26:11032019
+26-3-2019 12:26:11____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:data_evento:
+26-3-2019 12:26:11____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi:ora_evento:
+26-3-2019 12:26:58
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:26:58#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:26:58#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:26:58#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:26:58#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:26:58#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:26:58#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi31/12/202012:26:58032019
+26-3-2019 12:28:48
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:28:48#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:28:48#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:28:48#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:28:48#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:28:48#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:28:48#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi31/12/202012:28:48032019
+26-3-2019 12:30:16
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:30:16#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:30:16#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:30:16#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:30:16#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:30:16#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:30:16#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi31/12/202012:30:16032019
+26-3-2019 12:30:49
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:30:49#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:30:49#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:30:49#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:30:49#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:30:49#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:30:49#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi31/12/202012:30:49032019
+26-3-2019 12:33:09
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 12:33:09#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 12:33:09#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 12:33:09#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 12:33:09#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=bd3e19415e090f32cb645abfb924910e&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 12:33:09#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 12:33:09#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi31/12/202012:33:09032019
+26-3-2019 17:25:20
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 17:25:20#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 17:25:20#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 17:25:20#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 17:25:20#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 17:25:20#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 17:25:20#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi31/12/202017:25:20032019
+26-3-2019 17:28:24
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 17:28:24#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 17:28:24#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 17:28:24#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 17:28:24#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 17:28:24#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 17:28:24#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi31/12/202017:28:24032019
+26-3-2019 17:28:38
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 17:28:38#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 17:28:38#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 17:28:38#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 17:28:38#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 17:28:38#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 17:28:38#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi1655299032019
+26-3-2019 17:31:53
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 17:31:53#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 17:31:53#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 17:31:53#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 17:31:53#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 17:31:53#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 17:31:53#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi1655299032019
+26-3-2019 17:33:40
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 17:33:40#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 17:33:40#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 17:33:40#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 17:33:40#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 17:33:40#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 17:33:40#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi31/12/202017:33:40032019
+26-3-2019 17:33:55
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 17:33:55#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 17:33:55#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 17:33:55#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 17:33:55#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 17:33:55#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 17:33:55#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi31/12/2020165529920032019
+26-3-2019 17:41:49
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 17:41:49#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 17:41:49#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 17:41:49#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 17:41:49#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 17:41:49#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 17:41:49#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:17:41:49Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 17:43:05
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 17:43:05#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 17:43:05#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 17:43:05#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 17:43:05#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 17:43:05#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 17:43:05#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:17:43:05Regione:16Prov:55ATC:299Squadra:20Mese:03Anno2019
+26-3-2019 17:45:08
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 17:45:08#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 17:45:08#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 17:45:08#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 17:45:08#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 17:45:08#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 17:45:08#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:17:45:08Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 17:54:53
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 17:54:53#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 17:54:53#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 17:54:53#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 17:54:53#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 17:54:53#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 17:54:53#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:17:54:53Regione:Prov:ATC:Squadra:Mese:03Anno2019
