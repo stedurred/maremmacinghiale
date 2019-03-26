@@ -448,7 +448,7 @@ if (! $result) {
 }
 
 $userRow = mysqli_fetch_array ( $result );
- var_dump($userRow);
+//  var_dump($userRow);
  $upass = mysqli_real_escape_string($connection,$_SESSION['user_password']);
 if ($userRow ['password'] == md5 ( $upass ))
 
@@ -953,7 +953,7 @@ $monthNow = date('m');
 					<?php
 
 // 					echo "######################################################".isset($_SESSION ['user']) || isset( $_SESSION ['fb_user']) ;
-					if (isset($_SESSION ['user']) || isset( $_SESSION ['fb_user']) ) 
+					if (isset($_SESSION ['user'])  ) 
 
 					{
 						
@@ -963,7 +963,7 @@ $monthNow = date('m');
 						
 						echo '<a href="admin_evento.php?inserisci">Inserisci Evento Evento</a>';
 					}else {
-					    echo($_SESSION ['user']);
+					    echo($_SESSION ['user'][id]);
 					    echo($_SESSION ['fb_user']);
 					}
 					?> &nbsp;<br /> <a href="logout.php?logout">Sign Out</a>
