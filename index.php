@@ -395,7 +395,7 @@ if(isset($_POST['btn-login']))
 
 	$hourNow = date('H:i:s');
 
-	$data_evento =  date_format(date_add($dateNow,date_interval_format("1y")),'d/m/Y');
+	$data_evento =  date_format(date_add($dateNow,date_interval_format("+%y")),'d/m/Y');
 	var_dump($data_evento);
 	echo "DataEvento---------------------------->before button cerca".date_format($data_evento,'d/m/Y')."\n";
 
