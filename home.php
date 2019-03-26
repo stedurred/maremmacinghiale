@@ -951,8 +951,9 @@ $monthNow = date('m');
 						</div>
 
 					<?php
-					
-					if (!empty($_SESSION ['user']) || !empty( $_SESSION ['fb_user']) ) 
+
+// 					echo "######################################################".isset($_SESSION ['user']) || isset( $_SESSION ['fb_user']) ;
+					if (isset($_SESSION ['user']) || isset( $_SESSION ['fb_user']) ) 
 
 					{
 						
@@ -962,8 +963,8 @@ $monthNow = date('m');
 						
 						echo '<a href="admin_evento.php?inserisci">Inserisci Evento Evento</a>';
 					}else {
-					    var_dump($_SESSION ['user']);
-					    var_dump($_SESSION ['fb_user']);
+					    echo($_SESSION ['user']);
+					    echo($_SESSION ['fb_user']);
 					}
 					?> &nbsp;<br /> <a href="logout.php?logout">Sign Out</a>
 
