@@ -15,6 +15,12 @@ use Facebook\Facebook;
 final class fbApp{
 	
 	public $fbApplication;
+	public $strGraphVersion='2.9';
+// 	const  $conGraphVesrion='2.9';//  $conGraphVesrion="V2.9";
+	
+	function printGraphVersion(){
+	    echo $this->strGraphVersion;
+	}
 
 
 	function __construct() {
@@ -36,13 +42,14 @@ final class fbApp{
             $decryptApp_secret = myCrypt($cryptApp_secret,'d');
             //var_dump($decryptAapp_id);
             //var_dump($decryptApp_secret);
-			$this->fbApplication =	new Facebook([
+			this.$strGraphVersion = 'v2.9';
+            $this->fbApplication =	new Facebook([
 
 				'app_id' => $decryptAapp_id,
 
 				'app_secret' => $decryptApp_secret,
 
-				'default_graph_version' => 'v2.8',
+				'default_graph_version' => $strGraphVersion,
 
 			]);
 
@@ -54,6 +61,9 @@ final class fbApp{
 			file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
 				."#####____FACEBOOK OBJECT REQUEST_FINE___#####"
 				.PHP_EOL, FILE_APPEND);
+			file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
+			    ."#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####".$strGraphVersion
+			    .PHP_EOL, FILE_APPEND);
 
 		} catch(\Facebook\Exceptions\FacebookResponseException $e) {
 
