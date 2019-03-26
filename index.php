@@ -198,8 +198,8 @@ $datenow = date('Y-m-d H:i:s');
 $yearNow=date('Y');
 
 $nextYear=date_format(date_add(date_create_from_format('d-m-Y','01-01-'.$yearNow),new DateInterval('P1Y')),'Y');
-
-//echo  $nextYear;
+$nextYearDate=date_format(date_add($datenow,new DateInterval('P1Y')),'Y');
+echo  $nextYearDate;
 
 $monthNow = date('m');
 
@@ -395,10 +395,10 @@ if(isset($_POST['btn-login']))
 
 	$hourNow = date('H:i:s');
 
-	$date_interval_format = date_interval_format("+1y");
-	echo "date_interval_format---------------------------->".$date_interval_format."\n";
-    $data_evento =  date_format(date_add($dateNow,$date_interval_format),'d/m/Y');
-	var_dump($data_evento);
+// 	$date_interval_format = date_interval_create_from_date_string('+1y');
+// 	echo "date_interval_format----------------------------3>".$date_interval_format."\n";
+	$data_evento =  $nextYearDate;//date_format(date_add($dateNow,$date_interval_format),'d/m/Y');
+    var_dump($dateNow);
 	echo "DataEvento---------------------------->before button cerca".$data_evento."\n";
 
 
