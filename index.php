@@ -425,7 +425,12 @@ if(isset($_POST['btn-cerca_evento']))
     	//Provengo dal form di ricerca laterale
 
         $data_evento = mysqli_real_escape_string($connection,$_POST['data_evento']);
-
+        echo "DataEvento---------------------------->isset".$data_evento;
+    }else{
+        
+        ;
+        $data_evento =  date_format(date_add($date,date_interval_create_from_date_string("1+ year")),"Y-m-d");
+        echo "DataEvento---------------------------->NOT isset".$data_evento;
     }
 
     //echo "data_evento: " . $data_evento;
