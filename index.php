@@ -396,6 +396,7 @@ if(isset($_POST['btn-login']))
 	$hourNow = date('H:i:s');
 
 	$data_evento = $dateNow;
+	echo "DataEvento---------------------------->before button cerca".$data_evento;
 
 	//echo "data_evento: " . $data_evento;
 
