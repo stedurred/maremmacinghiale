@@ -398,11 +398,10 @@ if(isset($_POST['btn-login']))
 	$data_evento = $dateNow;
 	echo "DataEvento---------------------------->before button cerca".$data_evento;
 
-	//echo "data_evento: " . $data_evento;
 
 	$ora_evento = $hourNow;
+	echo "OraEvento---------------------------->before button cerca".$ora_evento;
 
-	//echo "ora_evento: " . $ora_evento;
 
 
 
@@ -1309,7 +1308,7 @@ if(isset($_POST['btn-cerca_evento']))
 
 
 
-                                        <h2>Stagione 2016<span class="glyphicon glyphicon-minus"></span>2017</h2>
+                                        <h2>Stagione 2018<span class="glyphicon glyphicon-minus"></span>2019</h2>
 
                                         <span class="caret"></span>
 
@@ -1357,7 +1356,7 @@ if(isset($_POST['btn-cerca_evento']))
 
 
 
-                                    <div  class="btn-group-vertical" role="group" aria-label="Eventi 2016">
+                                    <div  class="btn-group-vertical" role="group" aria-label="Eventi 2019">
 
 
 
@@ -1473,11 +1472,13 @@ if(isset($_POST['btn-cerca_evento']))
 
                                             echo draw_calendar_ricerca_eventi($titolo,$data_evento,$ora_evento,$regione,$provincia,$atc,$squadra,$monthNow,$yearNow,$connection);
 
-                                        }else {
+                                        }else{
 
                                         	print "<div class='alert alert-success' role='alert'><h2 class='pad_bot1 pad_top1'>Eventi in programma</h2></div>";
 
                                         	//Eventi proposti all'apertura della pagina
+                                        	
+                                        	
 
                                         	echo draw_calendar_ricerca_eventi($titolo,$data_evento,$ora_evento,$regione,$provincia,$atc,$squadra,$monthNow,$yearNow,$connection);
 
