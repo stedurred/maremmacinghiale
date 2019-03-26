@@ -395,13 +395,13 @@ if(isset($_POST['btn-login']))
 
 	$hourNow = date('H:i:s');
 
-	$data_evento =  date_format(date_add($dateNow,date_interval_create_from_date_string("1 year")),'d/m/Y');
+	$data_evento =  date_format(date_add($dateNow,date_interval_format("1y")),'d/m/Y');
 	var_dump($data_evento);
-	echo "DataEvento---------------------------->before button cerca".date_format($data_evento,'d/m/Y').PHP_EOL;
+	echo "DataEvento---------------------------->before button cerca".date_format($data_evento,'d/m/Y')."\n";
 
 
 	$ora_evento = $hourNow;
-	echo "OraEvento---------------------------->before button cerca".$ora_evento.PHP_EOL;
+	echo "OraEvento---------------------------->before button cerca".$ora_evento."\n";;
 
 
 
