@@ -602,6 +602,8 @@ if(isset($_POST['btn-cerca_evento']))
         <meta name="description" content="Maremma Cinghiale - Caccia al cinghiale nella Maremma Toscana.Prenota un evento e vai a caccia presso le squadre al cinghiale in tutta Italia" />
 
         <link rel='Icon MaremmaCinghiale' href='favicon.ico' type='image/x-icon' />
+        
+        <script type="text/javascript" src="js/common_functions.js"></script>
 
         <!-- Latest css/nivo-slider.css -->
 
@@ -1702,23 +1704,23 @@ if(isset($_POST['btn-cerca_evento']))
 
 	<script>
 
-        function readyAJAX() {
+//         function readyAJAX() {
 
-            try {return new XMLHttpRequest();} catch(e) {
+//             try {return new XMLHttpRequest();} catch(e) {
 
-                try {return new ActiveXObject("Msxml2.XMLHTTP");} catch(e) {
+//                 try {return new ActiveXObject("Msxml2.XMLHTTP");} catch(e) {
 
-                    try {return new ActiveXObject("Microsoft.XMLHTTP");} catch(e) {
+//                     try {return new ActiveXObject("Microsoft.XMLHTTP");} catch(e) {
 
-                        return "A newer browser is needed.";
+//                         return "A newer browser is needed.";
 
-                    }
+//                     }
 
-                }
+//                 }
 
-            }
+//             }
 
-        }
+//         }
 
 
 
@@ -1770,185 +1772,185 @@ if(isset($_POST['btn-cerca_evento']))
 
 
 
-        function getRegioni() {
+//         function getRegioni() {
 
-            var url = "getRegioni.php";
+//             var url = "getRegioni.php";
 
-            //var e = document.getElementById("ddregione");
+//             //var e = document.getElementById("ddregione");
 
-            var requestObj = readyAJAX();
+//             var requestObj = readyAJAX();
 
-            //var strIdRegione =select.value;
-
-
-
-            //var params = "id_regione="+encodeURIComponent(strIdRegione);
-
-            requestObj.open("POST", url, true);
-
-            requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-
-            requestObj.send();
-
-            requestObj.onreadystatechange = function () {
-
-                if (requestObj.readyState == 4) {
-
-                    if (requestObj.status == 200) {
-
-                        document.getElementById("ddregione").innerHTML = requestObj.responseText;
-
-                        //alert(requestObj.responseText);
-
-                    } else {
-
-                        alert(requestObj.statusText);
-
-                    }
-
-                }
-
-            }
-
-        }
+//             //var strIdRegione =select.value;
 
 
 
-        function getProvince(select) {
+//             //var params = "id_regione="+encodeURIComponent(strIdRegione);
 
-            var url = "getProvince.php";
+//             requestObj.open("POST", url, true);
 
-            var e = document.getElementById("ddregione");
+//             requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
-            var requestObj = readyAJAX();
+//             requestObj.send();
 
-            var strIdRegione = select.value;
+//             requestObj.onreadystatechange = function () {
+
+//                 if (requestObj.readyState == 4) {
+
+//                     if (requestObj.status == 200) {
+
+//                         document.getElementById("ddregione").innerHTML = requestObj.responseText;
+
+//                         //alert(requestObj.responseText);
+
+//                     } else {
+
+//                         alert(requestObj.statusText);
+
+//                     }
+
+//                 }
+
+//             }
+
+//         }
 
 
 
-            var params = "id_regione=" + encodeURIComponent(strIdRegione);
+//         function getProvince(select) {
 
-            requestObj.open("POST", url, true);
+//             var url = "getProvince.php";
 
-            requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+//             var e = document.getElementById("ddregione");
 
-            requestObj.send(params);
+//             var requestObj = readyAJAX();
 
-            requestObj.onreadystatechange = function () {
+//             var strIdRegione = select.value;
 
-                if (requestObj.readyState == 4) {
 
-                    if (requestObj.status == 200) {
 
-                        document.getElementById("ddprovincia").innerHTML = requestObj.responseText;
+//             var params = "id_regione=" + encodeURIComponent(strIdRegione);
 
-                        //alert(requestObj.responseText);
+//             requestObj.open("POST", url, true);
 
-                    } else {
+//             requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
-                        alert(requestObj.statusText);
+//             requestObj.send(params);
 
-                    }
+//             requestObj.onreadystatechange = function () {
 
-                }
+//                 if (requestObj.readyState == 4) {
 
-            }
+//                     if (requestObj.status == 200) {
 
-        }
+//                         document.getElementById("ddprovincia").innerHTML = requestObj.responseText;
+
+//                         //alert(requestObj.responseText);
+
+//                     } else {
+
+//                         alert(requestObj.statusText);
+
+//                     }
+
+//                 }
+
+//             }
+
+//         }
 
                
 
-               function getAtc(select){
+//                function getAtc(select){
 
-                  var url = "getAtc.php"; 
+//                   var url = "getAtc.php"; 
 
-                  var e = document.getElementById("ddprovincia");
+//                   var e = document.getElementById("ddprovincia");
 
-                  var requestObj = readyAJAX(); 
+//                   var requestObj = readyAJAX(); 
 
-                  var strIdProvincia =select.value;
+//                   var strIdProvincia =select.value;
 
                   
 
-                  var params = "id_provincia="+encodeURIComponent(strIdProvincia); 
+//                   var params = "id_provincia="+encodeURIComponent(strIdProvincia); 
 
                  
 
-                  requestObj.open("POST",url,true); 
+//                   requestObj.open("POST",url,true); 
 
-                  requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
+//                   requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
 
-                  requestObj.send(params); 
+//                   requestObj.send(params); 
 
-                  requestObj.onreadystatechange = function() {
+//                   requestObj.onreadystatechange = function() {
 
-                     if (requestObj.readyState == 4) {
+//                      if (requestObj.readyState == 4) {
 
-                        if (requestObj.status == 200) {
+//                         if (requestObj.status == 200) {
 
-                              document.getElementById("ddatc").innerHTML = requestObj.responseText;
+//                               document.getElementById("ddatc").innerHTML = requestObj.responseText;
 
-                              //alert(requestObj.responseText);
+//                               //alert(requestObj.responseText);
 
-                        } else {
+//                         } else {
 
-                           alert(requestObj.statusText);
+//                            alert(requestObj.statusText);
 
-                        }
+//                         }
 
-                     }
+//                      }
 
-                  }
+//                   }
 
-               }
+//                }
 
 	
 
 	               
 
-               function getSquadre(select){
+//                function getSquadre(select){
 
-                  var url = "getSquadre.php"; 
+//                   var url = "getSquadre.php"; 
 
-                  var e = document.getElementById("ddatc");
+//                   var e = document.getElementById("ddatc");
 
-                  var requestObj = readyAJAX();
+//                   var requestObj = readyAJAX();
 
-                   var strIdAtc =select.value;
+//                    var strIdAtc =select.value;
 
-                  //alert(strIdAtc);
+//                   //alert(strIdAtc);
 
-                  var params = "id_atc="+encodeURIComponent(strIdAtc); 
+//                   var params = "id_atc="+encodeURIComponent(strIdAtc); 
 
                  
 
-                  requestObj.open("POST",url,true); 
+//                   requestObj.open("POST",url,true); 
 
-                  requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
+//                   requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
 
-                  requestObj.send(params); 
+//                   requestObj.send(params); 
 
-                  requestObj.onreadystatechange = function() {
+//                   requestObj.onreadystatechange = function() {
 
-                     if (requestObj.readyState == 4) {
+//                      if (requestObj.readyState == 4) {
 
-                        if (requestObj.status == 200) {
+//                         if (requestObj.status == 200) {
 
-                              document.getElementById("ddsquadre").innerHTML = requestObj.responseText;
+//                               document.getElementById("ddsquadre").innerHTML = requestObj.responseText;
 
-                              //alert(requestObj.responseText);
+//                               //alert(requestObj.responseText);
 
-                        } else {
+//                         } else {
 
-                           alert(requestObj.statusText);
+//                            alert(requestObj.statusText);
 
-                        }
+//                         }
 
-                     }
+//                      }
 
-                  }
+//                   }
 
-               }
+//                }
 
 	
 

@@ -400,3 +400,295 @@
 26-3-2019 17:54:53#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
 26-3-2019 17:54:53#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
 26-3-2019 17:54:53#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:17:54:53Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 18:14:49
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 18:14:49#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 18:14:49#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 18:14:49#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 18:14:49#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 18:14:49#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 18:14:49#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:18:14:49Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 18:14:51
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 18:14:51#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 18:14:52#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 18:14:52#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 18:14:52#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 18:14:52#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 18:14:52#####____INIT LOGIN STANDARD____index.php___#####
+26-3-2019 18:14:52#####___SQL LOGIN STANDARD____index.php___sqlUser:#####
+SELECT  users.*,
+					squadra.nome as nome_squadra,
+					squadra.numero as numero_squadra,
+					squadra.url_foto as foto_squadra
+					FROM users
+					JOIN squadra on squadra.id = users.id_squadra
+					WHERE users.email='stedurred' or  users.username='stedurred'
+26-3-2019 18:14:52#####___ LOGIN STANDARD____index.php___Impossibile effettuare la Login!!!!:#####
+26-3-2019 18:14:52#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:18:14:52Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 18:15:00
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 18:15:00#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 18:15:00#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 18:15:00#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 18:15:00#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 18:15:00#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 18:15:00#####____INIT LOGIN STANDARD____index.php___#####
+26-3-2019 18:15:00#####___SQL LOGIN STANDARD____index.php___sqlUser:#####
+SELECT  users.*,
+					squadra.nome as nome_squadra,
+					squadra.numero as numero_squadra,
+					squadra.url_foto as foto_squadra
+					FROM users
+					JOIN squadra on squadra.id = users.id_squadra
+					WHERE users.email='stedurred' or  users.username='stedurred'
+26-3-2019 18:15:00#####___ LOGIN STANDARD____index.php___Impossibile effettuare la Login!!!!:#####
+26-3-2019 18:15:00#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:18:15:00Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 18:28:40
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 18:28:40#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 18:28:40#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 18:28:40#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 18:28:40#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 18:28:40#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 18:28:40#####____INIT LOGIN STANDARD____index.php___#####
+26-3-2019 18:28:40#####___SQL LOGIN STANDARD____index.php___sqlUser:#####
+SELECT  users.*,
+					squadra.nome as nome_squadra,
+					squadra.numero as numero_squadra,
+					squadra.url_foto as foto_squadra
+					FROM users
+					JOIN squadra on squadra.id = users.id_squadra
+					WHERE users.email='stedurred' or  users.username='stedurred'
+26-3-2019 18:28:40#####___ LOGIN STANDARD____index.php___Impossibile effettuare la Login!!!!:#####
+26-3-2019 18:28:40#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:18:28:40Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 18:28:50
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 18:28:50#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 18:28:50#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 18:28:50#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 18:28:50#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 18:28:50#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 18:28:50#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:18:28:50Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 18:28:58
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 18:28:58#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 18:28:58#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 18:28:58#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 18:28:58#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=2cfcc729f43477e6f62c286ddfd4065f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 18:28:58#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 18:28:58#####____INIT LOGIN STANDARD____index.php___#####
+26-3-2019 18:28:58#####___SQL LOGIN STANDARD____index.php___sqlUser:#####
+SELECT  users.*,
+					squadra.nome as nome_squadra,
+					squadra.numero as numero_squadra,
+					squadra.url_foto as foto_squadra
+					FROM users
+					JOIN squadra on squadra.id = users.id_squadra
+					WHERE users.email='stedurred@gmail.com' or  users.username='stedurred@gmail.com'
+26-3-2019 18:28:58#####___ LOGIN STANDARD____index.php___Login effettuata!!!!:#####
+26-3-2019 18:28:58#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:18:28:58Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 18:28:58#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 18:28:58#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 18:28:58#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 18:28:58#####____FACEBOOK____home.php___#####HOME____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 18:28:58#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook senza AccessToken
+26-3-2019 18:28:58#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,
+
+          atc.sigla_atc,
+
+          atc.nome_atc,
+
+          squadra.nome as nome_squadra,
+
+          squadra.url_foto as foto_squadra,
+
+          squadra.numero as numero_squadra,
+
+          squadra.catture_cinghiali as catture_cinghiali_squadra,
+
+          cane.nome as nome_cane,
+
+          cane.url_foto as foto_cane
+
+        FROM `users`
+
+          LEFT JOIN squadra ON users.id_squadra = squadra.id
+
+          LEFT JOIN atc ON squadra.id_atc = atc.id
+
+          LEFT JOIN cane ON cane.id_user = users.id
+
+        WHERE users.id='180'
+26-3-2019 18:28:58#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:26/03/2019OraEvento:18:28:58Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 18:37:34
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 18:37:34#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 18:37:34#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 18:37:34#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 18:37:34#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=b7453803f0f13e690e1ef1f7079baacd&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 18:37:34#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 18:37:34#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:18:37:34Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 18:37:36
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 18:37:36#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 18:37:36#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 18:37:36#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 18:37:36#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=b7453803f0f13e690e1ef1f7079baacd&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 18:37:36#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 18:37:36#####____INIT LOGIN STANDARD____index.php___#####
+26-3-2019 18:37:36#####___SQL LOGIN STANDARD____index.php___sqlUser:#####
+SELECT  users.*,
+					squadra.nome as nome_squadra,
+					squadra.numero as numero_squadra,
+					squadra.url_foto as foto_squadra
+					FROM users
+					JOIN squadra on squadra.id = users.id_squadra
+					WHERE users.email='stedurred@gmail.com' or  users.username='stedurred@gmail.com'
+26-3-2019 18:37:36#####___ LOGIN STANDARD____index.php___Login effettuata!!!!:#####
+26-3-2019 18:37:36#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:18:37:36Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 18:37:36#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 18:37:36#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 18:37:36#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 18:37:36#####____FACEBOOK____home.php___#####HOME____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 18:37:36#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook senza AccessToken
+26-3-2019 18:37:36#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,
+
+          atc.sigla_atc,
+
+          atc.nome_atc,
+
+          squadra.nome as nome_squadra,
+
+          squadra.url_foto as foto_squadra,
+
+          squadra.numero as numero_squadra,
+
+          squadra.catture_cinghiali as catture_cinghiali_squadra,
+
+          cane.nome as nome_cane,
+
+          cane.url_foto as foto_cane
+
+        FROM `users`
+
+          LEFT JOIN squadra ON users.id_squadra = squadra.id
+
+          LEFT JOIN atc ON squadra.id_atc = atc.id
+
+          LEFT JOIN cane ON cane.id_user = users.id
+
+        WHERE users.id='180'
+26-3-2019 18:37:36#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:26/03/2019OraEvento:18:37:36Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 18:39:40
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 18:39:40#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 18:39:40#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 18:39:40#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 18:39:40#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=dca99b9b3e98025824dc4dc4fbd59a49&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 18:39:40#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 18:39:40#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:18:39:40Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 18:39:43
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+26-3-2019 18:39:43#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 18:39:43#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 18:39:43#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 18:39:43#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=dca99b9b3e98025824dc4dc4fbd59a49&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+26-3-2019 18:39:43#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 18:39:43#####____INIT LOGIN STANDARD____index.php___#####
+26-3-2019 18:39:43#####___SQL LOGIN STANDARD____index.php___sqlUser:#####
+SELECT  users.*,
+					squadra.nome as nome_squadra,
+					squadra.numero as numero_squadra,
+					squadra.url_foto as foto_squadra
+					FROM users
+					JOIN squadra on squadra.id = users.id_squadra
+					WHERE users.email='stedurred@gmail.com' or  users.username='stedurred@gmail.com'
+26-3-2019 18:39:43#####___ LOGIN STANDARD____index.php___Login effettuata!!!!:#####
+26-3-2019 18:39:43#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:18:39:43Regione:Prov:ATC:Squadra:Mese:03Anno2019
+26-3-2019 18:39:43#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+26-3-2019 18:39:43#####____FACEBOOK OBJECT REQUEST_FINE___#####
+26-3-2019 18:39:43#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+26-3-2019 18:39:43#####____FACEBOOK____home.php___#####HOME____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+26-3-2019 18:39:43#####____FACEBOOK USER home.php___#####Richiesta Dati Utente Facebook senza AccessToken
+26-3-2019 18:39:43#####____FACEBOOK USER home.php___#####Query Controllo Utente se presente nel DB e lo controllo con SESSION[user_id]:
+SELECT users.*,
+
+          atc.sigla_atc,
+
+          atc.nome_atc,
+
+          squadra.nome as nome_squadra,
+
+          squadra.url_foto as foto_squadra,
+
+          squadra.numero as numero_squadra,
+
+          squadra.catture_cinghiali as catture_cinghiali_squadra,
+
+          cane.nome as nome_cane,
+
+          cane.url_foto as foto_cane
+
+        FROM `users`
+
+          LEFT JOIN squadra ON users.id_squadra = squadra.id
+
+          LEFT JOIN atc ON squadra.id_atc = atc.id
+
+          LEFT JOIN cane ON cane.id_user = users.id
+
+        WHERE users.id='180'
+26-3-2019 18:39:43#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:26/03/2019OraEvento:18:39:43Regione:Prov:ATC:Squadra:Mese:03Anno2019
