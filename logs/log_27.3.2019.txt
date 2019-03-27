@@ -806,3 +806,16 @@ Server: localhost - March 27, 2019, 11:35 am Customer IP: ::1
 27-3-2019 11:37:16#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=6e79ce77672c90bc8822d6681cd2912f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
 27-3-2019 11:37:16#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
 27-3-2019 11:37:16#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:11:37:16Regione:Prov:ATC:Squadra:Mese:03Anno2019
+27-3-2019 12:01:59
+####################################
+ #####____MAREMMACINGHIALE.IT___#####
+ #####							 #####
+ #####________BENVENUTO_________#####
+ #####							 #####
+ ####################################INIT____FACEBOOK APP MAREMMACINGHIALE____
+27-3-2019 12:01:59#####____FACEBOOK OBJECT REQUEST_INIZIO___#####
+27-3-2019 12:01:59#####____FACEBOOK OBJECT REQUEST_FINE___#####
+27-3-2019 12:01:59#####____FACEBOOK OBJECT REQUEST_GraphVersion___#####v2.9
+27-3-2019 12:01:59#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____loginUrl:https://www.facebook.com/v2.9/dialog/oauth?client_id=902548573194215&state=6e79ce77672c90bc8822d6681cd2912f&response_type=code&sdk=php-sdk-5.3.0&redirect_uri=http%3A%2F%2Fwww.maremmacinghiale.it%2Fhome.php&scope=public_profile%2Cemail%2Cuser_likes%2Cmanage_pages%2Cpages_show_list%2Cpublish_pages
+27-3-2019 12:01:59#####____FACEBOOK____index.php___#####INIT____FACEBOOK APP MAREMMACINGHIALE____accessToken:
+27-3-2019 12:01:59#####____FACEBOOK____index.php v2.9___#####INIT____FACEBOOK APP MAREMMACINGHIALE____calendar.php->:draw_calendar_ricerca_eventi -->Nome:DataEvento:31/12/2020OraEvento:12:01:59Regione:Prov:ATC:Squadra:Mese:03Anno2019
