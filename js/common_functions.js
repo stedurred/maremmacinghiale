@@ -1,5 +1,3 @@
-
-
 function readyAJAX() {
 
 	try {
