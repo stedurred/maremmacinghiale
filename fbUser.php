@@ -114,7 +114,6 @@ final class fbUser {
 				file_put_contents ( 'logs/log_' . date ( "j.n.Y" ) . '.txt', date ( "j-n-Y H:i:s" ) . "#####____FACEBOOK USER getUserFacebook logoutURL#####" .  $logoutURL . PHP_EOL, FILE_APPEND );
 				
 				
-				
 
 	
 				$fb_user = $response->getGraphUser();

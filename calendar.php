@@ -213,6 +213,7 @@ function draw_calendar($month,$year,$connection){
 
 
 
+
 function draw_calendar_ricerca_eventi($nome,$data_evento,$ora_evento,$regione,$provincia,$atc,$squadra,$month,$year, $connection){
     file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
         ."#####____FACEBOOK____index.php v2.9___#####".

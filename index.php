@@ -603,6 +603,7 @@ if(isset($_POST['btn-cerca_evento']))
 
         <link rel='Icon MaremmaCinghiale' href='favicon.ico' type='image/x-icon' />
         
+        
         <script type="text/javascript" src="js/common_functions.js"></script>
 
         <!-- Latest css/nivo-slider.css -->
