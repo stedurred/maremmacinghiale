@@ -1,4 +1,5 @@
 <?php
+
 session_start ();
 
 // Composer Autoload updated
@@ -448,7 +449,7 @@ if (! $result) {
 }
 
 $userRow = mysqli_fetch_array ( $result );
- var_dump($userRow);
+//  var_dump($userRow);
  $upass = mysqli_real_escape_string($connection,$_SESSION['user_password']);
 if ($userRow ['password'] == md5 ( $upass ))
 
@@ -520,6 +521,8 @@ $monthNow = date('m');
 	content="Maremma Cinghiale - Caccia al cinghiale nella Maremma Toscana. un sito dove si posso trovare le varie squadre di caccia al cinghiale italiane" />
 
     <link rel='Icon MaremmaCinghiale' href='favicon.ico' type='image/x-icon' />
+    
+    <script type="text/javascript" src="js/common_functions.js"></script>
 
     <!-- Latest css/nivo-slider.css -->
 
@@ -951,16 +954,18 @@ $monthNow = date('m');
 						</div>
 
 					<?php
-					
-					if ($_SESSION ['user'] == 'stedurred') 
+
+// 					echo "######################################################SESSION: \n".print_r($_SESSION );
+					if (isset($_SESSION ['user'])  ) 
 
 					{
-						
-						echo '<a href="admin_squadra.php?inserisci">Modifica/Inserisci Squadre</a><br/>';
+					    if($_SESSION ['user']='stedurred'||$_SESSION ['user']='Stefano Durante'){
+					        echo '<a href="admin_squadra.php?inserisci">Modifica/Inserisci Squadre</a><br/>';
+					    }
 						
 						echo '<a href="admin_user.php?admin">Modifica Utente</a><br/>';
 						
-						echo '<a href="admin_evento.php?inserisci">Modifica Evento</a>';
+						echo '<a href="admin_evento.php?inserisci">Inserisci Evento</a>';
 					}
 					?> &nbsp;<br /> <a href="logout.php?logout">Sign Out</a>
 
@@ -1172,7 +1177,7 @@ $monthNow = date('m');
 
 						  xfbml      : true,
 
-						  version    : 'v2.5'
+						  version    : 'v2.9'
 
 					  });
 
@@ -1192,13 +1197,14 @@ $monthNow = date('m');
 
 						if (d.getElementById(id)) return;
 
-		  js = d.createElement(s); js.id = id;
+		  				js = d.createElement(s); js.id = id;
 
-		  js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.5&appId=902548573194215";
+		  				js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.9&appId=902548573194215";
 
-		  fjs.parentNode.insertBefore(js, fjs);
+		  				fjs.parentNode.insertBefore(js, fjs);
 
-		}(document, 'script', 'facebook-jssdk'));</script>
+						}(document, 'script', 'facebook-jssdk'));
+			</script>
 
 			<!--Facebook App -->
 
@@ -1220,7 +1226,7 @@ $monthNow = date('m');
 
                                     xfbml      : true,
 
-                                    version    : 'v2.5'
+                                    version    : 'v2.9'
 
                                 });
 
@@ -1264,8 +1270,7 @@ $monthNow = date('m');
 
 							<blockquote cite="https://www.facebook.com/maremmacinghiale">
 
-								<a href="https://www.facebook.com/maremmacinghiale">Maremma
-									Cinghiale</a>
+								<a href="https://www.facebook.com/maremmacinghiale">Maremma Cinghiale</a>
 
 							</blockquote>
 

@@ -37,7 +37,7 @@
 		"sensio/distribution-bundle" : "^5.0",
 		"sensio/framework-extra-bundle" : "^3.0.2",
 		"incenteev/composer-parameter-handler" : "^2.0",
-		"Facebook/php-sdk-v4" : "*"
+		"facebook/php-sdk-v4" : "*"
 	},
 	"require-dev" : {
 		"sensio/generator-bundle" : "^3.0",
@@ -77,5 +77,6 @@
 	},
 	"support" : {
 		"email" : "caccia@maremmacinghiale.it"
-	}
+	},
+	"minimum-stability" : "dev"
 }

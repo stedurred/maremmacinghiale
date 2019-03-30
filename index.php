@@ -41,7 +41,7 @@ try {
 	//Facebook PHP SDK
 	global $fb;
     $fbApplication = new fbApp();
-//     $fbApplication->printGraphVersion();
+    $fbApplication->printGraphVersion();
     
     $GLOBALS['fb'] = $fbApplication->fbApplication;
 
@@ -89,7 +89,7 @@ try {
 
     if (isset($accessToken)) {
 
-//         var_dump($accessToken);
+        var_dump($accessToken);
 
         $response = $fb->get('/Maremma Cinghiale?fields=access_token', $accessToken );
 
@@ -198,14 +198,16 @@ $datenow = date('Y-m-d H:i:s');
 $yearNow=date('Y');
 
 $nextYear=date_format(date_add(date_create_from_format('d-m-Y','01-01-'.$yearNow),new DateInterval('P1Y')),'Y');
-
-//echo  $nextYear;
+$nextYearDate=date_format(date_create_from_format('d-m-Y','31-12-'.$nextYear),'d/m/Y');
+echo "nextYearDate". $nextYearDate;
 
 $monthNow = date('m');
 
 //echo $monthNow;
 
 $gennaio=date_format(date_add(date_create_from_format('d-m-Y','01-12-'.$yearNow),new DateInterval('P1M')),'m');
+
+echo "gennaio". $gennaio;
 
 $febbraio=date_format(date_add(date_create_from_format('d-m-Y','01-01-'.$yearNow),new DateInterval('P1M')),'m');
 
@@ -237,7 +239,48 @@ $mounthNameNow =strftime ('%B');
 
 
 
+//for ($i = 1; $i <= 12; 12) {
+
+//    $nextMonth = date_format(date_add(date_create(),new DateInterval('P'.$i.'M')),'m');
+
+//    $i=$i+1;
+
+//    echo $nextMonth;
+
+//}
+
+//New style programming Object orientd style
+
+//$YearInterval = new DateInterval('P1Y');
+
+//
+
+////echo $Year->days; // 0
+
+//
+
+//$Date1 = new DateTime();
+
+//$Date2 = new DateTime();
+
+//$Date2->add( $YearInterval );
+
+//
+
+//$Difference = $Date1->diff( $Date2 );
+
+//echo $Difference->days; // 365
+
+
+
+
+
+//print (strftime ("%A e in Italiano "));
+
 setlocale (LC_TIME, "it-IT");
+
+//print (strftime ("%A.\n"));
+
 
 
 //OPEN CONNECTION
@@ -354,13 +397,16 @@ if(isset($_POST['btn-login']))
 
 	$hourNow = date('H:i:s');
 
-	$data_evento = $dateNow;
+// 	$date_interval_format = date_interval_create_from_date_string('+1y');
+// 	echo "date_interval_format----------------------------3>".$date_interval_format."\n";
+	$data_evento =  $nextYearDate;//date_format(date_add($dateNow,$date_interval_format),'d/m/Y');
+	var_dump($data_evento);
+	echo "DataEvento---------------------------->before button cerca".$data_evento."\n";
 
-	//echo "data_evento: " . $data_evento;
 
 	$ora_evento = $hourNow;
+	echo "OraEvento---------------------------->before button cerca".$ora_evento ."\n";;
 
-	//echo "ora_evento: " . $ora_evento;
 
 
 
@@ -379,17 +425,21 @@ if(isset($_POST['btn-cerca_evento']))
     $datenow = date('Y-m-d H:i:s');
 
 
-    if(isset($_POST['data_evento'])){
+    if(isset($_POST['data_evento']) && !empty($_POST['data_evento'])){
 
     	//Provengo dal form di ricerca laterale
 
         $data_evento = mysqli_real_escape_string($connection,$_POST['data_evento']);
-
+        echo "DataEvento---------------------------->isset ".$data_evento;
+    }else{
+        
+//         $data_evento =  date_format(date_add($data_evento,date_interval_create_from_date_string("1 year")),'Y-m-d');
+        echo "DataEvento---------------------------->NOT isset ".$data_evento;
     }
 
     //echo "data_evento: " . $data_evento;
 
-    if(isset($_POST['ora_evento'])){
+    if(isset($_POST['ora_evento'])&& !empty($_POST['ora_evento'])){
 
         $ora_evento = mysqli_real_escape_string($connection,$_POST['ora_evento']);
 
@@ -552,6 +602,9 @@ if(isset($_POST['btn-cerca_evento']))
         <meta name="description" content="Maremma Cinghiale - Caccia al cinghiale nella Maremma Toscana.Prenota un evento e vai a caccia presso le squadre al cinghiale in tutta Italia" />
 
         <link rel='Icon MaremmaCinghiale' href='favicon.ico' type='image/x-icon' />
+        
+        
+        <script type="text/javascript" src="js/common_functions.js"></script>
 
         <!-- Latest css/nivo-slider.css -->
 
@@ -1058,7 +1111,7 @@ if(isset($_POST['btn-cerca_evento']))
 
 
 
-                                                                <input type="text" id="datepicker" class="form-control" name="data_evento" placeholder="Data" alt="Data" required />
+                                                                <input type="text" id="datepicker" class="form-control" name="data_evento" placeholder="Data" alt="Data" />
 
 
 
@@ -1262,7 +1315,7 @@ if(isset($_POST['btn-cerca_evento']))
 
 
 
-                                        <h2>Stagione 2016<span class="glyphicon glyphicon-minus"></span>2017</h2>
+                                        <h2>Stagione 2018<span class="glyphicon glyphicon-minus"></span>2019</h2>
 
                                         <span class="caret"></span>
 
@@ -1310,7 +1363,7 @@ if(isset($_POST['btn-cerca_evento']))
 
 
 
-                                    <div  class="btn-group-vertical" role="group" aria-label="Eventi 2016">
+                                    <div  class="btn-group-vertical" role="group" aria-label="Eventi 2019">
 
 
 
@@ -1426,11 +1479,13 @@ if(isset($_POST['btn-cerca_evento']))
 
                                             echo draw_calendar_ricerca_eventi($titolo,$data_evento,$ora_evento,$regione,$provincia,$atc,$squadra,$monthNow,$yearNow,$connection);
 
-                                        }else {
+                                        }else{
 
                                         	print "<div class='alert alert-success' role='alert'><h2 class='pad_bot1 pad_top1'>Eventi in programma</h2></div>";
 
                                         	//Eventi proposti all'apertura della pagina
+                                        	
+                                        	
 
                                         	echo draw_calendar_ricerca_eventi($titolo,$data_evento,$ora_evento,$regione,$provincia,$atc,$squadra,$monthNow,$yearNow,$connection);
 
@@ -1650,23 +1705,23 @@ if(isset($_POST['btn-cerca_evento']))
 
 	<script>
 
-        function readyAJAX() {
+//         function readyAJAX() {
 
-            try {return new XMLHttpRequest();} catch(e) {
+//             try {return new XMLHttpRequest();} catch(e) {
 
-                try {return new ActiveXObject("Msxml2.XMLHTTP");} catch(e) {
+//                 try {return new ActiveXObject("Msxml2.XMLHTTP");} catch(e) {
 
-                    try {return new ActiveXObject("Microsoft.XMLHTTP");} catch(e) {
+//                     try {return new ActiveXObject("Microsoft.XMLHTTP");} catch(e) {
 
-                        return "A newer browser is needed.";
+//                         return "A newer browser is needed.";
 
-                    }
+//                     }
 
-                }
+//                 }
 
-            }
+//             }
 
-        }
+//         }
 
 
 
@@ -1718,185 +1773,185 @@ if(isset($_POST['btn-cerca_evento']))
 
 
 
-        function getRegioni() {
+//         function getRegioni() {
 
-            var url = "getRegioni.php";
+//             var url = "getRegioni.php";
 
-            //var e = document.getElementById("ddregione");
+//             //var e = document.getElementById("ddregione");
 
-            var requestObj = readyAJAX();
+//             var requestObj = readyAJAX();
 
-            //var strIdRegione =select.value;
-
-
-
-            //var params = "id_regione="+encodeURIComponent(strIdRegione);
-
-            requestObj.open("POST", url, true);
-
-            requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-
-            requestObj.send();
-
-            requestObj.onreadystatechange = function () {
-
-                if (requestObj.readyState == 4) {
-
-                    if (requestObj.status == 200) {
-
-                        document.getElementById("ddregione").innerHTML = requestObj.responseText;
-
-                        //alert(requestObj.responseText);
-
-                    } else {
-
-                        alert(requestObj.statusText);
-
-                    }
-
-                }
-
-            }
-
-        }
+//             //var strIdRegione =select.value;
 
 
 
-        function getProvince(select) {
+//             //var params = "id_regione="+encodeURIComponent(strIdRegione);
 
-            var url = "getProvince.php";
+//             requestObj.open("POST", url, true);
 
-            var e = document.getElementById("ddregione");
+//             requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
-            var requestObj = readyAJAX();
+//             requestObj.send();
 
-            var strIdRegione = select.value;
+//             requestObj.onreadystatechange = function () {
+
+//                 if (requestObj.readyState == 4) {
+
+//                     if (requestObj.status == 200) {
+
+//                         document.getElementById("ddregione").innerHTML = requestObj.responseText;
+
+//                         //alert(requestObj.responseText);
+
+//                     } else {
+
+//                         alert(requestObj.statusText);
+
+//                     }
+
+//                 }
+
+//             }
+
+//         }
 
 
 
-            var params = "id_regione=" + encodeURIComponent(strIdRegione);
+//         function getProvince(select) {
 
-            requestObj.open("POST", url, true);
+//             var url = "getProvince.php";
 
-            requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+//             var e = document.getElementById("ddregione");
 
-            requestObj.send(params);
+//             var requestObj = readyAJAX();
 
-            requestObj.onreadystatechange = function () {
+//             var strIdRegione = select.value;
 
-                if (requestObj.readyState == 4) {
 
-                    if (requestObj.status == 200) {
 
-                        document.getElementById("ddprovincia").innerHTML = requestObj.responseText;
+//             var params = "id_regione=" + encodeURIComponent(strIdRegione);
 
-                        //alert(requestObj.responseText);
+//             requestObj.open("POST", url, true);
 
-                    } else {
+//             requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
-                        alert(requestObj.statusText);
+//             requestObj.send(params);
 
-                    }
+//             requestObj.onreadystatechange = function () {
 
-                }
+//                 if (requestObj.readyState == 4) {
 
-            }
+//                     if (requestObj.status == 200) {
 
-        }
+//                         document.getElementById("ddprovincia").innerHTML = requestObj.responseText;
+
+//                         //alert(requestObj.responseText);
+
+//                     } else {
+
+//                         alert(requestObj.statusText);
+
+//                     }
+
+//                 }
+
+//             }
+
+//         }
 
                
 
-               function getAtc(select){
+//                function getAtc(select){
 
-                  var url = "getAtc.php"; 
+//                   var url = "getAtc.php"; 
 
-                  var e = document.getElementById("ddprovincia");
+//                   var e = document.getElementById("ddprovincia");
 
-                  var requestObj = readyAJAX(); 
+//                   var requestObj = readyAJAX(); 
 
-                  var strIdProvincia =select.value;
+//                   var strIdProvincia =select.value;
 
                   
 
-                  var params = "id_provincia="+encodeURIComponent(strIdProvincia); 
+//                   var params = "id_provincia="+encodeURIComponent(strIdProvincia); 
 
                  
 
-                  requestObj.open("POST",url,true); 
+//                   requestObj.open("POST",url,true); 
 
-                  requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
+//                   requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
 
-                  requestObj.send(params); 
+//                   requestObj.send(params); 
 
-                  requestObj.onreadystatechange = function() {
+//                   requestObj.onreadystatechange = function() {
 
-                     if (requestObj.readyState == 4) {
+//                      if (requestObj.readyState == 4) {
 
-                        if (requestObj.status == 200) {
+//                         if (requestObj.status == 200) {
 
-                              document.getElementById("ddatc").innerHTML = requestObj.responseText;
+//                               document.getElementById("ddatc").innerHTML = requestObj.responseText;
 
-                              //alert(requestObj.responseText);
+//                               //alert(requestObj.responseText);
 
-                        } else {
+//                         } else {
 
-                           alert(requestObj.statusText);
+//                            alert(requestObj.statusText);
 
-                        }
+//                         }
 
-                     }
+//                      }
 
-                  }
+//                   }
 
-               }
+//                }
 
 	
 
 	               
 
-               function getSquadre(select){
+//                function getSquadre(select){
 
-                  var url = "getSquadre.php"; 
+//                   var url = "getSquadre.php"; 
 
-                  var e = document.getElementById("ddatc");
+//                   var e = document.getElementById("ddatc");
 
-                  var requestObj = readyAJAX();
+//                   var requestObj = readyAJAX();
 
-                   var strIdAtc =select.value;
+//                    var strIdAtc =select.value;
 
-                  //alert(strIdAtc);
+//                   //alert(strIdAtc);
 
-                  var params = "id_atc="+encodeURIComponent(strIdAtc); 
+//                   var params = "id_atc="+encodeURIComponent(strIdAtc); 
 
                  
 
-                  requestObj.open("POST",url,true); 
+//                   requestObj.open("POST",url,true); 
 
-                  requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
+//                   requestObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
 
-                  requestObj.send(params); 
+//                   requestObj.send(params); 
 
-                  requestObj.onreadystatechange = function() {
+//                   requestObj.onreadystatechange = function() {
 
-                     if (requestObj.readyState == 4) {
+//                      if (requestObj.readyState == 4) {
 
-                        if (requestObj.status == 200) {
+//                         if (requestObj.status == 200) {
 
-                              document.getElementById("ddsquadre").innerHTML = requestObj.responseText;
+//                               document.getElementById("ddsquadre").innerHTML = requestObj.responseText;
 
-                              //alert(requestObj.responseText);
+//                               //alert(requestObj.responseText);
 
-                        } else {
+//                         } else {
 
-                           alert(requestObj.statusText);
+//                            alert(requestObj.statusText);
 
-                        }
+//                         }
 
-                     }
+//                      }
 
-                  }
+//                   }
 
-               }
+//                }
 
 	
 
