@@ -41,7 +41,7 @@ try {
 	//Facebook PHP SDK
 	global $fb;
     $fbApplication = new fbApp();
-    $fbApplication->printGraphVersion();
+//     $fbApplication->printGraphVersion();
     
     $GLOBALS['fb'] = $fbApplication->fbApplication;
 
@@ -89,7 +89,7 @@ try {
 
     if (isset($accessToken)) {
 
-        var_dump($accessToken);
+//         var_dump($accessToken);
 
         $response = $fb->get('/Maremma Cinghiale?fields=access_token', $accessToken );
 
@@ -237,48 +237,7 @@ $mounthNameNow =strftime ('%B');
 
 
 
-//for ($i = 1; $i <= 12; 12) {
-
-//    $nextMonth = date_format(date_add(date_create(),new DateInterval('P'.$i.'M')),'m');
-
-//    $i=$i+1;
-
-//    echo $nextMonth;
-
-//}
-
-//New style programming Object orientd style
-
-//$YearInterval = new DateInterval('P1Y');
-
-//
-
-////echo $Year->days; // 0
-
-//
-
-//$Date1 = new DateTime();
-
-//$Date2 = new DateTime();
-
-//$Date2->add( $YearInterval );
-
-//
-
-//$Difference = $Date1->diff( $Date2 );
-
-//echo $Difference->days; // 365
-
-
-
-
-
-//print (strftime ("%A e in Italiano "));
-
 setlocale (LC_TIME, "it-IT");
-
-//print (strftime ("%A.\n"));
-
 
 
 //OPEN CONNECTION
