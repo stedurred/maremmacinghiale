@@ -44,7 +44,7 @@ echo 'Anno:'.$yearNow.'<br>';
 if (isset($_GET['token'])) {
     //https://www.paypal.com/webapps/www.maremmacinghiale.it/admin_prenotazione.php?inserisci&token=1EY20170Y99084608
     $token= $_GET['token'];
-    echo $token;
+    echo "ACCESS_TOKEN:".$token;
 }
 if(isset($_POST['btn-cerca_evento']))
 {
@@ -52,20 +52,32 @@ if(isset($_POST['btn-cerca_evento']))
 	 echo "The current server timezone is: " . $timezone;
 	 date_default_timezone_set($timezone);
 	 $datenow = date('Y-m-d H:i:s');
-
-
-    if(isset($_POST['data_evento'])){
+	 echo "Data now: " . $datenow.PHP_EOL;
+	 $newdate = date('Y-m-d H:i:s',strtotime("+ 1 year",null));
+	 echo "Data newdate: " . $newdate.PHP_EOL;
+	 $newYearFormat = date_format($newdate, 'Y-m-d H:i:s');
+	 echo "Data newYearFormat: " . $newYearFormat.PHP_EOL;
+	 
+	 
+	 if(isset($_POST['data_evento']) && !empty($_POST['data_evento'])){
         $data_evento = mysqli_real_escape_string($connection,$_POST['data_evento']);
-    }else $data_evento = mysqli_real_escape_string($connection,$_POST['data_evento']);
+        echo "Data Evento isset: " . $data_evento.PHP_EOL;
+    }else{
+        $data_evento = $newYearFormat;// mysqli_real_escape_string($connection,$_POST['data_evento']);
+        echo "Data Evento not set: " . $newYearFormat.PHP_EOL;
+        
+        file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
+            ."____FACEBOOK APP MAREMMACINGHIALE____calendario_eventi.php->btn-cerca_evento->data_evento:".$newYearFormat.PHP_EOL, FILE_APPEND);
+    }
 
     if(isset($_POST['ora_evento'])){
         $ora_evento = mysqli_real_escape_string($connection,$_POST['ora_evento']);
-    }else $ora_evento = mysqli_real_escape_string($connection,$_POST['ora_evento']);
+    }else $ora_evento =time();// mysqli_real_escape_string($connection,$_POST['ora_evento']);
 
     if(isset($_POST['titolo'])){
         $titolo = mysqli_real_escape_string($connection,$_POST['titolo']);
     }else $titolo= mysqli_real_escape_string($connection,$_POST['$titolo']);
-    echo $titolo;
+
     if(isset($_POST['regione'])){
         $regione= mysqli_real_escape_string($connection,$_POST['regione']);
     }else $regione= mysqli_real_escape_string($connection,$_POST['DropDownRegione']);
@@ -397,7 +409,7 @@ if(isset($_POST['btn-cerca_evento']))
                                                     <div class="col-md-3 col-xs-4">
                                                         <div class="form-group">
 
-                                                                <input type="text" id="datepicker" class="form-control" name="data_evento" placeholder="Data evento" required />
+                                                                <input type="text" id="datepicker" class="form-control" name="data_evento" placeholder="Data evento" />
 
                                                         </div>
                                                     </div>

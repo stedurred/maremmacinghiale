@@ -1,5 +1,6 @@
 <h2>Ricerca eventi</h2>
 
+
 <form method="post" enctype="multipart/form-data">
 
 
@@ -34,7 +35,7 @@
 
 
                     <input type="text" id="datepicker" class="form-control" name="data_evento" placeholder="Data"
-                           alt="Data" required/>
+                           alt="Data"/>
 
 
                 </div>

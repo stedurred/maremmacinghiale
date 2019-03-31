@@ -1,6 +1,7 @@
 <?php
 
 
+
 //session_start();
 //Composer Autoload updated
 
@@ -15,11 +16,10 @@ use Facebook\Facebook;
 final class fbApp{
 	
 	public $fbApplication;
-	public $strGraphVersion;
 	
 	
 	function printGraphVersion(){
-	    echo this.$strGraphVersion;
+	    echo '2.9';
 	}
 
 
@@ -42,7 +42,7 @@ final class fbApp{
             $decryptApp_secret = myCrypt($cryptApp_secret,'d');
             //var_dump($decryptAapp_id);
             //var_dump($decryptApp_secret);
-			this.$strGraphVersion = 'v2.9';
+			$strGraphVersion = 'v2.9';
             $this->fbApplication =	new Facebook([
 
 				'app_id' => $decryptAapp_id,
