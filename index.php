@@ -5,7 +5,7 @@ session_start();
 
 echo DIRECTORY_SEPARATOR;
 //exit();
-$filename = DIRECTORY_DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_DIRECTORY_SEPARATOR.'autoload.php';
+$filename = '\vendor\autoload.php';
 if (file_exists($filename)) {
     require  __DIR__ . $filename;
 }
@@ -42,7 +42,6 @@ try {
 	global $fb;
     $fbApplication = new fbApp();
     $fbApplication->printGraphVersion();
-    
     $GLOBALS['fb'] = $fbApplication->fbApplication;
 
 	

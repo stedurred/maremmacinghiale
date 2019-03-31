@@ -16,11 +16,11 @@ use Facebook\Facebook;
 final class fbApp{
 	
 	public $fbApplication;
-	public $strGraphVersion='2.9';
-// 	const  $conGraphVesrion='2.9';//  $conGraphVesrion="V2.9";
+	public $strGraphVersion;
+	
 	
 	function printGraphVersion(){
-	    echo $this->strGraphVersion;
+	    echo this.$strGraphVersion;
 	}
 
 
