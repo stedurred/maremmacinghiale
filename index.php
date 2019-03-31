@@ -5,7 +5,7 @@ session_start();
 
 echo DIRECTORY_SEPARATOR;
 //exit();
-$filename = '\vendor\autoload.php';
+$filename = DIRECTORY_DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_DIRECTORY_SEPARATOR.'autoload.php';
 if (file_exists($filename)) {
     require  __DIR__ . $filename;
 }
