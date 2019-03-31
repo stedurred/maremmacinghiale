@@ -16,3 +16,5 @@
 /web/bundles/
 /logs/
 /.metadata/
+logs/local\.maremmacinghiale-access\.log
+logs/local\.maremmacinghiale-error\.log
