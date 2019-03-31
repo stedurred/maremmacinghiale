@@ -3,7 +3,7 @@
 
 session_start();
 
-echo DIRECTORY_SEPARATOR;
+//echo DIRECTORY_SEPARATOR;
 //exit();
 $filename = '\vendor\autoload.php';
 if (file_exists($filename)) {
@@ -41,7 +41,7 @@ try {
 	//Facebook PHP SDK
 	global $fb;
     $fbApplication = new fbApp();
-    $fbApplication->printGraphVersion();
+//     $fbApplication->printGraphVersion();
     $GLOBALS['fb'] = $fbApplication->fbApplication;
 
 	

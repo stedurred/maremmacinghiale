@@ -70,7 +70,7 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry kind="src" path="vendor/doctrine/lexer/lib">
+	<buildpathentry kind="src" path="vendor/doctrine/lexer/lib/Doctrine/Common/Lexer">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>
@@ -80,7 +80,7 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry kind="src" path="vendor/facebook/php-sdk-v4/src/Facebook">
+	<buildpathentry kind="src" path="vendor/facebook/graph-sdk/src/Facebook">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>

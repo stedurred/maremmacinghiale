@@ -16,11 +16,10 @@ use Facebook\Facebook;
 final class fbApp{
 	
 	public $fbApplication;
-	public $strGraphVersion;
 	
 	
 	function printGraphVersion(){
-	    echo this.$strGraphVersion;
+	    echo '2.9';
 	}
 
 
