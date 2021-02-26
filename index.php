@@ -54,7 +54,7 @@ try {
 
     $permissions = ['public_profile' ,'email', 'user_likes','manage_pages','pages_show_list','publish_pages']; // optional ,'manage_pages'
 
-    $loginUrl = $helper->getLoginUrl('http://www.maremmacinghiale.it/home.php',$permissions);
+    $loginUrl = $helper->getLoginUrl('maremmacinghiale.it/home.php',$permissions);
     
     file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
     		."#####____FACEBOOK____index.php v2.9___#####".
@@ -803,7 +803,7 @@ if(isset($_POST['btn-cerca_evento']))
 
 				document.addEventListener('DOMContentLoaded', function (event) {
 
-				cookieChoices.showCookieConsentBar('Questo sito fa uso di cookies. Continuando la navigazione se ne autorizza l\'uso.', 'OK', 'Più info', 'http://www.maremmacinghiale.it/privacy.html');
+				cookieChoices.showCookieConsentBar('Questo sito fa uso di cookies. Continuando la navigazione se ne autorizza l\'uso.', 'OK', 'Più info', 'maremmacinghiale.it/privacy.html');
 
 				});
 

@@ -242,7 +242,7 @@ if(isset($_POST['btn-cerca_evento']))
             <!--consenso all'uso dei cookie-->
             <script>
             document.addEventListener('DOMContentLoaded', function (event) {
-                    cookieChoices.showCookieConsentBar('Questo sito fa uso di cookies. Continuando la navigazione se ne autorizza l\'uso.', 'OK', 'Piu info', 'http://www.maremmacinghiale.it/privacy.html');
+                    cookieChoices.showCookieConsentBar('Questo sito fa uso di cookies. Continuando la navigazione se ne autorizza l\'uso.', 'OK', 'Piu info', 'maremmacinghiale.it/privacy.html');
             });
             </script>
 

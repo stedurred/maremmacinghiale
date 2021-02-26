@@ -76,7 +76,7 @@ if(isset($_POST['btn-login']))
 				<!--consenso all'uso dei cookie-->
 				<script>
 				document.addEventListener('DOMContentLoaded', function (event) {
-				    cookieChoices.showCookieConsentBar('Questo sito fa uso di cookies. Continuando la navigazione se ne autorizza l\'uso.', 'OK', 'Più info', 'http://www.maremmacinghiale.it/privacy.html');
+				    cookieChoices.showCookieConsentBar('Questo sito fa uso di cookies. Continuando la navigazione se ne autorizza l\'uso.', 'OK', 'Più info', 'maremmacinghiale.it/privacy.html');
 				});
 				</script>
     	<div id="wrap">

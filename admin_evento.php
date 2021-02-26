@@ -23,7 +23,7 @@ if (isset($fb)) {
         
         // $permissions = ['public_profile' ,'email', 'user_likes']; // optional
         
-        // $loginUrl = $helper->getLoginUrl('http://www.maremmacinghiale.it',$permissions);
+        // $loginUrl = $helper->getLoginUrl('maremmacinghiale.it',$permissions);
         
         // Use one of the helper classes to get a Facebook\Authentication\AccessToken entity.
         

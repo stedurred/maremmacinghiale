@@ -39,7 +39,7 @@ try {
 	
 	// $permissions = ['public_profile' ,'email', 'user_likes']; // optional
 	
-	// $loginUrl = $helper->getLoginUrl('http://www.maremmacinghiale.it',$permissions);
+	// $loginUrl = $helper->getLoginUrl('maremmacinghiale.it',$permissions);
 	
 	// Use one of the helper classes to get a Facebook\Authentication\AccessToken entity.
 	
@@ -711,7 +711,7 @@ $monthNow = date('m');
 
 				document.addEventListener('DOMContentLoaded', function (event) {
 
-						cookieChoices.showCookieConsentBar('Questo sito fa uso di cookies. Continuando la navigazione se ne autorizza l\'uso.', 'OK', 'Più info', 'http://www.maremmacinghiale.it/privacy.html');
+						cookieChoices.showCookieConsentBar('Questo sito fa uso di cookies. Continuando la navigazione se ne autorizza l\'uso.', 'OK', 'Più info', 'maremmacinghiale.it/privacy.html');
 
 				});
 
