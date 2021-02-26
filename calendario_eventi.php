@@ -155,7 +155,7 @@ if(isset($_POST['btn-cerca_evento']))
         <link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.css">
 
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
         <!-- jQuery-Timepicker-Addon-master min CSS-->
         <link rel="stylesheet" href="jQuery-Timepicker-Addon-master/dist/jquery-ui-timepicker-addon.min.css">
@@ -177,7 +177,7 @@ if(isset($_POST['btn-cerca_evento']))
         <script src="jQuery-Timepicker-Addon-master/dist/i18n/jquery-ui-timepicker-it.js"></script>
 
         <!-- Latest compiled Bootstrap JavaScript -->
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
 		 <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />

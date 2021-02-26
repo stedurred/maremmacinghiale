@@ -621,7 +621,7 @@ if(isset($_POST['btn-cerca_evento']))
 
         <!-- Latest Bootstrap compiled and minified CSS -->
 
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"  media="screen" />
         
@@ -668,7 +668,7 @@ if(isset($_POST['btn-cerca_evento']))
 
         <!-- Latest compiled Bootstrap JavaScript -->
 
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
 
