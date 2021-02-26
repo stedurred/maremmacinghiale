@@ -103,12 +103,12 @@ echo "Success: A proper connection to MySQL was made! The MaremmaCinghiale datab
 
 echo "Host information: " . mysqli_get_host_info($connection) . PHP_EOL;
 
-if($host_name==$SERVER_NAME){
+if($host_localhost==$SERVER_NAME){
+    
+    $db_select = mysqli_select_db($connection,$db_name_localhost_1);
+}else{
 
     $db_select = mysqli_select_db($connection,$db_name_hostinger);
-}elseif($host_localhost==$SERVER_NAME){
-
-    $db_select = mysqli_select_db($connection,$db_name_localhost_1);
 }
 
 
