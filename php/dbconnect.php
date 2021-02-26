@@ -40,7 +40,7 @@ if (!empty($_SERVER)) {
     if(!empty($SERVER_NAME))
 
         //var_dump($REQUEST_TIME);
-        var_dump("Server Name:".$SERVER_NAME);
+        var_dump("NO_WWW_Server Name:".$SERVER_NAME);
     
 //         var_dump("Host Name:".$host_localhost);
 
