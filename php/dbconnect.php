@@ -112,7 +112,6 @@ if($host_localhost==$SERVER_NAME){
 }
 
 
-
 if(!$db_select)
 
 {
