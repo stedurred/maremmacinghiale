@@ -12,19 +12,13 @@ Donate  [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_butt
 
 ![](images/logo/LogoMaremmaCinghiale_1024x1024_mirino_bandiera_cinghiale_scritta.png)
 
-## Installation
+## FbApp site 
 
-OS X & Linux:
 
-```sh
-npm install my-crazy-module --save
+
+```maremmacinghiale.it
 ```
 
-Windows:
-
-```sh
-edit autoexec.bat
-```
 
 ## Usage example
 
