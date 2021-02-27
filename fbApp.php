@@ -42,7 +42,8 @@ final class fbApp{
             $decryptApp_secret = myCrypt($cryptApp_secret,'d');
             //var_dump($decryptAapp_id);
             //var_dump($decryptApp_secret);
-			$strGraphVersion = 'v10.0';
+			$strGraphVersion = 'GraphVersion = v10.0';
+			var_dump($strGraphVersion);
             $this->fbApplication =	new Facebook([
 
 				'app_id' => $decryptAapp_id,
