@@ -1,5 +1,5 @@
 {
-	"name" : "stedurred/maremmacinghiale",
+	"name" : "maremmacinghiale",
 	"description" : "maremmacinghiale.it sito dedicato alla caccia al cinghiale",
 	"config" : {
 		"require-all" : true,
@@ -76,7 +76,15 @@
 		}
 	},
 	"support" : {
-		"email" : "caccia@maremmacinghiale.it"
+		"email" : "webmaster@maremmacinghiale.it",
+		"source" : "https://github.com/stedurred/maremmacinghiale"
 	},
-	"minimum-stability" : "dev"
+	"minimum-stability" : "dev",
+	"authors" : [{
+			"name" : "Stefano Durante",
+			"email" : "stedurred@gmail.com",
+			"homepage" : "https://github.com/stedurred/maremmacinghiale",
+			"role" : "Admin"
+		}
+	]
 }
