@@ -19,7 +19,7 @@ final class fbApp{
 	
 	
 	function printGraphVersion(){
-	    echo '2.9';
+	    echo 'GraphVersion --> v8.0';
 	}
 
 
@@ -42,7 +42,7 @@ final class fbApp{
             $decryptApp_secret = myCrypt($cryptApp_secret,'d');
             //var_dump($decryptAapp_id);
             //var_dump($decryptApp_secret);
-			$strGraphVersion = 'v2.9';
+			$strGraphVersion = 'v8.0';
             $this->fbApplication =	new Facebook([
 
 				'app_id' => $decryptAapp_id,
@@ -91,16 +91,6 @@ final class fbApp{
 
 			exit;
 
-		} catch (Exception $e){
-
-			echo 'Generic error: ' . $e->getMessage();
-
-			file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
-				."#####____FACEBOOK OBJECT REQUEST_ERROR___#####".
-				"Facebook SDK returned an error: " . $e->getMessage().PHP_EOL, FILE_APPEND);
-
-
-			exit;
 		}
 
 	}

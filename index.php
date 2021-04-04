@@ -54,7 +54,7 @@ try {
 
     $permissions = ['public_profile' ,'email', 'user_likes','manage_pages','pages_show_list','publish_pages']; // optional ,'manage_pages'
 
-    $loginUrl = $helper->getLoginUrl('www.maremmacinghiale.it/home.php',$permissions);
+    $loginUrl = $helper->getLoginUrl('https://www.maremmacinghiale.it/home.php',$permissions);
     
     file_put_contents('logs/log_'.date("j.n.Y").'.txt', date("j-n-Y H:i:s")
     		."#####____FACEBOOK____index.php v2.9___#####".
@@ -62,7 +62,7 @@ try {
 
     // Use one of the helper classes to get a Facebook\Authentication\AccessToken entity.
 
-    //$helper = $fb->getJavaScriptHelper();
+     //$helper = $fb->getJavaScriptHelper();
 
     //$helper = $fb->getCanvasHelper();
 
